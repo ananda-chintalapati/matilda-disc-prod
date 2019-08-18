@@ -1,0 +1,32 @@
+[
+   {
+      "Cost_Saving_Mon": "2$",
+      "Cost_Spent_Mon": "11.66$",
+      "Service_Name": "AWS BUDGET",
+      "Cost_Saving_Yly": "18$"
+   },
+   {
+      "Cost_Saving_Mon": ".30$",
+      "Cost_Spent_Mon": "4.25$",
+      "Service_Name": "AWS Glue",
+      "Cost_Saving_Yly": "3.1$"
+   },
+   {
+      "Cost_Saving_Mon": "0.25$",
+      "Cost_Spent_Mon": "3.5$",
+      "Service_Name": "EC2",
+      "Cost_Saving_Yly": "3$"
+   },
+   {
+      "Cost_Saving_Mon": "0.05$",
+      "Cost_Spent_Mon": "1$",
+      "Service_Name": "Amazon Elastic Cloud Compute",
+      "Cost_Saving_Yly": "0.6$"
+   },
+   {
+      "Cost_Saving_Mon": "0.16$",
+      "Cost_Spent_Mon": "2.66$",
+      "Service_Name": "EC2 - Other",
+      "Cost_Saving_Yly": "1.92$"
+   }
+]

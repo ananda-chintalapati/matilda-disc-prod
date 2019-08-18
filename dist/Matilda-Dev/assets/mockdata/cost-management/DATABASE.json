@@ -1,0 +1,49 @@
+{
+	"response": {
+		"metrics": [{
+				"category": "2018-04-01",
+				"total": 0,
+				"values": []
+			},
+			{
+				"category": "2018-05-01",
+				"total": 0.652,
+				"values": [{
+						"value": 0.0,
+						"key": "EC2 - Other"
+					},
+					{
+						"value": 0.652,
+						"key": "Amazon Elastic Compute Cloud Compute"
+					}
+				]
+			},
+			{
+				"category": "2018-06-01",
+				"total": 0,
+				"values": []
+			},
+			{
+				"category": "2018-07-01",
+				"total": 0,
+				"values": []
+			},
+			{
+				"category": "2018-08-01",
+				"total": 0,
+				"values": []
+			},
+			{
+				"category": "2018-09-01",
+				"total": 0,
+				"values": []
+			},
+			{
+				"category": "2018-10-01",
+				"total": 0,
+				"values": []
+			}
+		],
+		"total": 0.652
+	}
+}

@@ -1,0 +1,95 @@
+{
+    
+    "DiscoveryIpDetails": [
+    {
+    "name": "Failed",
+    "value": 78,
+    "details": [
+        {
+               "Discovery  Name":"windows_002",
+               "IP Address":"192.168.20.123",
+               "Operating System":"",
+                "Status":"Failed"
+
+        },
+        {
+            "Discovery  Name":"windows_003",
+            "IP Address":"192.168.20.124",
+            "Operating System":"",
+            "Status":"Failed"
+        },
+        {
+            "Discovery  Name":"windows_004",
+            "IP Address":"192.168.20.125",
+            "Operating System":"",
+            "Status":"Failed"
+        },
+        {
+            "Discovery  Name":"windows_005",
+            "IP Address":"192.168.20.128",
+            "Operating System":"",
+            "Status":"Failed"
+        }
+        ,
+        {
+            "Discovery  Name":"windows_007",
+            "IP Address":"192.168.20.126",
+            "Operating System":"",
+            "Status":"Failed"
+        }
+        
+        ]
+    
+    },
+    {
+    "name": "Success",
+    "value": 15,
+    "details": [
+        {
+               "Discovery  Name":"Solaris_002",
+               "IP Address":"192.168.20.123",
+               "Operating System":"linux",
+                "Status":"Success"
+        },
+        {
+            "Discovery  Name":"Solaris_003",
+            "IP Address":"192.168.20.124",
+            "Operating System":"linux",
+            "Status":"Success"
+        },
+        {
+            "Discovery  Name":"Solaris_004",
+            "IP Address":"192.168.20.125",
+            "Operating System":"linux",
+            "Status":"Sucess"
+        },
+        {
+            "Discovery  Name":"Solaris_005",
+            "IP Address":"192.168.20.128",
+            "Operating System":"CentOS",
+            "Status":"Success"
+        }
+        ,
+        {
+            "Discovery  Name":"Solaris_007",
+            "IP Address":"192.168.20.126",
+            "Operating System":"CentOS",
+            "Status":"Sucess"
+        },
+        {
+            "Discovery  Name":"Solaris_002",
+            "IP Address":"192.168.20.124",
+            "Operating System":"Windows",
+            "Status":"Success"
+        }
+        ,{
+            "Discovery  Name":"Solaris_008",
+            "IP Address":"192.168.20.129",
+            "Operating System":"Windows",
+            "Status":"Success"
+        }
+        ]
+    
+    }
+    ]
+    }

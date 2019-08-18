@@ -1,0 +1,15 @@
+{
+    "account_id": "046692759124",
+    "budget_name": "AWS_Budget_Annually",
+    "notification": {
+      "NotificationType": "ACTUAL",
+      "ComparisonOperator": "GREATER THAN",
+      "Threshold": 68
+    },
+    "subscriber": [
+      {
+        "SubscriptionType": "EMAIL",
+        "Address": "prashanth@cnet-global.com"
+      }
+    ]
+  }

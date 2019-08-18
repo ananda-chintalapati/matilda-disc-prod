@@ -1,0 +1,298 @@
+{
+    "response": {
+      "Title": "Cost Overview",
+      "bar_stack_data": [
+        {
+          "category": "2019-01-16",
+          "total": 24.6528763786,
+          "values": [
+            {
+              "key": "Others",
+              "value": 14.5160269106
+            },
+            {
+              "key": "Discovery",
+              "value": 0
+            },
+            {
+              "key": "MRM",
+              "value": 0.2416025848
+            },
+            {
+              "key": "Matilda",
+              "value": 3.687047455
+            },
+            {
+              "key": "Matilda UI",
+              "value": 0.966400123
+            },
+            {
+              "key": "Matilda_UI",
+              "value": 2.8992009758
+            },
+            {
+              "key": "MySQL_Discovery",
+              "value": 0.0000360783
+            },
+            {
+              "key": "MySql_Server",
+              "value": 0.1150016147
+            },
+            {
+              "key": "Release Management Server",
+              "value": 2.2275606364
+            }
+          ]
+        },
+        {
+          "category": "2019-01-17",
+          "total": 27.8550248729,
+          "values": [
+            {
+              "key": "Others",
+              "value": 13.9501136787
+            },
+            {
+              "key": "Accredilink",
+              "value": 0.0494623656
+            },
+            {
+              "key": "Database-RDS",
+              "value": 0.0096774192
+            },
+            {
+              "key": "Demo",
+              "value": 0.5799741938
+            },
+            {
+              "key": "Discovery",
+              "value": 0.4567204302
+            },
+            {
+              "key": "Matilda",
+              "value": 3.5401917976
+            },
+            {
+              "key": "Matilda UI",
+              "value": 0.9423748908
+            },
+            {
+              "key": "Matilda_UI",
+              "value": 2.9637401561
+            },
+            {
+              "key": "Migration",
+              "value": 0.1075268816
+            },
+            {
+              "key": "MySQL_Discovery",
+              "value": 0.009677422
+            },
+            {
+              "key": "MySql_Server",
+              "value": 0.1090879422
+            },
+            {
+              "key": "Plugins Test",
+              "value": 0.0086021504
+            },
+            {
+              "key": "Release Management Server",
+              "value": 2.3485094081
+            },
+            {
+              "key": "Release-Management",
+              "value": 2.4114069975
+            },
+            {
+              "key": "Release-Management Database",
+              "value": 0.1854838706
+            },
+            {
+              "key": "RlsMgmt-Free Tier",
+              "value": 0.0096774192
+            },
+            {
+              "key": "TestServer",
+              "value": 0.0362903229
+            },
+            {
+              "key": "VPN",
+              "value": 0.0086021504
+            },
+            {
+              "key": "Weblogic_Discovery",
+              "value": 0.127905376
+            }
+          ]
+        },
+        {
+          "category": "2019-01-18",
+          "total": 25.898171564500004,
+          "values": [
+            {
+              "key": "Others",
+              "value": 4.779418265
+            },
+            {
+              "key": "Accredilink",
+              "value": 0.1483870968
+            },
+            {
+              "key": "Database-RDS",
+              "value": 0.0241636794
+            },
+            {
+              "key": "Demo",
+              "value": 0.6204645168
+            },
+            {
+              "key": "Discovery",
+              "value": 1.8507417067
+            },
+            {
+              "key": "Matilda",
+              "value": 4.9986796392
+            },
+            {
+              "key": "Matilda UI",
+              "value": 1.7175265028
+            },
+            {
+              "key": "Matilda_UI",
+              "value": 3.0963298472
+            },
+            {
+              "key": "Migration",
+              "value": 0.313751493
+            },
+            {
+              "key": "MySQL_Discovery",
+              "value": 0.0258064512
+            },
+            {
+              "key": "MySql_Server",
+              "value": 0.1290322584
+            },
+            {
+              "key": "Plugins Test",
+              "value": 0.0248646949
+            },
+            {
+              "key": "Release Management Server",
+              "value": 2.5515345369
+            },
+            {
+              "key": "Release-Management",
+              "value": 4.6950762827
+            },
+            {
+              "key": "Release-Management Database",
+              "value": 0.6090664278
+            },
+            {
+              "key": "RlsMgmt-Free Tier",
+              "value": 0.0243676818
+            },
+            {
+              "key": "TestServer",
+              "value": 0.092237904
+            },
+            {
+              "key": "VPN",
+              "value": 0.0258064512
+            },
+            {
+              "key": "Weblogic_Discovery",
+              "value": 0.1709161287
+            }
+          ]
+        }
+      ],
+      "pie_data": [
+        {
+          "category": "Application$Release-Management",
+          "value": 7.106483280199999
+        },
+        {
+          "category": "Application$Matilda UI",
+          "value": 3.6263015166
+        },
+        {
+          "category": "Application$Discovery",
+          "value": 2.3074621369
+        },
+        {
+          "category": "Application$RlsMgmt-Free Tier",
+          "value": 0.034045101
+        },
+        {
+          "category": "Application$Migration",
+          "value": 0.4212783746
+        },
+        {
+          "category": "Application$Weblogic_Discovery",
+          "value": 0.2988215047
+        },
+        {
+          "category": "Application$Release Management Server",
+          "value": 7.1276045814
+        },
+        {
+          "category": "Application$Plugins Test",
+          "value": 0.0334668453
+        },
+        {
+          "category": "Application$Database-RDS",
+          "value": 0.0338410986
+        },
+        {
+          "category": "Application$Release-Management Database",
+          "value": 0.7945502983999999
+        },
+        {
+          "category": "Application$Demo",
+          "value": 1.2004387106
+        },
+        {
+          "category": "Application$VPN",
+          "value": 0.0344086016
+        },
+        {
+          "category": "Application$Matilda",
+          "value": 12.2259188918
+        },
+        {
+          "category": "Application$MySQL_Discovery",
+          "value": 0.0355199515
+        },
+        {
+          "category": "Application$MySql_Server",
+          "value": 0.3531218153
+        },
+        {
+          "category": "Application$",
+          "value": 33.2455588543
+        },
+        {
+          "category": "Application$Accredilink",
+          "value": 0.1978494624
+        },
+        {
+          "category": "Application$TestServer",
+          "value": 0.1285282269
+        },
+        {
+          "category": "Application$MRM",
+          "value": 0.2416025848
+        },
+        {
+          "category": "Application$Matilda_UI",
+          "value": 8.9592709791
+        }
+      ],
+      "total": 78.406072816,
+      "type": "bar",
+      "unit": "USD"
+    }
+  }

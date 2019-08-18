@@ -1,0 +1,38 @@
+{
+  "applications": [
+    {
+      "key1": "value1"
+    }
+  ], 
+  "applications1": [
+    {
+      "key1": "value1"
+    }
+  ], 
+  "datasources": [
+    {
+      "name": "JDBC Data Source-0", 
+      "type": "Generic",
+      "a": "aa"
+    }, 
+    {
+      "name": "test", 
+      "type": "Generic",
+      "a": "bb"
+    }
+  ], 
+  "servers": [
+    {
+      "status": "RUNNING", 
+      "weblogic_server_name": "AdminServer"
+    }, 
+    {
+      "status": "SHUTDOWN", 
+      "weblogic_server_name": "Server-0"
+    }, 
+    {
+      "status": "SHUTDOWN", 
+      "weblogic_server_name": "Server-1"
+    }
+  ]
+}

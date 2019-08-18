@@ -1,0 +1,15 @@
+[{
+    "instances": [],
+    "type": "Generic",
+    "name": "JDBC Data Source-0",
+    "datasource": "MySQL",
+    "connection": "192.168.10.156",
+    "port": "3306"
+}, {
+    "instances": [],
+    "type": "Generic",
+    "name": "OneView_Oracle",
+    "datasource": "Oracle",
+    "connection": "192.168.20.244",
+    "port": "1521"
+}]

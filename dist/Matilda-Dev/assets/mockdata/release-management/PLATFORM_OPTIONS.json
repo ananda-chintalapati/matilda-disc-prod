@@ -1,0 +1,24 @@
+[
+    {
+    "operating_systems": [
+    {
+    "os_id": "1",
+    "name": "Windows Server 2008",
+    "platform_id": "1"
+    }
+    ],
+    "platform_id": "1",
+    "name": "Windows"
+    },
+    {
+    "operating_systems": [
+    {
+    "os_id": "2",
+    "name": "CentOS 7.0",
+    "platform_id": "2"
+    }
+    ],
+    "platform_id": "2",
+    "name": "Linux"
+    }
+    ]

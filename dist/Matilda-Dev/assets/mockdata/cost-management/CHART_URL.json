@@ -1,0 +1,1062 @@
+{
+    "input_json": {
+    "Granularity": [
+    "DAILY"
+    ],
+    "GroupBy": {
+    "Tags": [
+    {
+    "Key": "Application"
+    }
+    ]
+    },
+    "Metrics": [
+    "UnblendedCost"
+    ],
+    "TimePeriod": {
+    "End": "2019-01-25",
+    "Start": "2019-01-01"
+    }
+    },
+    "response": {
+    "Title": "Cost Overview",
+    "bar_stack_data": [
+    {
+    "category": "2019-01-01",
+    "total": 58.629302562099994,
+    "values": [
+    {
+    "key": "Others",
+    "value": 46.7470311169
+    },
+    {
+    "key": "IIS",
+    "value": 1.5456000715
+    },
+    {
+    "key": "Matilda",
+    "value": 0.0838710841
+    },
+    {
+    "key": "Matilda UI",
+    "value": 2.8992000209
+    },
+    {
+    "key": "Matilda_UI",
+    "value": 2.8992000173
+    },
+    {
+    "key": "Release Management Server",
+    "value": 2.2272002084
+    },
+    {
+    "key": "Release-Management Database",
+    "value": 2.227200043
+    }
+    ]
+    },
+    {
+    "category": "2019-01-02",
+    "total": 23.5254837308,
+    "values": [
+    {
+    "key": "Others",
+    "value": 11.2692581307
+    },
+    {
+    "key": "IIS",
+    "value": 1.4812000165
+    },
+    {
+    "key": "Matilda",
+    "value": 0.0838713093
+    },
+    {
+    "key": "Matilda UI",
+    "value": 2.8992001671
+    },
+    {
+    "key": "Matilda_UI",
+    "value": 2.7784002099
+    },
+    {
+    "key": "Release Management Server",
+    "value": 2.1431982887
+    },
+    {
+    "key": "Release-Management",
+    "value": 0.7281191622
+    },
+    {
+    "key": "Release-Management Database",
+    "value": 2.1422364464
+    }
+    ]
+    },
+    {
+    "category": "2019-01-03",
+    "total": 16.714773025099998,
+    "values": [
+    {
+    "key": "Others",
+    "value": 11.9104962322
+    },
+    {
+    "key": "IIS",
+    "value": 0.5796
+    },
+    {
+    "key": "Matilda",
+    "value": 0.0838709664
+    },
+    {
+    "key": "Matilda UI",
+    "value": 0.4832000025
+    },
+    {
+    "key": "Matilda_UI",
+    "value": 0.9664001381
+    },
+    {
+    "key": "Release Management Server",
+    "value": 2.2272056644
+    },
+    {
+    "key": "Release-Management Database",
+    "value": 0.4640000215
+    }
+    ]
+    },
+    {
+    "category": "2019-01-04",
+    "total": 21.9823919571,
+    "values": [
+    {
+    "key": "Others",
+    "value": 12.2181146523
+    },
+    {
+    "key": "IIS",
+    "value": 1.4812
+    },
+    {
+    "key": "Matilda",
+    "value": 0.0838709664
+    },
+    {
+    "key": "Matilda UI",
+    "value": 0.8456000036
+    },
+    {
+    "key": "Matilda_UI",
+    "value": 2.8992001389
+    },
+    {
+    "key": "Release Management Server",
+    "value": 2.2272061519
+    },
+    {
+    "key": "Release-Management Database",
+    "value": 2.227200044
+    }
+    ]
+    },
+    {
+    "category": "2019-01-05",
+    "total": 11.0879279248,
+    "values": [
+    {
+    "key": "Others",
+    "value": 10.9519085552
+    },
+    {
+    "key": "Matilda",
+    "value": 0.0838709664
+    },
+    {
+    "key": "Matilda_UI",
+    "value": 0
+    },
+    {
+    "key": "Release Management Server",
+    "value": 0.0361662016
+    },
+    {
+    "key": "Release-Management Database",
+    "value": 0.0159822016
+    }
+    ]
+    },
+    {
+    "category": "2019-01-06",
+    "total": 25.7672739732,
+    "values": [
+    {
+    "key": "Others",
+    "value": 25.2280900861
+    },
+    {
+    "key": "Matilda",
+    "value": 0.0838709664
+    },
+    {
+    "key": "Release Management Server",
+    "value": 0.4553129207
+    }
+    ]
+    },
+    {
+    "category": "2019-01-07",
+    "total": 30.9458974738,
+    "values": [
+    {
+    "key": "Others",
+    "value": 28.3206464245
+    },
+    {
+    "key": "IIS",
+    "value": 0.515200002
+    },
+    {
+    "key": "Matilda",
+    "value": 0.0838709664
+    },
+    {
+    "key": "Matilda UI",
+    "value": 0.9664001623
+    },
+    {
+    "key": "Release Management Server",
+    "value": 1.059779843
+    },
+    {
+    "key": "RlsMgmt-Free Tier",
+    "value": 7.56e-8
+    }
+    ]
+    },
+    {
+    "category": "2019-01-08",
+    "total": 17.739463957899996,
+    "values": [
+    {
+    "key": "Others",
+    "value": 14.4617255184
+    },
+    {
+    "key": "IIS",
+    "value": 0
+    },
+    {
+    "key": "Matilda",
+    "value": 0.0838709664
+    },
+    {
+    "key": "Matilda UI",
+    "value": 0.1208
+    },
+    {
+    "key": "Matilda_UI",
+    "value": 0.8456002626
+    },
+    {
+    "key": "Release Management Server",
+    "value": 2.2274672105
+    }
+    ]
+    },
+    {
+    "category": "2019-01-09",
+    "total": 21.136091824300003,
+    "values": [
+    {
+    "key": "Others",
+    "value": 13.1470832638
+    },
+    {
+    "key": "Matilda",
+    "value": 0.0838816122
+    },
+    {
+    "key": "Matilda UI",
+    "value": 2.7784059161
+    },
+    {
+    "key": "Matilda_UI",
+    "value": 2.8992101512
+    },
+    {
+    "key": "Release Management Server",
+    "value": 2.2274839211
+    },
+    {
+    "key": "RlsMgmt-Free Tier",
+    "value": 0.0000269599
+    }
+    ]
+    },
+    {
+    "category": "2019-01-10",
+    "total": 22.0790431622,
+    "values": [
+    {
+    "key": "Others",
+    "value": 13.2888244482
+    },
+    {
+    "key": "Demo",
+    "value": 1.6912000536
+    },
+    {
+    "key": "IIS",
+    "value": 0.2576001181
+    },
+    {
+    "key": "Matilda",
+    "value": 0.0839275402
+    },
+    {
+    "key": "Matilda UI",
+    "value": 1.691200188
+    },
+    {
+    "key": "Matilda_UI",
+    "value": 2.7784046305
+    },
+    {
+    "key": "Release Management Server",
+    "value": 2.1670833432
+    },
+    {
+    "key": "Release Orchestration",
+    "value": 0.1208028404
+    }
+    ]
+    },
+    {
+    "category": "2019-01-11",
+    "total": 23.149362354500003,
+    "values": [
+    {
+    "key": "Others",
+    "value": 15.2482365425
+    },
+    {
+    "key": "IIS",
+    "value": 1.545600317
+    },
+    {
+    "key": "Matilda",
+    "value": 0.8170377164
+    },
+    {
+    "key": "Matilda_UI",
+    "value": 2.7784101189
+    },
+    {
+    "key": "MySQL_Discovery",
+    "value": 0.0003709063
+    },
+    {
+    "key": "Release Management Server",
+    "value": 2.2277067506
+    },
+    {
+    "key": "Weblogic_Discovery",
+    "value": 0.5320000028
+    }
+    ]
+    },
+    {
+    "category": "2019-01-12",
+    "total": 16.9001492829,
+    "values": [
+    {
+    "key": "Others",
+    "value": 11.954960901
+    },
+    {
+    "key": "Matilda",
+    "value": 1.6305138136
+    },
+    {
+    "key": "Matilda_UI",
+    "value": 1.0872000682
+    },
+    {
+    "key": "Release Management Server",
+    "value": 2.2274745001
+    }
+    ]
+    },
+    {
+    "category": "2019-01-13",
+    "total": 19.7435487141,
+    "values": [
+    {
+    "key": "Others",
+    "value": 12.9854307571
+    },
+    {
+    "key": "Matilda",
+    "value": 1.6304795602
+    },
+    {
+    "key": "Matilda_UI",
+    "value": 2.8993054064
+    },
+    {
+    "key": "Release Management Server",
+    "value": 2.2283329904
+    }
+    ]
+    },
+    {
+    "category": "2019-01-14",
+    "total": 22.3558132739,
+    "values": [
+    {
+    "key": "Others",
+    "value": 14.997957695
+    },
+    {
+    "key": "IIS",
+    "value": 0.3864004799
+    },
+    {
+    "key": "Matilda",
+    "value": 1.6304903727
+    },
+    {
+    "key": "Matilda_UI",
+    "value": 2.8992482455
+    },
+    {
+    "key": "Release Management Server",
+    "value": 2.2289161278
+    },
+    {
+    "key": "Weblogic_Discovery",
+    "value": 0.2128000014
+    },
+    {
+    "key": "Windows",
+    "value": 3.516e-7
+    }
+    ]
+    },
+    {
+    "category": "2019-01-15",
+    "total": 30.1160157005,
+    "values": [
+    {
+    "key": "Others",
+    "value": 23.9012488842
+    },
+    {
+    "key": "Discovery",
+    "value": 0.0007410769
+    },
+    {
+    "key": "IIS",
+    "value": 0.2576000733
+    },
+    {
+    "key": "Matilda",
+    "value": 2.3380522773
+    },
+    {
+    "key": "Matilda UI",
+    "value": 0.8456000444
+    },
+    {
+    "key": "Matilda_UI",
+    "value": 1.5704067806
+    },
+    {
+    "key": "Release Management Server",
+    "value": 1.2023665638
+    },
+    {
+    "key": "Weblogic_Discovery",
+    "value": 0
+    }
+    ]
+    },
+    {
+    "category": "2019-01-16",
+    "total": 24.244876378599997,
+    "values": [
+    {
+    "key": "Others",
+    "value": 14.5160269106
+    },
+    {
+    "key": "Discovery",
+    "value": 0
+    },
+    {
+    "key": "MRM",
+    "value": 0.2416025848
+    },
+    {
+    "key": "Matilda",
+    "value": 3.279047455
+    },
+    {
+    "key": "Matilda UI",
+    "value": 0.966400123
+    },
+    {
+    "key": "Matilda_UI",
+    "value": 2.8992009758
+    },
+    {
+    "key": "MySQL_Discovery",
+    "value": 0.0000360783
+    },
+    {
+    "key": "MySql_Server",
+    "value": 0.1150016147
+    },
+    {
+    "key": "Release Management Server",
+    "value": 2.2275606364
+    }
+    ]
+    },
+    {
+    "category": "2019-01-17",
+    "total": 27.4470248729,
+    "values": [
+    {
+    "key": "Others",
+    "value": 13.9501136787
+    },
+    {
+    "key": "Accredilink",
+    "value": 0.0494623656
+    },
+    {
+    "key": "Database-RDS",
+    "value": 0.0096774192
+    },
+    {
+    "key": "Demo",
+    "value": 0.5799741938
+    },
+    {
+    "key": "Discovery",
+    "value": 0.4567204302
+    },
+    {
+    "key": "Matilda",
+    "value": 3.1321917976
+    },
+    {
+    "key": "Matilda UI",
+    "value": 0.9423748908
+    },
+    {
+    "key": "Matilda_UI",
+    "value": 2.9637401561
+    },
+    {
+    "key": "Migration",
+    "value": 0.1075268816
+    },
+    {
+    "key": "MySQL_Discovery",
+    "value": 0.009677422
+    },
+    {
+    "key": "MySql_Server",
+    "value": 0.1090879422
+    },
+    {
+    "key": "Plugins Test",
+    "value": 0.0086021504
+    },
+    {
+    "key": "Release Management Server",
+    "value": 2.3485094081
+    },
+    {
+    "key": "Release-Management",
+    "value": 2.4114069975
+    },
+    {
+    "key": "Release-Management Database",
+    "value": 0.1854838706
+    },
+    {
+    "key": "RlsMgmt-Free Tier",
+    "value": 0.0096774192
+    },
+    {
+    "key": "TestServer",
+    "value": 0.0362903229
+    },
+    {
+    "key": "VPN",
+    "value": 0.0086021504
+    },
+    {
+    "key": "Weblogic_Discovery",
+    "value": 0.127905376
+    }
+    ]
+    },
+    {
+    "category": "2019-01-18",
+    "total": 25.490171375500005,
+    "values": [
+    {
+    "key": "Others",
+    "value": 4.779418265
+    },
+    {
+    "key": "Accredilink",
+    "value": 0.1483870968
+    },
+    {
+    "key": "Database-RDS",
+    "value": 0.0241636794
+    },
+    {
+    "key": "Demo",
+    "value": 0.6204645168
+    },
+    {
+    "key": "Discovery",
+    "value": 1.8507417067
+    },
+    {
+    "key": "Matilda",
+    "value": 4.5906796392
+    },
+    {
+    "key": "Matilda UI",
+    "value": 1.7175263138
+    },
+    {
+    "key": "Matilda_UI",
+    "value": 3.0963298472
+    },
+    {
+    "key": "Migration",
+    "value": 0.313751493
+    },
+    {
+    "key": "MySQL_Discovery",
+    "value": 0.0258064512
+    },
+    {
+    "key": "MySql_Server",
+    "value": 0.1290322584
+    },
+    {
+    "key": "Plugins Test",
+    "value": 0.0248646949
+    },
+    {
+    "key": "Release Management Server",
+    "value": 2.5515345369
+    },
+    {
+    "key": "Release-Management",
+    "value": 4.6950762827
+    },
+    {
+    "key": "Release-Management Database",
+    "value": 0.6090664278
+    },
+    {
+    "key": "RlsMgmt-Free Tier",
+    "value": 0.0243676818
+    },
+    {
+    "key": "TestServer",
+    "value": 0.092237904
+    },
+    {
+    "key": "VPN",
+    "value": 0.0258064512
+    },
+    {
+    "key": "Weblogic_Discovery",
+    "value": 0.1709161287
+    }
+    ]
+    },
+    {
+    "category": "2019-01-19",
+    "total": 26.51854678200001,
+    "values": [
+    {
+    "key": "Others",
+    "value": 12.4223982188
+    },
+    {
+    "key": "Accredilink",
+    "value": 0.1483870968
+    },
+    {
+    "key": "Demo",
+    "value": 0.2580645168
+    },
+    {
+    "key": "Discovery",
+    "value": 1.3999320265
+    },
+    {
+    "key": "Matilda",
+    "value": 3.5656878977
+    },
+    {
+    "key": "Matilda UI",
+    "value": 0.2580691121
+    },
+    {
+    "key": "Matilda_UI",
+    "value": 3.0972115293
+    },
+    {
+    "key": "Migration",
+    "value": 0.1935483864
+    },
+    {
+    "key": "MySQL_Discovery",
+    "value": 0.0258064512
+    },
+    {
+    "key": "MySql_Server",
+    "value": 0.1290322584
+    },
+    {
+    "key": "Release Management Server",
+    "value": 2.5537392095
+    },
+    {
+    "key": "Release-Management",
+    "value": 1.8564471114
+    },
+    {
+    "key": "Release-Management Database",
+    "value": 0.5199003879
+    },
+    {
+    "key": "VPN",
+    "value": 0.0258064512
+    },
+    {
+    "key": "Weblogic_Discovery",
+    "value": 0.064516128
+    }
+    ]
+    },
+    {
+    "category": "2019-01-20",
+    "total": 33.8445279946,
+    "values": [
+    {
+    "key": "Others",
+    "value": 4.7213993423
+    },
+    {
+    "key": "Accredilink",
+    "value": 0.1483870968
+    },
+    {
+    "key": "Demo",
+    "value": 0.2580645168
+    },
+    {
+    "key": "Discovery",
+    "value": 1.3354838712
+    },
+    {
+    "key": "Matilda",
+    "value": 3.3723962789
+    },
+    {
+    "key": "Matilda UI",
+    "value": 0.2580645168
+    },
+    {
+    "key": "Matilda_UI",
+    "value": 3.0965927285
+    },
+    {
+    "key": "Migration",
+    "value": 0.1935483864
+    },
+    {
+    "key": "MySQL_Discovery",
+    "value": 0.0258064512
+    },
+    {
+    "key": "MySql_Server",
+    "value": 0.1290322584
+    },
+    {
+    "key": "Release Management Server",
+    "value": 17.8501821984
+    },
+    {
+    "key": "Release-Management",
+    "value": 1.8491187385
+    },
+    {
+    "key": "Release-Management Database",
+    "value": 0.5161290312
+    },
+    {
+    "key": "VPN",
+    "value": 0.0258064512
+    },
+    {
+    "key": "Weblogic_Discovery",
+    "value": 0.064516128
+    }
+    ]
+    },
+    {
+    "category": "2019-01-21",
+    "total": 26.2140261579,
+    "values": [
+    {
+    "key": "Others",
+    "value": 8.1575925458
+    },
+    {
+    "key": "Accredilink",
+    "value": 0.1483870968
+    },
+    {
+    "key": "Demo",
+    "value": 0.2580645168
+    },
+    {
+    "key": "Discovery",
+    "value": 1.1829896956
+    },
+    {
+    "key": "Matilda",
+    "value": 4.0140360015
+    },
+    {
+    "key": "Matilda UI",
+    "value": 1.1274939678
+    },
+    {
+    "key": "Matilda_UI",
+    "value": 3.1128557091
+    },
+    {
+    "key": "Migration",
+    "value": 0.1935483864
+    },
+    {
+    "key": "MySQL_Discovery",
+    "value": 0.0258064512
+    },
+    {
+    "key": "MySql_Server",
+    "value": 0.176042395
+    },
+    {
+    "key": "Release Management Server",
+    "value": 3.555470138
+    },
+    {
+    "key": "Release-Management",
+    "value": 3.4424833227
+    },
+    {
+    "key": "Release-Management Database",
+    "value": 0.5161290312
+    },
+    {
+    "key": "VPN",
+    "value": 0.0258064512
+    },
+    {
+    "key": "Weblogic_Discovery",
+    "value": 0.2773204488
+    }
+    ]
+    },
+    {
+    "category": "2019-01-22",
+    "total": 33.174366149499996,
+    "values": [
+    {
+    "key": "Others",
+    "value": 12.7103219935
+    },
+    {
+    "key": "Accredilink",
+    "value": 0.1483870968
+    },
+    {
+    "key": "Demo",
+    "value": 0.2580645168
+    },
+    {
+    "key": "Discovery",
+    "value": 0.567741936
+    },
+    {
+    "key": "Matilda",
+    "value": 3.5405972848
+    },
+    {
+    "key": "Matilda UI",
+    "value": 1.4280429199
+    },
+    {
+    "key": "Matilda_UI",
+    "value": 3.1085462404
+    },
+    {
+    "key": "Migration",
+    "value": 0.1935483864
+    },
+    {
+    "key": "MySQL_Discovery",
+    "value": 0.0258064512
+    },
+    {
+    "key": "MySql_Server",
+    "value": 0.1290322584
+    },
+    {
+    "key": "Release Management Server",
+    "value": 3.8225358392
+    },
+    {
+    "key": "Release-Management",
+    "value": 6.5288891596
+    },
+    {
+    "key": "Release-Management Database",
+    "value": 0.5161290312
+    },
+    {
+    "key": "VPN",
+    "value": 0.0258064512
+    },
+    {
+    "key": "Weblogic_Discovery",
+    "value": 0.1709165841
+    }
+    ]
+    },
+    {
+    "category": "2019-01-23",
+    "total": 30.4608814653,
+    "values": [
+    {
+    "key": "Others",
+    "value": 7.9466044228
+    },
+    {
+    "key": "Accredilink",
+    "value": 0.1483870968
+    },
+    {
+    "key": "Demo",
+    "value": 3.1749837806
+    },
+    {
+    "key": "Discovery",
+    "value": 0.567741936
+    },
+    {
+    "key": "Matilda",
+    "value": 4.2371435513
+    },
+    {
+    "key": "Matilda UI",
+    "value": 1.3511110372
+    },
+    {
+    "key": "Matilda_UI",
+    "value": 3.1021766685
+    },
+    {
+    "key": "Migration",
+    "value": 0.1935483864
+    },
+    {
+    "key": "MySQL_Discovery",
+    "value": 0.0258064512
+    },
+    {
+    "key": "MySql_Server",
+    "value": 0.1290322584
+    },
+    {
+    "key": "Release Management Server",
+    "value": 2.5517441054
+    },
+    {
+    "key": "Release-Management",
+    "value": 6.4261501603
+    },
+    {
+    "key": "Release-Management Database",
+    "value": 0.5161290312
+    },
+    {
+    "key": "VPN",
+    "value": 0.0258064512
+    },
+    {
+    "key": "Weblogic_Discovery",
+    "value": 0.064516128
+    }
+    ]
+    },
+    {
+    "category": "2019-01-24",
+    "total": 0.4230579194,
+    "values": [
+    {
+    "key": "Others",
+    "value": 0.0738730166
+    },
+    {
+    "key": "Demo",
+    "value": 0.1208171596
+    },
+    {
+    "key": "Matilda",
+    "value": 0.0644011003
+    },
+    {
+    "key": "Matilda UI",
+    "value": 0.0000112343
+    },
+    {
+    "key": "Matilda_UI",
+    "value": 0.0001399842
+    },
+    {
+    "key": "Release Management Server",
+    "value": 0.0929552284
+    },
+    {
+    "key": "Release-Management",
+    "value": 0.070860196
+    }
+    ]
+    }
+    ],
+    "pie_data": [],
+    "total": 589.6900180128998,
+    "type": "bar",
+    "unit": "USD"
+    }
+    }

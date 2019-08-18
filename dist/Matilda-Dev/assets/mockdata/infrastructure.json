@@ -1,0 +1,80 @@
+[
+    {
+      "controlType": "TextBox", 
+      "key": "deployment_defination", 
+      "label": "Name", 
+      "order": 1, 
+      "placeholder": "", 
+      "required": "false"
+    }, 
+    {
+      "controlType": "DropDown", 
+      "key": "fetch_method", 
+      "label": "Project", 
+      "options": [
+        {
+          "label": "HTTP", 
+          "value": "http"
+        }, 
+        {
+          "label": "SFTP", 
+          "value": "sftp"
+        }
+      ], 
+      "order": 2, 
+      "value": "http"
+    }, 
+    {
+        "controlType": "DropDown", 
+        "key": "fetch_method", 
+        "label": "Environment", 
+        "options": [
+          {
+            "label": "HTTP", 
+            "value": "http"
+          }, 
+          {
+            "label": "SFTP", 
+            "value": "sftp"
+          }
+        ], 
+        "order": 3, 
+        "value": "http"
+      },
+      {
+        "controlType": "DropDown", 
+        "key": "fetch_method", 
+        "label": "Account", 
+        "options": [
+          {
+            "label": "HTTP", 
+            "value": "http"
+          }, 
+          {
+            "label": "SFTP", 
+            "value": "sftp"
+          }
+        ], 
+        "order": 4, 
+        "value": "http"
+      },
+      {
+        "controlType": "DropDown", 
+        "key": "fetch_method", 
+        "label": "Region", 
+        "options": [
+          {
+            "label": "HTTP", 
+            "value": "http"
+          }, 
+          {
+            "label": "SFTP", 
+            "value": "sftp"
+          }
+        ], 
+        "order": 5, 
+        "value": "http"
+      }
+    
+  ]
+  

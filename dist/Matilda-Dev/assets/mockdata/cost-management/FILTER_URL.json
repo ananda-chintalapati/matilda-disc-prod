@@ -1,0 +1,357 @@
+{
+   "Dimension": [
+      {
+         "Title": "LINKED_ACCOUNT",
+         "Values": [
+            "046692759124"
+         ]
+      },
+      {
+         "Title": "REGION",
+         "Values": [
+            "",
+            "global",
+            "us-east-1",
+            "us-east-2",
+            "us-west-1",
+            "us-west-2"
+         ]
+      },
+      {
+         "Title": "PURCHASE_TYPE",
+         "Values": [
+            "On Demand Instances"
+         ]
+      },
+      {
+         "Title": "SERVICE",
+         "Values": [
+            "AWS Budgets",
+            "AWS Cost Explorer",
+            "AWS Database Migration Service",
+            "AWS Glue",
+            "AWS Key Management Service",
+            "EC2 - Other",
+            "Amazon Elastic Compute Cloud - Compute",
+            "Amazon Elastic Container Service for Kubernetes",
+            "Amazon Elastic Load Balancing",
+            "Amazon Relational Database Service",
+            "Amazon Simple Notification Service",
+            "Amazon Simple Storage Service",
+            "AmazonCloudWatch",
+            "Tax"
+         ]
+      },
+      {
+         "Title": "CACHE_ENGINE",
+         "Values": [
+            ""
+         ]
+      },
+      {
+         "Title": "USAGE_TYPE",
+         "Values": [
+            "BoxUsage:t2.micro",
+            "BudgetsUsage",
+            "CW:Requests",
+            "EBS:VolumeUsage.gp2",
+            "Requests-Tier1",
+            "Requests-Tier2",
+            "TimedStorage-ByteHrs",
+            "USE1-APIRequest",
+            "USE2-Requests-Tier2",
+            "USE2-TimedStorage-ByteHrs",
+            "USW1-ElasticIP:IdleAddress",
+            "USW2-APN1-AWS-In-Bytes",
+            "USW2-APN1-AWS-Out-Bytes",
+            "USW2-APN2-AWS-In-Bytes",
+            "USW2-APN2-AWS-Out-Bytes",
+            "USW2-APS1-AWS-In-Bytes",
+            "USW2-APS1-AWS-Out-Bytes",
+            "USW2-APS2-AWS-In-Bytes",
+            "USW2-APS2-AWS-Out-Bytes",
+            "USW2-APS3-AWS-In-Bytes",
+            "USW2-APS3-AWS-Out-Bytes",
+            "USW2-AmazonEKS-Hours:perCluster",
+            "USW2-BoxUsage:t2.large",
+            "USW2-BoxUsage:t2.medium",
+            "USW2-BoxUsage:t2.micro",
+            "USW2-BoxUsage:t2.small",
+            "USW2-CW:MetricMonitorUsage",
+            "USW2-CW:Requests",
+            "USW2-Catalog-Storage",
+            "USW2-CloudFront-In-Bytes",
+            "USW2-CloudFront-Out-Bytes",
+            "USW2-DataTransfer-In-Bytes",
+            "USW2-DataTransfer-Out-Bytes",
+            "USW2-DataTransfer-Regional-Bytes",
+            "USW2-EBS:SnapshotUsage",
+            "USW2-EBS:VolumeUsage.gp2",
+            "USW2-EU-AWS-In-Bytes",
+            "USW2-EU-AWS-Out-Bytes",
+            "USW2-EUC1-AWS-In-Bytes",
+            "USW2-EUC1-AWS-Out-Bytes",
+            "USW2-EUW2-AWS-In-Bytes",
+            "USW2-EUW2-AWS-Out-Bytes",
+            "USW2-ElasticIP:IdleAddress",
+            "USW2-InstanceUsage:db.t2.micro",
+            "USW2-InstanceUsage:db.t2.small",
+            "USW2-InstanceUsg:dms.t2.medium",
+            "USW2-LoadBalancerUsage",
+            "USW2-RDS:GP2-Storage",
+            "USW2-Requests-Tier1",
+            "USW2-Requests-Tier2",
+            "USW2-SAE1-AWS-In-Bytes",
+            "USW2-SAE1-AWS-Out-Bytes",
+            "USW2-TimedStorage-ByteHrs",
+            "USW2-UGW1-AWS-In-Bytes",
+            "USW2-UGW1-AWS-Out-Bytes",
+            "USW2-USE1-AWS-In-Bytes",
+            "USW2-USE1-AWS-Out-Bytes",
+            "USW2-USE2-AWS-In-Bytes",
+            "USW2-USE2-AWS-Out-Bytes",
+            "USW2-USW1-AWS-In-Bytes",
+            "USW2-USW1-AWS-Out-Bytes",
+            "us-east-1-KMS-Requests",
+            "us-west-1-KMS-Keys",
+            "us-west-2-KMS-Requests"
+         ]
+      },
+      {
+         "Title": "OPERATION",
+         "Values": [
+            "",
+            "AssociateAddressVPC",
+            "BudgetsOperation",
+            "CreateBucket",
+            "CreateDBInstance",
+            "CreateDBInstance:0002",
+            "CreateDBInstance:0005",
+            "CreateDBInstance:0019",
+            "CreateDMSInstance",
+            "CreateOperation",
+            "CreateSnapshot",
+            "CreateVolume-Gp2",
+            "GetCostAndUsage",
+            "GetMetricStatistics",
+            "GetReservationCoverage",
+            "GetReservationPurchaseRecs",
+            "GetReservationUtilization",
+            "HeadBucket",
+            "InterZone-In",
+            "InterZone-Out",
+            "ListAliases",
+            "ListAllMyBuckets",
+            "ListMetrics",
+            "ListTopics",
+            "LoadBalancing",
+            "MetricStorage:AWS/EC2",
+            "Not Applicable",
+            "PublicIP-In",
+            "PublicIP-Out",
+            "ReadACL",
+            "ReadBucketPolicy",
+            "RunInstances",
+            "RunInstances:0002",
+            "StandardStorage",
+            "Storage",
+            "Unknown",
+            "WriteACL"
+         ]
+      },
+      {
+         "Title": "TENANCY",
+         "Values": [
+            "",
+            "Shared"
+         ]
+      },
+      {
+         "Title": "RECORD_TYPE",
+         "Values": [
+            "Refund",
+            "Credit",
+            "Upfront",
+            "Recurring",
+            "Tax",
+            "Support",
+            "Usage",
+            "DiscountedUsage",
+            "Other"
+         ]
+      },
+      {
+         "Title": "AZ",
+         "Values": [
+            "",
+            "us-east-1d",
+            "us-west-2",
+            "us-west-2a",
+            "us-west-2b",
+            "us-west-2c"
+         ]
+      },
+      {
+         "Title": "LEGAL_ENTITY_NAME",
+         "Values": [
+            "Amazon Web Services, Inc."
+         ]
+      },
+      {
+         "Title": "INSTANCE_TYPE",
+         "Values": [
+            "",
+            "db.t2.micro",
+            "t2.large",
+            "t2.medium",
+            "t2.micro",
+            "t2.small"
+         ]
+      },
+      {
+         "Title": "DEPLOYMENT_OPTION",
+         "Values": [
+            "",
+            "Single-AZ"
+         ]
+      },
+      {
+         "Title": "PLATFORM",
+         "Values": [
+            "",
+            "Linux/UNIX",
+            "Windows (Amazon VPC)"
+         ]
+      },
+      {
+         "Title": "DATABASE_ENGINE",
+         "Values": [
+            "",
+            "Any",
+            "MySQL"
+         ]
+      },
+      {
+         "Title": "INSTANCE_TYPE_FAMILY",
+         "Values": [
+            "",
+            "T2",
+            "t2"
+         ]
+      },
+      {
+         "Title": "USAGE_TYPE_GROUP",
+         "Values": [
+            "EC2: Data Transfer - CloudFront (Out)",
+            "EC2: Data Transfer - Inter AZ",
+            "EC2: Data Transfer - Internet (In)",
+            "EC2: Data Transfer - Internet (Out)",
+            "EC2: Data Transfer - Region to Region (In)",
+            "EC2: Data Transfer - Region to Region (Out)",
+            "EC2: EBS - SSD(gp2)",
+            "EC2: EBS - Snapshots",
+            "EC2: EC2 Data Transfer - CloudFront (In)",
+            "EC2: ELB - Running Hours",
+            "EC2: Elastic IP - Idle Address",
+            "EC2: Running Hours",
+            "RDS: Data Transfer - Internet - In",
+            "RDS: Data Transfer - Internet - Out",
+            "RDS: Data Transfer - Region to Region - In",
+            "RDS: Data Transfer - Region to Region - Out",
+            "RDS: Running Hours",
+            "RDS: Storage",
+            "S3: API Requests - Standard",
+            "S3: Storage - Standard"
+         ]
+      }
+   ],
+   "Tag": [
+      {
+         "Title": "s3",
+         "Values": [
+            "",
+            "s31102",
+            "s31103"
+         ]
+      },
+      {
+         "Title": "aws:createdBy",
+         "Values": [
+            "",
+            "AssumedRole:AROAIZ6PCBXJLNS22AXLY:AutoScaling",
+            "AssumedRole:AROAJITAH327TTCNUBLKE:1534446281339292842",
+            "IAMUser:AIDAIFWW44BKR6J3YBAL4:anandc",
+            "IAMUser:AIDAIIDEBNIUQNS3MLWRK:gopal",
+            "IAMUser:AIDAIKZPKRTRSJWFTR4TW:madhug",
+            "IAMUser:AIDAIUAGXVSM62OUJ3ZNA:likhitam",
+            "IAMUser:AIDAJ4GAKQCJBECD6RQ42:riteshg",
+            "IAMUser:AIDAJ6EHG6WD25IJYUNAS:gowdag",
+            "IAMUser:AIDAJAAG3BNLCRUN2AST4:mahendar",
+            "IAMUser:AIDAJAYI27TBVALACXGDC:abhinavg",
+            "IAMUser:AIDAJMXK2MT2XSPCSBBMW:subhashm",
+            "IAMUser:AIDAQVXY26ZKFDZQXAGH:PraveenT",
+            "Root:046692759124"
+         ]
+      },
+      {
+         "Title": "User",
+         "Values": [
+            "",
+            "subhashm"
+         ]
+      },
+      {
+         "Title": "Name",
+         "Values": [
+            "",
+            "BizTalk_2013",
+            "BizTalk_2013_Mahendar",
+            "Biztalk2_2013_Mahendar",
+            "BiztalkGopal2012R2",
+            "BiztalkGopalWin2012R2",
+            "BiztalkWindow2012R2",
+            "Biztalk_Mahendar_2016_windows_server",
+            "Domain_Controller",
+            "Don't Terminate, Don't Stop",
+            "Mahendar-webdeploy-2016",
+            "Mahendar_IIS-2016",
+            "Mahendar_test_win1",
+            "Migration-Tomcat-Abhinav",
+            "RLS-MGMT-SVC-Dont-Delete",
+            "Release-Management",
+            "SQL_2012",
+            "Test-RDS",
+            "Tomcat_Migration_Abhinav",
+            "UX-design-Don't-terminate",
+            "Util_Dont_Delete",
+            "eks-cnet-cluster-kube-workers-Node",
+            "mahendar_test_win2",
+            "oracle-test",
+            "testbiztalk2"
+         ]
+      },
+      {
+         "Title": "Project",
+         "Values": [
+            "",
+            "Container",
+            "Cost Management"
+         ]
+      },
+      {
+         "Title": "Application",
+         "Values": [
+            "",
+            "DotNet"
+         ]
+      },
+      {
+         "Title": "Environment",
+         "Values": [
+            "",
+            "Prod",
+            "Test"
+         ]
+      }
+   ]
+}

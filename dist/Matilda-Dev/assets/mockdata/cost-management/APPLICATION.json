@@ -1,0 +1,53 @@
+{
+  "input_json": {
+    "Granularity": [
+      "MONTHLY"
+    ],
+    "GroupBy": {
+      "Tags": [
+        {
+          "Key": "Application"
+        }
+      ]
+    },
+    "Metrics": [
+      "UnblendedCost"
+    ],
+    "TimePeriod": {
+      "End": "2018-12-18",
+      "Start": "2018-12-01"
+    }
+  },
+  "response": {
+    "Title": "Cost Overview",
+    "bar_stack_data": [
+      {
+        "category": "2018-12-01",
+        "total": 600.6786796924,
+        "values": [
+          {
+            "key": "DOTNET",
+            "value": "518.6786796924"
+          },
+          {
+            "key": "DATABASE",
+            "value": "82"
+          }
+        ]
+      }
+    ],
+    "pie_data": [
+      {
+        "category": "DOTNET",
+        "value": 518.6786796924
+      },
+      {
+        "category": "DATABASE",
+        "value": 82
+      }
+    ],
+    "total": 600.6786796924,
+    "type": "bar",
+    "unit": "USD"
+  }
+}

@@ -1,0 +1,17 @@
+[{
+    "type": "war",
+    "state": "STATE_ACTIVE",
+    "health": "HEALTH_OK",
+    "name": "Demo Application",
+    "context_root": "/matilda/demo",
+    "deployed": "2018 Jun 06"
+},
+{
+    "type": "war",
+    "state": "STATE_ACTIVE",
+    "health": "HEALTH_OK",
+    "name": "TFNM UI",
+    "context_root": "/tfnm",
+    "deployed": "2018 Jun 06"
+}
+]

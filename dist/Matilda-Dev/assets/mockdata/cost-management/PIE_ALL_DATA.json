@@ -1,0 +1,91 @@
+{
+    "response": {
+        "Title": "Application Cost Overview",
+        "projected_chart_data": [
+            {
+                "category": "Spendings",
+                "values": [
+                    604.25,
+                    2100.45,
+                    3375.25,
+                    5570.25,
+                    8722.91
+                ]
+            },
+            {
+                "category": "Net Savings",
+                "values": [
+                    170.09,
+                    510.21,
+                    956.56,
+                    1500.36,
+                    2000.23
+                ]
+            },
+            {
+                "category": "Net Spendings",
+                "values": [
+                    430.25,
+                    1206.45,
+                    2556.25,
+                    3776.12,
+                    6696.76
+                ]
+            }
+
+        ],
+        "pie_data": [
+            {
+                "id":"1",
+                "category": "Others",
+                "value": 299.99,
+                "quaterlyCost": 475.52,
+                "yearlyCost": 3450.34,
+                "monthlySavings": 55.00,
+                "quaterlySavings": 173.21,
+                "yearlySavings": 534.25
+            },
+            {
+                "id":"2",
+                "category": "Matilda_UI",
+                "value": 34.69,
+                "quaterlyCost": 98.74,
+                "yearlyCost": 384.65,
+                "monthlySavings": 3.00,
+                "quaterlySavings": 14.00,
+                "yearlySavings": 45.00
+            },
+            {
+                "id":"3",
+                "category": "Matilda",
+                "value": 16.85,
+                "quaterlyCost": 43.34,
+                "yearlyCost": 187.75,
+                "monthlySavings": 2.32,
+                "quaterlySavings": 5.67,
+                "yearlySavings": 25.60
+            },
+            {
+                "id":"4",
+                "category": "Matilda UI",
+                "value": 15.79,
+                "quaterlyCost": 43.52,
+                "yearlyCost": 297.75,
+                "monthlySavings": 5.34,
+                "quaterlySavings": 14.70,
+                "yearlySavings": 56.76
+            },
+            {
+                "id":"5",
+                "category": "Release Management Server",
+                "value": 32.75,
+                "quaterlyCost": 60.20,
+                "yearlyCost": 356.87,
+                "monthlySavings": 4.09,
+                "quaterlySavings": 14.10,
+                "yearlySavings": 43.40
+            }
+        ],
+        "unit": "USD"
+    }
+}

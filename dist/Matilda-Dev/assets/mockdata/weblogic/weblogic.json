@@ -1,0 +1,199 @@
+{
+    "type": "NetworkGraph",
+    "network": {
+      "groups": [
+        {
+          "id": "server",
+          "nodes": ["f5bvq", "as", "ms2"]
+        },
+        
+        {
+          "id": "Application",
+          "nodes": ["Sample_POC","tfnm"]
+        },
+        {
+          "id": "DataSource",
+          "nodes": ["datasource1", "datasource2"]
+        }
+        ,
+        {
+          "id": "Queue",
+          "nodes": ["weblogic-node-2725587057-f5bvq"]
+        }
+      ],
+      "nodes": [
+  
+        {
+          "type": "server",
+          "id": "f5bvq",
+          "properties": {
+            "name": "ManagedServer01",
+            "alerts": "0",
+            "utilization": "0.0%",
+            "imageSrc": "assets/images/server.png",
+            "ip_address": "192.168.10.156",
+            "imageSize": 50,
+            "mac_address": "fa:16:3e:02:70:59",
+            "x": 300,
+            "y": 200
+          }
+        },
+        {
+            "type": "server",
+            "id": "as",
+            "properties": {
+              "name": "AdminServer",
+              "alerts": "0",
+              "utilization": "0.0%",
+              "imageSrc": "assets/images/server.png",
+              "ip_address": "192.168.20.124",
+              "imageSize": 50,
+              "mac_address": "fa:16:3e:02:70:59",
+              "x": 400,
+              "y": 400
+            }
+        },
+        {
+            "type": "server",
+            "id": "ms2",
+            "properties": {
+              "name": "ManagedServer02",
+              "alerts": "0",
+              "utilization": "0.0%",
+              "imageSrc": "assets/images/server.png",
+              "ip_address": "192.168.20.224",
+              "imageSize": 50,
+              "mac_address": "fa:16:3e:02:70:59",
+              "x": 500,
+              "y": 200
+            }
+        },
+        {
+          "type": "DataSource",
+          "id": "datasource1",
+          "properties": {
+            "name": "TFNM_Datasource",
+            "alerts": "10",
+            "imageSrc": "assets/images/datasource.png",
+            "ip_address": "192.168.10.123",
+            "imageSize": 50,
+            "mac_address": "",
+            "x": 100,
+            "y": 500
+          }
+        },
+        {
+            "type": "DataSource",
+            "id": "datasource2",
+            "properties": {
+              "name": "OneView_Datasource",
+              "alerts": "10",
+              "imageSrc": "assets/images/datasource.png",
+              "ip_address": "192.168.20.244",
+              "imageSize": 50,
+              "mac_address": "",
+              "x": 100,
+              "y": 400
+            }
+          },
+        {
+          "type": "Application",
+          "id": "Sample_POC",
+          "properties": {
+            "alerts": "10",
+            "imageSrc": "assets/images/Java7VM.png",
+            "ip_address": "192.168.20.124",
+            "imageSize": 50,
+            "mac_address": "",
+            "x": 600,
+            "y": 400
+          }
+        },
+        {
+            "type": "Application",
+            "id": "tfnm",
+            "properties": {
+              "alerts": "10",
+              "imageSrc": "assets/images/Java7VM.png",
+              "ip_address": "192.168.20.124",
+              "imageSize": 50,
+              "mac_address": "",
+              "x": 600,
+              "y": 500
+            }
+        },
+        {
+            "type": "Queue",
+            "id": "weblogic-node-2725587057-f5bvq",
+            "properties": {
+              "name": "queue",
+              "alerts": "10",
+              "imageSrc": "assets/images/queue.png",
+              "ip_address": "192.10.10.2",
+              "imageSize": 50,
+              "mac_address": "fa:16:3e:e2:43:2c",
+              "x": 500,
+              "y": 100
+            }
+          }
+      ],
+      "links": [
+        {
+            "source": "as",
+            "target": "f5bvq",
+            "properties": {
+              "strokeWidth": "1px",
+              "strokeDasharray": "solid"
+            }
+          }, 
+          {
+              "source": "as",
+              "target": "ms2",
+              "properties": {
+                "strokeWidth": "1px",
+                "strokeDasharray": "solid"
+              }
+            },
+        {
+          "source": "as",
+          "target": "Sample_POC",
+          "properties": {
+            "strokeWidth": "1px",
+            "strokeDasharray": "solid"
+          }
+        }, 
+        {
+            "source": "as",
+            "target": "tfnm",
+            "properties": {
+              "strokeWidth": "1px",
+              "strokeDasharray": "solid"
+            }
+          },     
+        {
+          "source": "as",
+          "target": "weblogic-node-2725587057-f5bvq",
+          "properties": {
+            "strokeWidth": "1px",
+            "strokeDasharray": "solid"
+          }
+        },      
+        {
+          "source": "as",
+          "target": "datasource1",
+          "properties": {
+            "strokeWidth": "1px",
+            "strokeDasharray": "solid"
+          }
+        },      
+        {
+          "source": "as",
+          "target": "datasource2",
+          "properties": {
+            "strokeWidth": "1px",
+            "strokeDasharray": "solid"
+          }
+        }
+      ]
+    }
+  }

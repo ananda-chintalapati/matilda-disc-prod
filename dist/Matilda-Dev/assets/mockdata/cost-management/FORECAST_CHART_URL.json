@@ -1,0 +1,62 @@
+{
+  "response": {
+    "Title": "Cost Overview",
+    "bar_stack_data": [
+      {
+        "category": "2018-Q4",
+        "total": "700",
+        "values": [
+          {
+            "key": "AWS Glue",
+            "value": "50"
+          },
+          {
+            "key": "AWS IOT",
+            "value": "60"
+          }
+        ]
+      },
+      {
+        "category": "2019-Q1",
+        "total": "400",
+        "values": [
+          {
+            "key": "AWS Glue",
+            "value": "70"
+          },
+          {
+            "key": "AWS IOT",
+            "value": "30"
+          }
+        ]
+      },
+      {
+        "category": "2019-Q2",
+        "total": "130",
+        "values": [
+          {
+            "key": "Apr-2019",
+            "value": "120"
+          },
+          {
+            "key": "May-2019",
+            "value": "160"
+          }
+        ]
+      }
+    ],
+    "pie_data": [
+      {
+        "category": "2018-09-05",
+        "value": "110"
+      },
+      {
+        "category": "2018-10-01",
+        "value": "80"
+      }
+    ],
+    "total": 210,
+    "type": "bar",
+    "unit": "USD"
+  }
+}

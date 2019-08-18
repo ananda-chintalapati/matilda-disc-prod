@@ -1,0 +1,64 @@
+{
+  "response": [
+    {
+      "cldData": "ebs_volumes_metrics",
+      "cost_saved": "520",
+      "instance_id": "i-0051c86600dbaffb0",
+      "VolumeReadOps": 0.060416666666666674,
+      "volume_id": "vol-021d2c74a305ff41a",
+      "availability_zone": "us-west-2a",
+      "VolumeWriteOps": 0.0,
+      "state": "in-use",
+      "volume_ops": 0.060416666666666674
+    },
+    {
+      "cldData": "ec2_run_cost_analyzer",
+      "cost_saved": 600.91,
+      "instance_id": "i-02c7bd83367b049d0",
+      "Instance_Type": "t2.large",
+      "Location": "US West (Oregon)",
+      "Max_IOPS": 0,
+      "Max_Network": 19.067458470662437,
+      "Memory": "8.0 GiB",
+      "Network_Performance": "Low to Moderate",
+      "NewInstanceType": "t3.large",
+      "NewMemory": "8.0 GiB",
+      "NewRate": 0.0832,
+      "New_vCPU": 2,
+      "PricePerUnit": 0.0928,
+      "Storage": "EBS only",
+      "vCPU": 2
+    },
+    {
+      "cldData": "ec2_under_utilized",
+      "cost_saved": "412",
+      "CPUUtilization": 0,
+      "EC2_running_hours": 63.43,
+      "End_Time": "10-01-2018",
+      "InstanceId": "i-079fe4202202073f0",
+      "Network_IOPS": 0,
+      "Region": "us-west-2",
+      "Start_Time": "08-01-2018"
+    },
+    {
+      "cldData": "ec2_over_utilized",
+      "cost_saved": "306",
+      "CPUUtilization": 50.7639639545386,
+      "Total_running_hours": 163.43,
+      "End_Time": "10-01-2018",
+      "InstanceId": "i-079fe4202202073f0",
+      "Region": "us-west-2",
+      "Start_Time": "08-01-2018",
+      "MemoryUtilization": 73.873549644278
+    },
+    {
+      "cldData": "rds_underutilized",
+      "cost_saved": "700",
+      "WriteIOPS": 20.52964959560983,
+      "dbInstanceIdentifier": "matilda1",
+      "Total_IOPS": 33.863477484091604,
+      "CPUUtilization": 1.233493247221481,
+      "ReadIOPS": 13.333827888481773
+    }
+  ]
+}

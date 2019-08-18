@@ -1,0 +1,328 @@
+{
+    "securityGroupInfo": [
+        {
+            "groupDescription": "ssh access for server",
+            "groupId": "sg-0455aa7a",
+            "groupName": "madhu1",
+            "ipPermissions": [],
+            "ipPermissionsEgress": [
+                {
+                    "__type": "com.amazon.ec2ux.backend.master#IpPermission",
+                    "groups": [],
+                    "ipProtocol": "-1",
+                    "ipRangeObjects": [
+                        {
+                            "cidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ],
+                    "ipv6RangeObjects": [],
+                    "ipv6Ranges": [],
+                    "prefixListIdObjects": [],
+                    "prefixListIds": []
+                }
+            ],
+            "ownerId": "046692759124",
+            "tags": [],
+            "vpcId": "vpc-ad1589d4"
+        },
+        {
+            "groupDescription": "Created from the RDS Management Console: 2018/03/29 21:10:14",
+            "groupId": "sg-16cf0068",
+            "groupName": "rds-launch-wizard",
+            "ipPermissions": [
+                {
+                    "__type": "com.amazon.ec2ux.backend.master#IpPermission",
+                    "fromPort": 5432,
+                    "groups": [],
+                    "ipProtocol": "tcp",
+                    "ipRangeObjects": [
+                        {
+                            "cidrIp": "97.105.46.70/32"
+                        }
+                    ],
+                    "ipRanges": [
+                        "97.105.46.70/32"
+                    ],
+                    "ipv6RangeObjects": [],
+                    "ipv6Ranges": [],
+                    "prefixListIdObjects": [],
+                    "prefixListIds": [],
+                    "toPort": 5432
+                }
+            ],
+            "ipPermissionsEgress": [
+                {
+                    "__type": "com.amazon.ec2ux.backend.master#IpPermission",
+                    "groups": [],
+                    "ipProtocol": "-1",
+                    "ipRangeObjects": [
+                        {
+                            "cidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ],
+                    "ipv6RangeObjects": [],
+                    "ipv6Ranges": [],
+                    "prefixListIdObjects": [],
+                    "prefixListIds": []
+                }
+            ],
+            "ownerId": "046692759124",
+            "tags": [],
+            "vpcId": "vpc-ad1589d4"
+        },
+        {
+            "groupDescription": "A security group for my current IP",
+            "groupId": "sg-5f0fea21",
+            "groupName": "sec_group",
+            "ipPermissions": [
+                {
+                    "__type": "com.amazon.ec2ux.backend.master#IpPermission",
+                    "fromPort": 80,
+                    "groups": [],
+                    "ipProtocol": "tcp",
+                    "ipRangeObjects": [
+                        {
+                            "cidrIp": "97.105.46.70/32"
+                        }
+                    ],
+                    "ipRanges": [
+                        "97.105.46.70/32"
+                    ],
+                    "ipv6RangeObjects": [],
+                    "ipv6Ranges": [],
+                    "prefixListIdObjects": [],
+                    "prefixListIds": [],
+                    "toPort": 80
+                },
+                {
+                    "__type": "com.amazon.ec2ux.backend.master#IpPermission",
+                    "fromPort": 8080,
+                    "groups": [],
+                    "ipProtocol": "tcp",
+                    "ipRangeObjects": [
+                        {
+                            "cidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ],
+                    "ipv6RangeObjects": [],
+                    "ipv6Ranges": [],
+                    "prefixListIdObjects": [],
+                    "prefixListIds": [],
+                    "toPort": 8080
+                },
+                {
+                    "__type": "com.amazon.ec2ux.backend.master#IpPermission",
+                    "fromPort": 22,
+                    "groups": [],
+                    "ipProtocol": "tcp",
+                    "ipRangeObjects": [
+                        {
+                            "cidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ],
+                    "ipv6RangeObjects": [],
+                    "ipv6Ranges": [],
+                    "prefixListIdObjects": [],
+                    "prefixListIds": [],
+                    "toPort": 22
+                }
+            ],
+            "ipPermissionsEgress": [
+                {
+                    "__type": "com.amazon.ec2ux.backend.master#IpPermission",
+                    "fromPort": 8080,
+                    "groups": [],
+                    "ipProtocol": "tcp",
+                    "ipRangeObjects": [
+                        {
+                            "cidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ],
+                    "ipv6RangeObjects": [],
+                    "ipv6Ranges": [],
+                    "prefixListIdObjects": [],
+                    "prefixListIds": [],
+                    "toPort": 8080
+                },
+                {
+                    "__type": "com.amazon.ec2ux.backend.master#IpPermission",
+                    "groups": [],
+                    "ipProtocol": "-1",
+                    "ipRangeObjects": [
+                        {
+                            "cidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ],
+                    "ipv6RangeObjects": [],
+                    "ipv6Ranges": [],
+                    "prefixListIdObjects": [],
+                    "prefixListIds": []
+                }
+            ],
+            "ownerId": "046692759124",
+            "tags": [],
+            "vpcId": "vpc-ad1589d4"
+        },
+        {
+            "groupDescription": "ELB created security group used when no security group is specified during ELB creation - modifications could impact traffic to future ELBs",
+            "groupId": "sg-7309ec0d",
+            "groupName": "default_elb_c92bc923-2b3a-3e97-b254-e92f90d072c3",
+            "ipPermissions": [
+                {
+                    "__type": "com.amazon.ec2ux.backend.master#IpPermission",
+                    "fromPort": 8080,
+                    "groups": [],
+                    "ipProtocol": "tcp",
+                    "ipRangeObjects": [
+                        {
+                            "cidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ],
+                    "ipv6RangeObjects": [],
+                    "ipv6Ranges": [],
+                    "prefixListIdObjects": [],
+                    "prefixListIds": [],
+                    "toPort": 8080
+                }
+            ],
+            "ipPermissionsEgress": [
+                {
+                    "__type": "com.amazon.ec2ux.backend.master#IpPermission",
+                    "groups": [],
+                    "ipProtocol": "-1",
+                    "ipRangeObjects": [
+                        {
+                            "cidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ],
+                    "ipv6RangeObjects": [],
+                    "ipv6Ranges": [],
+                    "prefixListIdObjects": [],
+                    "prefixListIds": []
+                }
+            ],
+            "ownerId": "046692759124",
+            "tags": [],
+            "vpcId": "vpc-ad1589d4"
+        },
+        {
+            "groupDescription": "launch-wizard-1 created 2018-03-27T17:33:58.310-05:00",
+            "groupId": "sg-97cd08e9",
+            "groupName": "launch-wizard-1",
+            "ipPermissions": [
+                {
+                    "__type": "com.amazon.ec2ux.backend.master#IpPermission",
+                    "fromPort": 22,
+                    "groups": [],
+                    "ipProtocol": "tcp",
+                    "ipRangeObjects": [
+                        {
+                            "cidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ],
+                    "ipv6RangeObjects": [],
+                    "ipv6Ranges": [],
+                    "prefixListIdObjects": [],
+                    "prefixListIds": [],
+                    "toPort": 22
+                }
+            ],
+            "ipPermissionsEgress": [
+                {
+                    "__type": "com.amazon.ec2ux.backend.master#IpPermission",
+                    "groups": [],
+                    "ipProtocol": "-1",
+                    "ipRangeObjects": [
+                        {
+                            "cidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ],
+                    "ipv6RangeObjects": [],
+                    "ipv6Ranges": [],
+                    "prefixListIdObjects": [],
+                    "prefixListIds": []
+                }
+            ],
+            "ownerId": "046692759124",
+            "tags": [],
+            "vpcId": "vpc-ad1589d4"
+        },
+        {
+            "groupDescription": "default VPC security group",
+            "groupId": "sg-f500798a",
+            "groupName": "default",
+            "ipPermissions": [
+                {
+                    "__type": "com.amazon.ec2ux.backend.master#IpPermission",
+                    "groups": [
+                        {
+                            "groupId": "sg-f500798a",
+                            "groupName": "default",
+                            "userId": "046692759124"
+                        }
+                    ],
+                    "ipProtocol": "-1",
+                    "ipRangeObjects": [],
+                    "ipRanges": [],
+                    "ipv6RangeObjects": [],
+                    "ipv6Ranges": [],
+                    "prefixListIdObjects": [],
+                    "prefixListIds": []
+                }
+            ],
+            "ipPermissionsEgress": [
+                {
+                    "__type": "com.amazon.ec2ux.backend.master#IpPermission",
+                    "groups": [],
+                    "ipProtocol": "-1",
+                    "ipRangeObjects": [
+                        {
+                            "cidrIp": "0.0.0.0/0"
+                        }
+                    ],
+                    "ipRanges": [
+                        "0.0.0.0/0"
+                    ],
+                    "ipv6RangeObjects": [],
+                    "ipv6Ranges": [],
+                    "prefixListIdObjects": [],
+                    "prefixListIds": []
+                }
+            ],
+            "ownerId": "046692759124",
+            "tags": [],
+            "vpcId": "vpc-ad1589d4"
+        }
+    ],
+    "totalSecurityGroups": 6
+}

@@ -1,0 +1,141 @@
+{
+    "input_json": {
+        "Granularity": [
+            "MONTHLY"
+        ],
+        "GroupBy": {
+            "Dimensions": [
+                {
+                    "Key": "SERVICE"
+                }
+            ]
+        },
+        "Metrics": [
+            "UnblendedCost"
+        ],
+        "TimePeriod": {
+            "End": "2018-12-05",
+            "Start": "2018-12-01"
+        }
+    },
+    "response": {
+        "Title": "Cost Overview",
+        "bar_stack_data": [
+            {
+                "category": "2018-12-01",
+                "total": 87.2861130784,
+                "values": [
+                    {
+                        "key": "AWS Budgets",
+                        "value": "0"
+                    },
+                    {
+                        "key": "AWS Cost Explorer",
+                        "value": "0.08"
+                    },
+                    {
+                        "key": "AWS Glue",
+                        "value": "0"
+                    },
+                    {
+                        "key": "AWS Key Management Service",
+                        "value": "0.10080645"
+                    },
+                    {
+                        "key": "Amazon DynamoDB",
+                        "value": "0"
+                    },
+                    {
+                        "key": "EC2 - Other",
+                        "value": "12.4239661788"
+                    },
+                    {
+                        "key": "Amazon Elastic Compute Cloud - Compute",
+                        "value": "63.0153404496"
+                    },
+                    {
+                        "key": "Amazon Elastic Load Balancing",
+                        "value": "0"
+                    },
+                    {
+                        "key": "Amazon Relational Database Service",
+                        "value": "2.516"
+                    },
+                    {
+                        "key": "Amazon Simple Storage Service",
+                        "value": "0"
+                    },
+                    {
+                        "key": "Amazon Virtual Private Cloud",
+                        "value": "3.75"
+                    },
+                    {
+                        "key": "AmazonCloudWatch",
+                        "value": "0"
+                    },
+                    {
+                        "key": "Tax",
+                        "value": "5.4"
+                    }
+                ]
+            }
+        ],
+        "pie_data": [
+            {
+                "category": "EC2 - Other",
+                "value": 12.4239661788
+            },
+            {
+                "category": "AWS Key Management Service",
+                "value": 0.10080645
+            },
+            {
+                "category": "Amazon Elastic Load Balancing",
+                "value": 0
+            },
+            {
+                "category": "Amazon Simple Storage Service",
+                "value": 0
+            },
+            {
+                "category": "Amazon Elastic Compute Cloud - Compute",
+                "value": 63.0153404496
+            },
+            {
+                "category": "Amazon DynamoDB",
+                "value": 0
+            },
+            {
+                "category": "AWS Glue",
+                "value": 0
+            },
+            {
+                "category": "AWS Budgets",
+                "value": 0
+            },
+            {
+                "category": "Amazon Relational Database Service",
+                "value": 2.516
+            },
+            {
+                "category": "Tax",
+                "value": 5.4
+            },
+            {
+                "category": "AWS Cost Explorer",
+                "value": 0.08
+            },
+            {
+                "category": "AmazonCloudWatch",
+                "value": 0
+            },
+            {
+                "category": "Amazon Virtual Private Cloud",
+                "value": 3.75
+            }
+        ],
+        "total": 87.2861130784,
+        "type": "bar",
+        "unit": "USD"
+    }
+}

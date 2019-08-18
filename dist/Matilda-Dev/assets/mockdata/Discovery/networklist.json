@@ -1,0 +1,76 @@
+{  
+    "response":[  
+       {  
+          "TASK_ID":6,
+          "Status":"In_Progress",
+          "Host_Discovery_Name":"test6",
+          "Created_Date":"05-22-2019 04:55:16 PM",
+          "Created_By":"krishna",
+          "Start_Date":"05-22-2019 04:56:41 PM",
+          "End_Date":null,
+          "Updated_Date":null,
+          "Updated_By":"Discovery_Engine",
+          "Hosts_Count":"258",
+          "Login_Mode":"Credentials",
+          "Account_ID":"007",
+          "Discovery_Type":"Host Discovery",
+          "Discovered_IPList":[
+             {
+                "Range":"192.168.10.107-109",
+                "Cidr":"192.168.10.0/2488",
+                "port":"1234"
+             },
+             {
+                "Range":"192.168.10.107-109",
+                "Cidr":"192.168.10.0/2499",
+                "port":"1234"
+             }
+          ],
+          "UserEntered_Ports":{
+             "ServiceName1":"1234",
+             "ServiceName2":"1234"
+          },
+          "Success":null,
+          "Failed":null
+      },
+      {  
+        "TASK_ID":7,
+        "Status":"In_Progress",
+        "Host_Discovery_Name":"test7",
+        "Created_Date":"05-22-2019 04:55:16 PM",
+        "Created_By":"krishna",
+        "Start_Date":"05-22-2019 04:56:41 PM",
+        "End_Date":null,
+        "Updated_Date":null,
+        "Updated_By":"Discovery_Engine",
+        "Hosts_Count":"258",
+        "Login_Mode":"Credentials",
+        "Account_ID":"007",
+        "Discovery_Type":"Host Discovery",
+        "Discovered_IPList":[
+           {
+              "Range":"192.168.10.111-144",
+              "Cidr":"192.168.10.6/248",
+              "port":"1234"
+           },
+           {
+              "Range":"192.168.10.177-199",
+              "Cidr":"192.168.10.8/299",
+              "port":"12345"
+           }
+        ],
+        "UserEntered_Ports":{
+           "ServiceName1":"1234",
+           "ServiceName2":"1234"
+        },
+        "Success":null,
+        "Failed":null
+    }
+    ],
+    "summary": {
+        "Total_tasks": 6,
+        "Submitted": 1,
+        "Inprogress": 1,
+        "Completed": 4
+        }
+ }

@@ -1,0 +1,84 @@
+[{
+    "rows": [{
+        "state": "RUNNING",
+        "health": "HEALTH_OK",
+        "name": "AdminServer"
+    }, {
+        "state": "RUNNING",
+        "health": "HEALTH_OK",
+        "name": "Server-0"
+    }, {
+        "state": "RUNNING",
+        "health": "HEALTH_OK",
+        "name": "Server-1"
+    }],
+    "columns": [{
+        "header": "State",
+        "primaryKey": "state"
+    }, {
+        "header": "Health",
+        "primaryKey": "health"
+    }, {
+        "header": "Name",
+        "primaryKey": "name"
+    }],
+    "title": "servers"
+}, {
+    "rows": [{
+        "type": "war",
+        "state": "STATE_ACTIVE",
+        "health": "HEALTH_OK",
+        "name": "helloworld"
+    }],
+    "columns": [{
+        "header": "Type",
+        "primaryKey": "type"
+    }, {
+        "header": "State",
+        "primaryKey": "state"
+    }, {
+        "header": "Health",
+        "primaryKey": "health"
+    }, {
+        "header": "Name",
+        "primaryKey": "name"
+    }],
+    "title": "applications"
+}, {
+    "rows": [{
+        "instances": [],
+        "type": "Generic",
+        "name": "JDBC Data Source-0"
+    }, {
+        "instances": [{
+            "state": "Running",
+            "server": "AdminServer"
+        }],
+        "type": "Generic",
+        "name": "test"
+    }],
+    "columns": [{
+        "header": "Instances",
+        "primaryKey": "instances"
+    }, {
+        "header": "Type",
+        "primaryKey": "type"
+    }, {
+        "header": "Name",
+        "primaryKey": "name"
+    }],
+    "title": "datasources"
+}, {
+    "rows": [{
+        "name": "Cluster-0",
+        "servers": []
+    }],
+    "columns": [{
+        "header": "Name",
+        "primaryKey": "name"
+    }, {
+        "header": "Servers",
+        "primaryKey": "servers"
+    }],
+    "title": "clusters"
+}]

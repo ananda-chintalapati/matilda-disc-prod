@@ -1,0 +1,126 @@
+[
+    {
+    "applications": [
+    {
+    "app_id": "Orders and Pricing",
+    "owner": "Matilda",
+    "create_dt": "2018-10-01T00:00:00",
+    "status": "Active",
+    "name": "Orders and Pricing",
+    "project_id": "CSMT"
+    },
+    {
+    "app_id": "Pricing and Quotes",
+    "owner": "Matilda",
+    "create_dt": "2018-10-01T00:00:00",
+    "status": "Active",
+    "name": "Pricing and Quotes",
+    "project_id": "CSMT"
+    },
+    {
+    "app_id": "Product Gateway",
+    "owner": "Matilda",
+    "create_dt": "2018-10-01T00:00:00",
+    "status": "Active",
+    "name": "Product Gateway",
+    "project_id": "CSMT"
+    }
+    ],
+    "project_id": "CSMT",
+    "name": "Cost Management",
+    "owner": null,
+    "create_dt": "2018-10-01T00:00:00",
+    "status": "Active"
+    },
+    {
+    "applications": [
+    {
+    "app_id": "Matilda Discovery V1",
+    "owner": "Matilda",
+    "create_dt": "2018-10-01T00:00:00",
+    "status": "Active",
+    "name": "Matilda Discovery V1",
+    "project_id": "MDRY"
+    }
+    ],
+    "project_id": "MDRY",
+    "name": "Matilda Discovery",
+    "owner": null,
+    "create_dt": "2018-10-01T00:00:00",
+    "status": "Active"
+    },
+    {
+    "applications": [
+    {
+    "app_id": "Matilda Release Management V1",
+    "owner": "Matilda",
+    "create_dt": "2018-10-01T00:00:00",
+    "status": "Active",
+    "name": "Matilda Release Management V1",
+    "project_id": "MRMT"
+    }
+    ],
+    "project_id": "MRMT",
+    "name": "Matilda Release Management",
+    "owner": null,
+    "create_dt": "2018-10-01T00:00:00",
+    "status": "Active"
+    },
+    {
+    "applications": [
+    {
+    "app_id": "demo_Interrupt Service Routing",
+    "owner": "Matilda",
+    "create_dt": "2018-10-01T00:00:00",
+    "status": "Active",
+    "name": "demo_Interrupt Service Routing",
+    "project_id": "NSTP"
+    },
+    {
+    "app_id": "General Service Contracts",
+    "owner": "Matilda",
+    "create_dt": "2018-10-01T00:00:00",
+    "status": "Active",
+    "name": "General Service Contracts",
+    "project_id": "NSTP"
+    },
+    {
+    "app_id": "Interrupt Service Routing",
+    "owner": "Matilda",
+    "create_dt": "2018-10-01T00:00:00",
+    "status": "Active",
+    "name": "Interrupt Service Routing",
+    "project_id": "NSTP"
+    },
+    {
+    "app_id": "Message Center",
+    "owner": "Matilda",
+    "create_dt": "2018-10-01T00:00:00",
+    "status": "Active",
+    "name": "Message Center",
+    "project_id": "NSTP"
+    },
+    {
+    "app_id": "Radio Active Network Rollout",
+    "owner": "Matilda",
+    "create_dt": "2018-10-01T00:00:00",
+    "status": "Active",
+    "name": "Radio Active Network Rollout",
+    "project_id": "NSTP"
+    }
+    ],
+    "project_id": "NSTP",
+    "name": "Network Setup",
+    "owner": null,
+    "create_dt": "2018-10-01T00:00:00",
+    "status": "Active"
+    },
+    {
+    "applications": [],
+    "project_id": "test_NSTP",
+    "name": "Network_test",
+    "owner": "Matilda",
+    "create_dt": "2018-12-11T11:52:24",
+    "status": "Non-Active"
+    }
+    ]

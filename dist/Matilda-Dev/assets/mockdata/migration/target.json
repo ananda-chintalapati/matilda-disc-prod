@@ -1,0 +1,74 @@
+{
+    "Infrastructure": {
+    "Memory": "8GB",
+    "OperatingSystem": "Ubuntu 16.04",
+    "VCPs": 4,
+    "VMCount": 2,
+    "VMSize": "Standard_A1"
+    },
+    "LoadBalancer": {
+    "InboundRules": "vm_http_all, master_https_all",
+    "LoadBalancerID": "vm_lb_vzad",
+    "LoadBalancerPoolID": "vm_lb_vzad",
+    "vNetID": "vmNetID"
+    },
+    "Network": {
+    "NetowrkName": "Matilda-Network",
+    "Securty": "WI-Migration",
+    "Table": [
+    {
+    "Direction": "ingress",
+    "port": 7001,
+    "type": "tcp"
+    },
+    {
+    "Direction": "ingress",
+    "port": 22,
+    "type": "ssh"
+    },
+    {
+    "Direction": "ingress",
+    "port": 80,
+    "type": "tcp"
+    },
+    {
+    "Direction": "ingress",
+    "port": 443,
+    "type": "tcp"
+    },
+    {
+    "Direction": "ingress",
+    "port": 3306,
+    "type": "tcp"
+    },
+    {
+    "Direction": "ingress",
+    "port": 5296,
+    "type": "tcp"
+    }
+    ]
+    },
+    "Services": [
+    {
+    "Name": "WebLogic",
+    "Version": "12.2"
+    },
+    {
+    "Name": "Apache",
+    "Version": "2.1"
+    },
+    {
+    "Name": "Splunk",
+    "Version": ""
+    },
+    {
+    "Name": "MySQL",
+    "Version": "5.7"
+    }
+    ],
+    "Storage": {
+    "Size": "299GB",
+    "StorageAccount": "myStorage",
+    "Volume": "/dev/sda1"
+    }
+    }

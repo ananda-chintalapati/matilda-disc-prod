@@ -1,0 +1,275 @@
+[{
+        "servers": [{
+                "health": "HEALTH_OK",
+                "name": "AdminServer",
+                "state": "RUNNING"
+            },
+            {
+                "health": "HEALTH_NOT_OK",
+                "name": "Server-1",
+                "state": "STOP"
+            }, {
+                "health": "HEALTH_OK",
+                "name": "Server-0",
+                "state": "RUNNING"
+            }, {
+                "health": "HEALTH_OK",
+                "name": "AdminServer-2",
+                "state": "RUNNING"
+            }, {
+                "health": "HEALTH_OK",
+                "name": "Server-4",
+                "state": "RUNNING"
+            }, {
+                "health": "HEALTH_OK",
+                "name": "AdminServer-20",
+                "state": "STOP"
+            }, {
+                "health": "HEALTH_OK",
+                "name": "AdminServer12",
+                "state": "RUNNING"
+            }, {
+                "health": "HEALTH_NOT_OK",
+                "name": "LocalServer-0",
+                "state": "RUNNING"
+            }, {
+                "health": "HEALTH_OK",
+                "name": "Server-110",
+                "state": "RUNNING"
+            }, {
+                "health": "HEALTH_OK",
+                "name": "AdminServer-30",
+                "state": "STOP"
+            }, {
+                "health": "HEALTH_OK",
+                "name": "LocalServer-0",
+                "state": "RUNNING"
+            }, {
+                "health": "HEALTH_NOT_OK",
+                "name": "Server-560",
+                "state": "RUNNING"
+            }, {
+                "health": "HEALTH_OK",
+                "name": "Server-610",
+                "state": "RUNNING"
+            }, {
+                "health": "HEALTH_NOT_OK",
+                "name": "Server-90",
+                "state": "RUNNING"
+            },
+            {
+                "health": "HEALTH_OK",
+                "name": "AdminServer-1",
+                "state": "STOP"
+            }
+        ]
+    },
+    {
+        "applications": [{
+            "health": "HEALTH_NOT_OK",
+            "name": "helloworld",
+            "state": "STATE_ACTIVE",
+            "type": "war"
+		},
+		{"health": "HEALTH_OK",
+            "name": "HappyNow",
+            "state": "STATE_ACTIVE",
+			"type": "war"
+			
+        },{"health": "HEALTH_OK",
+            "name": "Olla",
+            "state": "STATE_INACTIVE",
+            "type": "war"
+        },{"health": "HEALTH_OK",
+            "name": "Adidos",
+            "state": "STATE_ACTIVE",
+            "type": "war"
+        },{"health": "HEALTH_OK",
+            "name": "Vista",
+            "state": "STATE_ACTIVE",
+            "type": "war"
+        },{"health": "HEALTH_NOT_OK",
+            "name": "AppleServer",
+            "state": "STATE_ACTIVE",
+            "type": "war"
+        },{"health": "HEALTH_OK",
+            "name": "ServerTest",
+            "state": "STATE_ACTIVE",
+            "type": "war"
+        },{"health": "HEALTH_OK",
+            "name": "WorldTest",
+            "state": "STATE_ACTIVE",
+            "type": "war"
+        },{"health": "HEALTH_OK",
+            "name": "MajorServer",
+            "state": "STATE_INACTIVE",
+            "type": "war"
+        },{"health": "HEALTH_OK",
+            "name": "helloworld",
+            "state": "STATE_ACTIVE",
+            "type": "war"
+        },{"health": "HEALTH_OK",
+            "name": "helloworld",
+            "state": "STATE_ACTIVE",
+            "type": "war"
+        },{"health": "HEALTH_NOT_OK",
+            "name": "MinorServer",
+            "state": "STATE_ACTIVE",
+            "type": "war"
+        },{"health": "HEALTH_OK",
+            "name": "helloworld",
+            "state": "STATE_ACTIVE",
+            "type": "war"
+        },{"health": "HEALTH_OK",
+            "name": "MajorCheckTest",
+            "state": "STATE_ACTIVE",
+            "type": "war"
+        },{"health": "HEALTH_OK",
+            "name": "MajorCheckTesting",
+            "state": "STATE_INACTIVE",
+            "type": "war"
+        },{"health": "HEALTH_NOT_OK",
+            "name": "MinorMove",
+            "state": "STATE_ACTIVE",
+            "type": "war"
+        }
+                                ]
+    },
+    {
+        "datasources": [{
+                "instances": [],
+                "name": "JDBC Data Source-0",
+                "type": "Generic"
+            },{
+                                                "instances": [],
+                "name": "SQL Data Source-10",
+                "type": "Generic"
+            },{
+                                                "instances": [],
+                "name": "DBC Data Source-02",
+                "type": "Generic"
+            },
+            {
+                "instances": [{
+                    "server": "AdminServer",
+                    "state": "Running"
+                }],
+                "name": "test",
+                "type": "Generic"
+            },{
+                                                "instances": [],
+                "name": "MYSQL Data Source-05",
+                "type": "Generic"
+            },{
+                                                "instances": [],
+                "name": "JDBC Data Source-60",
+                "type": "Generic"
+            },
+                                                {
+                "instances": [{
+                    "server": "AdminServer05",
+                    "state": "Stop"
+                }],
+                "name": "test",
+                "type": "Generic"
+            },
+                {
+					                                "instances": [],
+                "name": "SQL Data Source-70",
+                "type": "Generic"
+            },
+               {
+				                                    "instances": [],
+                "name": "MYSQL Data Source-70",
+                "type": "Generic"
+            },
+                                                {
+                "instances": [{
+                    "server": "AdminServer01",
+                    "state": "Running"
+                }],
+                "name": "test",
+                "type": "Generic"
+            },{
+                                                "instances": [],
+                "name": "SQL Data Source-220",
+                "type": "Generic"
+            },
+              {
+				                                    "instances": [],
+                "name": "SQL Data Source-550",
+                "type": "Generic"
+            },
+                {                                "instances": [],
+                "name": "DBC Data Source-022",
+                "type": "Generic"
+            },
+            {
+                "instances": [{
+                    "server": "AdminServer",
+                    "state": "Running"
+                }],
+                "name": "Quick",
+                "type": "Generic"
+            }
+        ]
+    },
+    {
+        "clusters": [{
+            "name": "Cluster-0",
+            "servers": []
+        },
+                                {
+            "name": "Cluster-10",
+            "servers": []
+        },
+                                {
+            "name": "Cluster-02",
+            "servers": []
+        },
+                                {
+            "name": "Cluster-05",
+            "servers": []
+        },
+                                {
+            "name": "Cluster-06",
+            "servers": []
+        },
+                                {
+            "name": "Cluster-08",
+            "servers": []
+        },
+                                {
+            "name": "Cluster-10",
+            "servers": []
+        },
+                                {
+            "name": "Cluster-09",
+            "servers": []
+        },{
+            "name": "Cluster-07",
+            "servers": []
+        },
+                                {
+            "name": "Cluster-90",
+            "servers": []
+        },
+                                {
+            "name": "Cluster-55",
+            "servers": []
+        },
+                                {
+            "name": "Cluster-32",
+            "servers": []
+        },
+                                {
+            "name": "Cluster-15",
+            "servers": []
+        },
+                                {
+            "name": "Cluster-043",
+            "servers": []
+        }
+                                ]
+    }
+]

@@ -1,0 +1,379 @@
+[
+    {
+      "Summary": {
+        "CPUInformation": {
+          "CPUCount": 2,
+          "ModelName": "Windows Server 2016",
+          "Number_of_Cores": 4
+        },
+        "CPUUsage": {
+          "value": 68
+        },
+        "DiskInformation": {
+          "Free": "60 GB",
+          "TotalMemory": "350 GB",
+          "Used": "270 GB"
+        },
+        "DiskUsage": {
+          "value": "77"
+        },
+        "Information": {
+          "Memory": "32 GB",
+          "OperatingSystem": "Windows Server 2016 ",
+          "Platform": "Windows",
+          "SystemDate": "Fri Dec 7 10:50:41 EDT 2018",
+          "Version": "10",
+          "vCPUCount": "2"
+        },
+        "Summaries":{
+          "No_of_VM's": "2",
+          "Operating_System": "Windows Server 2016",
+          "Application_Server": "IIS 8.0",
+          "No_of_Cores": "4",
+          "Memory": "32 GB",
+          "Storage": "350 GB",
+          "Application_Type": ".Net",
+          "Database": "SQL Server",
+          "Load_Balancer": "Yes",
+          "Cloud_Ready": "Yes",
+          "Recommended_Cloud": "Azure"
+        },
+        "Infrastructure": {
+          "data": [
+            {
+              "id": "Infrastrcutre",
+              "progress": 0,
+              "status": "Not Started",
+              "summary": "Windows and Linux Host Information",
+              "total": 56
+            },
+            {
+              "id": "TS-4",
+              "progress": 0,
+              "status": "Not Started",
+              "summary": "Discover IIS Server ",
+              "total": 30
+            },
+            {
+              "id": "TS-3",
+              "progress": 0,
+              "status": "Not Started",
+              "summary": "Discover Tomcat Server ",
+              "total": 15
+            },
+            {
+              "id": "TS-2",
+              "progress": 0,
+              "status": "Not Started",
+              "summary": "Discover JBoss Server ",
+              "total": 15
+            },
+            {
+              "id": "TS-1",
+              "progress": 0,
+              "status": "Not Started",
+              "summary": "Discover WebLogic Server ",
+              "total": 35
+            }
+          ],
+          "metaData": [
+            {
+              "field": "id",
+              "filterable": true,
+              "locked": false,
+              "title": "Test Suite Id"
+            },
+            {
+              "field": "summary",
+              "filterable": true,
+              "locked": false,
+              "title": "Type"
+            },
+            {
+              "field": "progress",
+              "filterable": true,
+              "locked": false,
+              "title": "Progress"
+            },
+            {
+              "field": "status",
+              "filterable": true,
+              "locked": false,
+              "title": "Status"
+            },
+            {
+              "field": "total",
+              "filterable": true,
+              "locked": false,
+              "title": "Total Test Cases"
+            }
+          ],
+          "title": "Test Suites"
+        },
+        "MemoryInformation": {
+          "Free": "18 GB",
+          "TotalMemory": "32 GB",
+          "Used": "14 GB"
+        },
+        "MemoryUsage": {
+          "value": 43
+        },
+        "Network": {
+          "data": [
+            {
+              "ipaddress": "127.0.0.1",
+              "mtu": "65536",
+              "name": "lo",
+              "rxbytes": "69.4 KB",
+              "rxpackets": "443",
+              "state": "UP",
+              "txbytes": "66.4 KB",
+              "txpackets": "396"
+            },
+            {
+              "ipaddress": "192.168.10.228",
+              "mtu": "1500",
+              "name": "Loopback Pseudo-Interface 1",
+              "rxbytes": "2.0 GB",
+              "rxpackets": "6523482",
+              "state": "UP",
+              "txbytes": "121.0 MB",
+              "txpackets": "916799"
+            },
+            {
+              "ipaddress": "172.18.0.1",
+              "mtu": "1500",
+              "name": "Ethernet",
+              "rxbytes": "0.0",
+              "rxpackets": "0",
+              "state": "DOWN",
+              "txbytes": "0.0",
+              "txpackets": "0"
+            }
+          ],
+          "metaData": [
+            {
+              "field": "name",
+              "filterable": true,
+              "locked": false,
+              "title": "Name"
+            },
+            {
+              "field": "ipaddress",
+              "filterable": true,
+              "locked": false,
+              "title": "IP Address"
+            },
+            {
+              "field": "mtu",
+              "filterable": true,
+              "locked": false,
+              "title": "MTU"
+            },
+            {
+              "field": "rxbytes",
+              "filterable": true,
+              "locked": false,
+              "title": "RX (Bytes)"
+            },
+            {
+              "field": "txbytes",
+              "filterable": true,
+              "locked": false,
+              "title": "TX (Bytes) "
+            },
+            {
+              "field": "rxpackets",
+              "filterable": true,
+              "locked": false,
+              "title": "RX (packets)"
+            },
+            {
+              "field": "txpackets",
+              "filterable": true,
+              "locked": false,
+              "title": "TX (packets)"
+            },
+            {
+              "field": "state",
+              "filterable": true,
+              "locked": false,
+              "title": "State"
+            }
+          ]
+        },
+        "PortConfigurations": {
+          "data": [
+            {
+              "portnumber": "80",
+              "porttype": "LISTEN",
+              "protocol": "Tcp",
+              "pid": "8447",
+              "RX": "482",
+              "TX": "1685",
+              "state": "UP"
+            },
+            {
+              "portnumber": "5666",
+              "porttype": "LISTEN",
+              "protocol": "Tcp",
+              "pid": "3521",
+              "RX": "680",
+              "TX": "2414",
+              "state": "UP"
+            },
+            {
+              "portnumber": "8774",
+              "porttype": "LISTEN",
+              "protocol": "Tcp",
+              "pid": "8447",
+              "RX": "782",
+              "TX": "1685",
+              "state": "UP"
+            }
+          ],
+          "metaData": [
+            {
+              "field": "portnumber",
+              "filterable": true,
+              "locked": false,
+              "title": "Port Number"
+            },
+            {
+              "field": "porttype",
+              "filterable": true,
+              "locked": false,
+              "title": "Port Type"
+            },
+            {
+              "field": "protocol",
+              "filterable": true,
+              "locked": false,
+              "title": "Protocol"
+            },
+            {
+              "field": "pid",
+              "filterable": true,
+              "locked": false,
+              "title": "Process ID"
+            },
+            {
+              "field": "RX",
+              "filterable": true,
+              "locked": false,
+              "title": "RX"
+            },
+            {
+              "field": "TX",
+              "filterable": true,
+              "locked": false,
+              "title": "TX"
+            },
+            {
+              "field": "state",
+              "filterable": true,
+              "locked": false,
+              "title": "State"
+            }
+          ]
+        },
+        "Service": [
+          {
+            "data": [
+              {
+                "health": "Running",
+                "name": "DefaultApppool",
+                "Managed pipeline": "Integrated",
+                "Applications": 0,
+                "DotNetVersion": "v2.0"
+              },
+              {
+                "health": "Running",
+                "name": "Nms_Api",
+                "Managed pipeline": "Integrated",
+                "Applications": 1,
+                "DotNetVersion": "v4.0"
+              },
+               {
+                "health": "Running",
+                "name": "Nms_Operations",
+                "Managed pipeline": "Classic",
+                "Applications": 2,
+                "DotNetVersion": "v4.0"
+              }
+            ],
+            "metaData": [
+              {
+                "field": "health",
+                "filterable": true,
+                "locked": false,
+                "title": "Health"
+              },
+              {
+                "field": "name",
+                "filterable": true,
+                "locked": false,
+                "title": "Name"
+              },
+              {
+                "field": "Managed pipeline",
+                "filterable": true,
+                "locked": false,
+                "title": "Managed pipeline"
+              },
+              {
+                "field": "Applications",
+                "filterable": true,
+                "locked": false,
+                "title": "Applications"
+              },
+              {
+                "field": "DotNetVersion",
+                "filterable": true,
+                "locked": false,
+                "title": ".Net Version"
+              }
+            ],
+            "title": "IIS Applications Pools"
+          }
+          
+        ],
+        "Storage": {
+          "data": [
+            {
+              "Volume": "C-Drive",
+              "size": "150G",
+              "type": "Basic"
+            },
+            {
+              "Volume": "D-Drive",
+              "size": "200G",
+              "type": "Basic"
+            }
+          ],
+          "metaData": [
+            {
+              "field": "Volume",
+              "filterable": true,
+              "locked": false,
+              "title": "Volume"
+            },
+            {
+              "field": "size",
+              "filterable": true,
+              "locked": false,
+              "title": "Size"
+            },
+            {
+              "field": "type",
+              "filterable": true,
+              "locked": false,
+              "title": "Type"
+            }
+          ]
+        }
+      },
+      "_id": "5bcf45f3d71b0c184aed4106",
+      "host": "192.168.10.228"
+    }
+  ]

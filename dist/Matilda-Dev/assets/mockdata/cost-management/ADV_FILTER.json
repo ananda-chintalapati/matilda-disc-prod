@@ -1,0 +1,72 @@
+{
+	"Service": [
+		"AWS Budgets",
+		"AWS Cost Explorer",
+		"AWS Database Migration Service",
+		"AWS Glue",
+		"AWS Key Management Service",
+		"EC2 - Other",
+		"Amazon Elastic Compute Cloud - Compute",
+		"Amazon Elastic Container Service for Kubernetes",
+		"Amazon Elastic Load Balancing",
+		"Amazon Relational Database Service",
+		"Amazon Simple Notification Service",
+		"Amazon Simple Storage Service",
+		"AmazonCloudWatch",
+		"Tax"
+	],
+	"Project": [
+		"Container",
+		"Cost Management"
+	],
+	"Application": [
+
+		"Accredilink",
+        "Database-RDS",
+
+        "Demo",
+
+        "Discovery",
+
+        "IIS",
+
+        "MRM",
+
+        "Matilda",
+
+        "Matilda UI",
+
+        "Matilda_UI",
+
+        "Migration",
+
+        "MySQL_Discovery",
+
+        "MySql_Server",
+
+        "Plugins Test",
+
+        "Release Management Server",
+
+        "Release Orchestration",
+
+        "Release-Management",
+
+        "Release-Management Database",
+
+        "RlsMgmt-Free Tier",
+
+        "TestServer",
+
+        "VPN",
+
+        "Weblogic_Discovery",
+
+        "Windows"
+	],
+	"Environment": [
+		"Prod",
+		"Test"
+	]
+
+}

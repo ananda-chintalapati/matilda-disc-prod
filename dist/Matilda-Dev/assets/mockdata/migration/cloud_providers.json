@@ -1,0 +1,18 @@
+[
+    {
+      "_id": "5bcf5461d71b0c6fd08cce4a", 
+      "cloudId": 1, 
+      "cloudproviderName": "AWS"
+    }, 
+    {
+      "_id": "5bcf5461d71b0c6fd08cce4b", 
+      "cloudId": 2, 
+      "cloudproviderName": "AZURE"
+    }, 
+    {
+      "_id": "5bcf5461d71b0c6fd08cce4c", 
+      "cloudId": 3, 
+      "cloudproviderName": "OPENSTACK"
+    }
+  ]
+  

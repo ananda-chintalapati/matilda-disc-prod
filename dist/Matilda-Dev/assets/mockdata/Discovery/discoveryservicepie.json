@@ -1,0 +1,255 @@
+{
+    
+    "DiscoveryServiceDetails": [
+    {
+    "name": "JBoss",
+    "value": 3,
+    "details": [
+        {
+               "Discovery  Name":"joss_002",
+               "IP Address":"192.168.20.123",
+                "Status":"Success"
+        },
+        {
+            "Discovery  Name":"joss_003",
+            "IP Address":"192.168.20.124",
+            "Status":"Success"
+        },
+        {
+            "Discovery  Name":"joss_004",
+            "IP Address":"192.168.20.125",
+            "Status":"Failed"
+        },
+        {
+            "Discovery  Name":"joss_005",
+            "IP Address":"192.168.20.128",
+            "Status":"Success"
+        }
+        ,
+        {
+            "Discovery  Name":"joss_007",
+            "IP Address":"192.168.20.126",
+            "Status":"Failed"
+        },
+        {
+            "Discovery  Name":"joss_002",
+            "IP Address":"192.168.20.124",
+            "Status":"Success"
+        }
+        ,{
+            "Discovery  Name":"joss_008",
+            "IP Address":"192.168.20.129",
+            "Status":"Success"
+        }
+        ]
+    
+    },
+    {
+    "name": "IIS",
+    "value": 1,
+    "details": [
+        {
+               "Discovery  Name":"IIS_002",
+               "IP Address":"192.168.20.123",
+                "Status":"Success"
+        },
+        {
+            "Discovery  Name":"IIS_003",
+            "IP Address":"192.168.20.124",
+            "Status":"Success"
+        },
+        {
+            "Discovery  Name":"IIS_004",
+            "IP Address":"192.168.20.125",
+            "Status":"Failed"
+        },
+        {
+            "Discovery  Name":"IIS_005",
+            "IP Address":"192.168.20.128",
+            "Status":"Success"
+        }
+        ,
+        {
+            "Discovery  Name":"IIS_007",
+            "IP Address":"192.168.20.126",
+            "Status":"Failed"
+        },
+        {
+            "Discovery  Name":"IIS_002",
+            "IP Address":"192.168.20.124",
+            "Status":"Success"
+        }
+        ,{
+            "Discovery  Name":"IIS_008",
+            "IP Address":"192.168.20.129",
+            "Status":"Success"
+        }
+        ]
+
+    
+    
+    },
+    {
+    "name": "Tomcat",
+    "value": 5,
+    "details": [
+        {
+               "Discovery  Name":"Tom_002",
+               "IP Address":"192.168.20.123",
+                "Status":"Success"
+        },
+        {
+            "Discovery  Name":"Tom_003",
+            "IP Address":"192.168.20.124",
+            "Status":"Success"
+        },
+        {
+            "Discovery  Name":"Tom_004",
+            "IP Address":"192.168.20.125",
+            "Status":"Failed"
+        },
+        {
+            "Discovery  Name":"Tom_005",
+            "IP Address":"192.168.20.128",
+            "Status":"Success"
+        }
+        ,
+        {
+            "Discovery  Name":"joss_007",
+            "IP Address":"192.168.20.126",
+            "Status":"Failed"
+        },
+        {
+            "Discovery  Name":"Tom_002",
+            "IP Address":"192.168.20.124",
+            "Status":"Success"
+        }
+        ,{
+            "Discovery  Name":"Tom_008",
+            "IP Address":"192.168.20.129",
+            "Status":"Success"
+        }
+        ]
+    
+    
+    },
+    {
+    "name": "weblogic",
+    "value": 6,
+    "details": [
+        {
+               "Discovery  Name":"Web_002",
+               "IP Address":"192.168.20.123",
+                "Status":"Success"
+        },
+        {
+            "Discovery  Name":"Web_003",
+            "IP Address":"192.168.20.124",
+            "Status":"Success"
+        },
+        {
+            "Discovery  Name":"Web_004",
+            "IP Address":"192.168.20.125",
+            "Status":"Failed"
+        },
+        {
+            "Discovery  Name":"Web_005",
+            "IP Address":"192.168.20.128",
+            "Status":"Success"
+        }
+        ,
+        {
+            "Discovery  Name":"Web_007",
+            "IP Address":"192.168.20.126",
+            "Status":"Failed"
+        },
+        {
+            "Discovery  Name":"Web_002",
+            "IP Address":"192.168.20.124",
+            "Status":"Success"
+        }
+        ,{
+            "Discovery  Name":"Web_008",
+            "IP Address":"192.168.20.129",
+            "Status":"Success"
+        }
+        ]
+    
+    
+    },
+    {
+    "name": "MySqlDB",
+    "value": 4,
+    "details": [
+        {
+               "Discovery  Name":"Sql_002",
+               "IP Address":"192.168.20.123",
+                "Status":"Success"
+        },
+        {
+            "Discovery  Name":"Sql_003",
+            "IP Address":"192.168.20.124",
+            "Status":"Success"
+        },
+        {
+            "Discovery  Name":"Sql_004",
+            "IP Address":"192.168.20.125",
+            "Status":"Failed"
+        },
+        {
+            "Discovery  Name":"Sql_345",
+            "IP Address":"192.168.20.128",
+            "Status":"Success"
+        }
+        ,
+        {
+            "Discovery  Name":"Sql_234",
+            "IP Address":"192.168.20.126",
+            "Status":"Failed"
+        },
+        {
+            "Discovery  Name":"joss_002",
+            "IP Address":"192.168.20.124",
+            "Status":"Success"
+        }
+        ,{
+            "Discovery  Name":"Sql_008",
+            "IP Address":"192.168.20.129",
+            "Status":"Success"
+        },
+        {
+            "Discovery  Name":"Sql_987",
+            "IP Address":"192.168.20.129",
+            "Status":"Success"
+        },
+        {
+            "Discovery  Name":"Sql_112",
+            "IP Address":"192.168.20.129",
+            "Status":"Success"
+        }
+        ,{
+            "Discovery  Name":"Sql_445",
+            "IP Address":"192.168.20.129",
+            "Status":"Success"
+        },
+        {
+            "Discovery  Name":"Sql_444",
+            "IP Address":"192.168.20.129",
+            "Status":"Success"
+        }
+        ,{
+            "Discovery  Name":"Sql_344",
+            "IP Address":"192.168.20.129",
+            "Status":"Success"
+        },
+        {
+            "Discovery  Name":"Sql_233",
+            "IP Address":"192.168.20.129",
+            "Status":"Success"
+        }
+        ]
+   
+    
+    }
+    ]
+    }

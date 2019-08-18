@@ -1,0 +1,36 @@
+[{
+    "controlType": "TextBox",
+    "key": "user",
+    "label": "UserName",
+    "order": 1,
+    "placeholder": "",
+    "required": "false"
+  },
+  {
+    "controlType": "TextBox",
+    "key": "password",
+    "label": "Password",
+    "order": 2,
+    "placeholder": "",
+    "required": "false"
+  },
+  {
+    "controlType": "DropDown",
+    "key": "dorpdown",
+    "label": "Dropwdown",
+    "order": 3,
+    "placeholder": "select service",
+    "required": "false",
+    "options": [{
+      "key": "java",
+      "value":"Java"
+    },
+     {
+      "key": "java2",
+      "value":"java2"
+     }
+      
+    ]
+  }
+
+]

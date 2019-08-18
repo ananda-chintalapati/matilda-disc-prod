@@ -1,0 +1,449 @@
+{
+    "name": "Weblogic",
+    "alert": "testing",
+    "children": [
+      {
+        "name": "API Domain",
+        "children": [{
+          "name": "Servers",
+          "children": [{
+            "name": "Admin Server",
+            "children": [{
+              "name": "vzb-jamon Application",
+              "children": [{
+                "name": "Data Sources",
+                "children": [{
+                  "name": "CWConnection"
+                },
+                {
+                  "name": "DGF Data Source"
+                },
+  
+                {
+                  "name": "AORTA DataSource"
+  
+                }
+                ]
+              },
+              {
+                "name": "JM Resources",
+                "children": [
+  
+                  {
+                    "name": "OrderServerJMSResource",
+                    "children": [{
+                      "name": "JM Queues",
+                      "children": [{
+                        "name": "OrderServerQueue"
+                      }]
+                    }]
+  
+                  },
+                  {
+                    "name": "BtmJMSServerJMSResource",
+  
+                    "children": [{
+                      "name": "JM Queues",
+                      "children": [{
+                        "name": "BtmDecompQueue"
+  
+                      },
+                      {
+                        "name": "BtmProcessQueue"
+  
+  
+                      }
+                      ]
+                    }]
+                  },
+                  {
+                    "name": "iFlowJMSResource",
+  
+                    "children": [{
+                      "name": "JM Queues",
+                      "children": [{
+                        "name": "iFlow.iFlowQueue"
+  
+                      },
+                      {
+                        "name": "iFlow.iFlowOutBoundQueue"
+  
+                      }
+                      ]
+                    }]
+                  }
+                ]
+              }
+              ]
+            },
+  
+            {
+              "name": "Process Integration Application",
+              "children": [{
+                "name": "Data Sources",
+                "children": [{
+                  "name": "CWConnectionPool"
+                },
+                {
+                  "name": "DGF Data Source"
+                },
+                {
+                  "name": "ODM Data Source for ODM Pool"
+                },
+                {
+                  "name": "api Data Source for api Pool"
+                },
+                {
+                  "name": "AORTA DataSource"
+  
+                }
+                ]
+  
+              },
+              {
+                "name": "JM Resources",
+                "children": [{
+                  "name": "SAFMetricsBridge"
+                },
+                {
+                  "name": "AsyncWebServiceJMSResource",
+  
+                  "children": [{
+                    "name": "JM Queues",
+                    "children": [{
+                      "name": "AsyncWebServiceOutgoingQueue"
+                    }]
+                  }]
+                },
+                {
+                  "name": "OrderServerJMSResource",
+                  "children": [{
+                    "name": "JM Queues",
+                    "children": [{
+                      "name": "OrderServerQueue"
+                    }]
+                  }]
+  
+                },
+                {
+                  "name": "BtmJMSServerJMSResource",
+  
+                  "children": [{
+                    "name": "JM Queues",
+                    "children": [{
+                      "name": "BtmDecompQueue"
+  
+                    },
+                    {
+                      "name": "BtmProcessQueue"
+  
+  
+                    }
+                    ]
+                  }]
+                },
+                {
+                  "name": "iFlowJMSResource",
+  
+                  "children": [{
+                    "name": "JM Queues",
+                    "children": [{
+                      "name": "iFlow.iFlowQueue"
+  
+                    },
+                    {
+                      "name": "iFlow.iFlowOutBoundQueue"
+  
+                    }
+                    ]
+                  }]
+                }
+  
+  
+                ]
+              }
+              ]
+            }
+  
+            ]
+          },
+  
+          {
+            "name": "Api_Server_01",
+            "children": [{
+              "name": "API Application",
+              "children": [{
+                "name": "Data Sources",
+                "children": [{
+                  "name": "ELI Data Source"
+  
+                },
+                {
+                  "name": "Pats TX Data Source"
+  
+                },
+                {
+                  "name": "enterprise.NWASSPool"
+  
+                },
+                {
+                  "name": "JCMS Data Source for JCMS Pool"
+  
+  
+  
+                }
+                ]
+              },
+              {
+                "name": "JM Resources",
+                "children": [{
+                  "name": "EISPOrderMessageJMSResource",
+  
+  
+                  "children": [{
+                    "name": "JM Queues",
+                    "children": [{
+                      "name": "EISPOrderMessageQueue"
+                    }]
+  
+                  }]
+  
+  
+  
+                },
+  
+                {
+                  "name": "JMSBPIServerJMSResource",
+  
+  
+                  "children": [{
+                    "name": "JM Queues",
+                    "children": [{
+                      "name": "enterprise.bpi.event.engineEventDestination"
+  
+                    },
+                    {
+                      "name": "BosiQueue"
+  
+  
+                    },
+                    {
+                      "name": "MetricsLogQueue"
+  
+  
+                    },
+                    {
+                      "name": "PatsWfLogQueue"
+  
+  
+                    },
+  
+                    {
+                      "name": "enterprise.pats.SimulatorQueue"
+  
+  
+                    },
+                    {
+                      "name": "enterprise.pats.PatsQueue"
+  
+                    },
+                    {
+                      "name": "SirenQueue"
+  
+  
+                    }
+                    ]
+                  }]
+  
+                },
+  
+  
+                {
+                  "name": "BPIJMSServerJMSResource",
+  
+  
+                  "children": [{
+                    "name": "JM Queues",
+                    "children": [{
+                      "name": "BPIEventQueue"
+  
+                    },
+                    {
+                      "name": "BPIQueue"
+  
+  
+                    }
+                    ]
+                  }]
+  
+                },
+  
+                {
+                  "name": "JcmsJMSServerJMSResource",
+  
+  
+                  "children": [{
+                    "name": "JM Queues",
+                    "children": [{
+                      "name": "JcmsQueue"
+  
+                    }]
+                  }]
+  
+                },
+                {
+                  "name": "bpiJMSResource"
+                }
+                ]
+              }
+              ]
+            }
+  
+            ]
+  
+          }
+  
+          ]
+        }
+  
+  
+        ]
+      },
+  
+      {
+  
+        "name": "Maroc Domain",
+        "children": [{
+          "name": "Servers",
+          "children": [{
+            "name": "Maroc Server",
+            "children": [{
+              "name": "Maroc Application",
+              "children": [{
+                "name": "Data Sources",
+                "children": [{
+                  "name": "CWConnectionPool"
+                },
+                {
+                  "name": "enterprise.CPPool"
+                },
+                {
+                  "name": "EnterprisemarocTxPool"
+                },
+                {
+                  "name": "enterprise.marocDMSVPool",
+                  "alert": "true"
+                },
+                {
+                  "name": "CafePool",
+                  "alert": "true"
+                },
+                {
+                  "name": "EnterprisemarocBRIPool",
+                  "alert": "true"
+                },
+                {
+                  "name": "iBillEDWPool",
+                  "alert": "true"
+                },
+                {
+                  "name": "ExpressArchivePool",
+                  "alert": "true"
+                },
+                {
+                  "name": "EnterpriseOETSPool",
+                  "alert": "true"
+                },
+                {
+                  "name": "enterprise.OrderPro",
+                  "alert": "true"
+                },
+                {
+                  "name": "OSConnectionPool",
+                  "alert": "true"
+                },
+                {
+                  "name": "ServiceFirstPool",
+                  "alert": "true"
+                },
+                {
+                  "name": "enterprise.StatusPro",
+                  "alert": "true"
+                },
+                {
+                  "name": "VMM Data Source",
+                  "alert": "true"
+                },
+                {
+                  "name": "Data Source for Visper Pool",
+                  "alert": "true"
+                }
+                ]
+              },
+              {
+                "name": "JM Resources",
+                "children": [{
+                  "name": "JM Queues",
+                  "children": [{
+                    "name": "AsyncWebServiceOutgoingQueue"
+                  },
+                  {
+                    "name": "OrderServerQueue"
+                  },
+                  {
+                    "name": "BtmDecompQueue"
+                  },
+                  {
+                    "name": "BtmProcessQueue",
+                    "alert": "true"
+                  },
+                  {
+                    "name": "iFlow.iFlowQueue",
+                    "alert": "true"
+                  },
+                  {
+                    "name": "iFlow.iFlowOutBoundQueue",
+                    "alert": "true"
+                  },
+                  {
+                    "name": "EISPOrderMessageQueue",
+                    "alert": "true"
+                  },
+                  {
+                    "name": "enterprise.bpi.event.engineEventDestination",
+                    "alert": "true"
+                  },
+                  {
+                    "name": "BosiQueue",
+                    "alert": "true"
+                  },
+                  {
+                    "name": "MetricsLogQueue",
+                    "alert": "true"
+                  },
+                  {
+                    "name": "PatsWfLogQueue",
+                    "alert": "true"
+                  }
+                  ]
+                },
+                {
+                  "name": "JM Topics",
+                  "children": [{
+                    "name": "BQABOSIConsumerTopic"
+                  }]
+                }
+                ]
+              }
+              ]
+            }]
+          },
+          {
+            "name": "Admin Server"
+          }
+  
+          ]
+        }]
+      }
+    ]
+  }

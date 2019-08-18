@@ -1,0 +1,131 @@
+[{
+    "IPAddress": "192.168.10.23",
+    "Weblogic": true,
+    "Tomcat": false,
+    "Nginx": false,
+    "IIS": false,
+    "Oracle": false,
+    "Wamp": false,
+    "MYsqlDb": false,
+    "IBM": false
+}, {
+    "IPAddress": "192.168.10.24",
+    "Weblogic": true,
+    "Tomcat": false,
+    "Nginx": false,
+    "IIS": false,
+    "Oracle": false,
+    "Wamp": false,
+    "MYsqlDb": false,
+    "IBM": false
+},
+{
+    "IPAddress": "192.168.10.25",
+    "Weblogic": false,
+    "Tomcat": false,
+    "Nginx": false,
+    "IIS": false,
+    "Oracle": true,
+    "Wamp": false,
+    "MYsqlDb": false,
+    "IBM": false
+},
+{
+    "IPAddress": "192.168.10.26",
+    "Weblogic": false,
+    "Tomcat": false,
+    "Nginx": false,
+    "IIS": false,
+    "Oracle": false,
+    "Wamp": false,
+    "MYsqlDb": false,
+    "IBM": true
+},
+{
+    "IPAddress": "192.168.10.27",
+    "Weblogic": false,
+    "Tomcat": true,
+    "Nginx": false,
+    "IIS": true,
+    "Oracle": false,
+    "Wamp": true,
+    "MYsqlDb": true,
+    "IBM": true
+},
+{
+  "IPAddress": "192.168.10.28",
+  "Weblogic": false,
+  "Tomcat": false,
+  "Nginx": false,
+  "IIS": false,
+  "Oracle": false,
+  "Wamp": false,
+  "MYsqlDb": true,
+  "IBM": false
+},
+{
+  "IPAddress": "192.168.10.29",
+  "Weblogic": false,
+  "Tomcat": true,
+  "Nginx": false,
+  "IIS": false,
+  "Oracle": false,
+  "Wamp": false,
+  "MYsqlDb": false,
+  "IBM": false
+},
+{
+  "IPAddress": "192.168.10.30",
+  "Weblogic": false,
+  "Tomcat": true,
+  "Nginx": false,
+  "IIS": true,
+  "Oracle": false,
+  "Wamp": true,
+  "MYsqlDb": true,
+  "IBM": true
+},
+{
+  "IPAddress": "192.168.10.31",
+  "Weblogic": false,
+  "Tomcat": true,
+  "Nginx": false,
+  "IIS": true,
+  "Oracle": false,
+  "Wamp": true,
+  "MYsqlDb": true,
+  "IBM": true
+},
+{
+  "IPAddress": "192.168.10.32",
+  "Weblogic": false,
+  "Tomcat": true,
+  "Nginx": false,
+  "IIS": true,
+  "Oracle": false,
+  "Wamp": true,
+  "MYsqlDb": true,
+  "IBM": true
+},
+{
+  "IPAddress": "192.168.10.33",
+  "Weblogic": false,
+  "Tomcat": true,
+  "Nginx": false,
+  "IIS": true,
+  "Oracle": false,
+  "Wamp": true,
+  "MYsqlDb": true,
+  "IBM": true
+},
+{
+  "IPAddress": "192.168.10.34",
+  "Weblogic": false,
+  "Tomcat": true,
+  "Nginx": false,
+  "IIS": true,
+  "Oracle": false,
+  "Wamp": true,
+  "MYsqlDb": true,
+  "IBM": true
+}]

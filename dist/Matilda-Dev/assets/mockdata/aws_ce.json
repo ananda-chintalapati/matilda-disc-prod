@@ -1,0 +1,156 @@
+{
+    "response": {
+        "metrics": [
+            {
+                "date": "2018-07-23",
+                "total": 5.6419654264000005,
+                "value": [
+                    {
+                        "cost": "4.0280098264",
+                        "key": "NoInstanceType"
+                    },
+                    {
+                        "cost": "0",
+                        "key": "dc1.large"
+                    },
+                    {
+                        "cost": "0.0115556",
+                        "key": "m4.large"
+                    },
+                    {
+                        "cost": "1.0872",
+                        "key": "t2.large"
+                    },
+                    {
+                        "cost": "0.5152",
+                        "key": "t2.medium"
+                    }
+                ]
+            },
+            {
+                "date": "2018-07-24",
+                "total": 11.077330168800001,
+                "value": [
+                    {
+                        "cost": "9.2120245688",
+                        "key": "NoInstanceType"
+                    },
+                    {
+                        "cost": "0",
+                        "key": "dc1.large"
+                    },
+                    {
+                        "cost": "0.0133056",
+                        "key": "m4.large"
+                    },
+                    {
+                        "cost": "1.208",
+                        "key": "t2.large"
+                    },
+                    {
+                        "cost": "0.644",
+                        "key": "t2.medium"
+                    }
+                ]
+            },
+            {
+                "date": "2018-07-25",
+                "total": 10.3072136082,
+                "value": [
+                    {
+                        "cost": "6.3272136082",
+                        "key": "NoInstanceType"
+                    },
+                    {
+                        "cost": "1.208",
+                        "key": "t2.large"
+                    },
+                    {
+                        "cost": "2.772",
+                        "key": "t2.medium"
+                    },
+                    {
+                        "cost": "0",
+                        "key": "t2.micro"
+                    }
+                ]
+            },
+            {
+                "date": "2018-07-26",
+                "total": 11.4824846156,
+                "value": [
+                    {
+                        "cost": "9.7416846156",
+                        "key": "NoInstanceType"
+                    },
+                    {
+                        "cost": "1.1192",
+                        "key": "t2.large"
+                    },
+                    {
+                        "cost": "0.6216",
+                        "key": "t2.medium"
+                    },
+                    {
+                        "cost": "0",
+                        "key": "t2.micro"
+                    }
+                ]
+            },
+            {
+                "date": "2018-07-27",
+                "total": 8.3707369944,
+                "value": [
+                    {
+                        "cost": "3.2695369944",
+                        "key": "NoInstanceType"
+                    },
+                    {
+                        "cost": "4.264",
+                        "key": "t2.large"
+                    },
+                    {
+                        "cost": "0.8372",
+                        "key": "t2.medium"
+                    }
+                ]
+            },
+            {
+                "date": "2018-07-28",
+                "total": 5.5922278647,
+                "value": [
+                    {
+                        "cost": "1.1474278647",
+                        "key": "NoInstanceType"
+                    },
+                    {
+                        "cost": "2.8992",
+                        "key": "t2.large"
+                    },
+                    {
+                        "cost": "1.5456",
+                        "key": "t2.medium"
+                    }
+                ]
+            },
+            {
+                "date": "2018-07-29",
+                "total": 5.5922299622,
+                "value": [
+                    {
+                        "cost": "1.1474299622",
+                        "key": "NoInstanceType"
+                    },
+                    {
+                        "cost": "2.8992",
+                        "key": "t2.large"
+                    },
+                    {
+                        "cost": "1.5456",
+                        "key": "t2.medium"
+                    }
+                ]
+            }
+        ]
+    }
+}

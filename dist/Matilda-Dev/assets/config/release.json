@@ -1,0 +1,166 @@
+{
+    "release_services": {
+      "BASE_URL": "http://35.162.247.245:5000/api",
+      "CREATE_RELEASE": "/rls/releases",
+      "CLONE_RELEASE": "/rls/release/<%=releaseId%>/clone",
+      "GET_RELEASE_NAMES": "/rls/releases/names",
+      "START_RELEASE": "/rls/release/<%=releaseId%>",
+      "START_ENVIRONMENT_RELEASE": "/rls/release/<%=releaseId%>/environment/<%=environmentId%>/workflow/<%=workflowId%>/action/deploy",
+      "REHYDRATE_ENVIRONMENT_RELEASE": "/rls/release/<%=releaseId%>/env/<%=environmentId%>/action/rehydrate",
+      "GET_RELEASE": "/rls/releases?release_type_cd=<%=releaseTypeCode%>",
+      "GET_RELEASE_ITEM": "/rls/release/<%=releaseId%>?release_type_cd=<%=releaseTypeCode%>",
+      "GET_RELEASE_TYPES": "/rls/release_types",
+      "GET_PROJECTS": "/rls/projects",
+      "GET_PLATFORMS": "/rls/Platforms",
+      "GET_APPLICATIONS": "/rls/applications",
+      "GET_VNF_NODE_TYPES": "/rls/Vnfnodes",
+      "GET_ENVIRONMENT_TYPES": "/rls/release/env/env_types",
+      "CREATE_ENV": "/rls/release/<%=releaseId%>/envs",
+      "CLONE_ENVIRONMENT": "/rls/release/<%=releaseId%>/source_env_id/<%=sourceEnvironmentId%>/target_env_name/<%=targetEnvironmentName%>/target_env_type_cd/<%=targetEnvironmentTypeCode%>/clone",
+      "GET_IMPACTED_SYSTEMS": "/rls/release/<%=releaseId%>/release_type_cd/<%=releaseTypeCode%>/impacted_systems",
+      "GET_IMPACTED_APPLICATIONS": "/rls/release/<%=releaseId%>/infra/impacted_applications",
+      "GET_ENV": "/rls/release/<%=releaseId%>/env/<%=envId%>",
+      "CREATE_WORKFLOW": "/rls/release/<%=releaseId%>/environment/<%=environmentId%>/workflows?include_env=True",
+      "GET_WORKFLOW_LIST": "/rls/release/<%=releaseId%>/environment/<%=envId%>/workflows",
+      "GET_WORKFLOW": "/rls/release/<%=releaseId%>/environment/<%=envId%>/workflow/<%=workflowId%>/extended",
+      "WORKFLOW_ACTION": "/rls/release/<%=releaseId%>/environment/<%=envId%>/workflow/<%=workflowId%>/action/<%=action%>",
+      "GET_WORKFLOW_STAGES": "/rls/release/<%=releaseId%>/environment/<%=envId%>/workflow/<%=workflowId%>/stages",
+      "CREATE_WORKFLOW_STAGES": "/rls/release/<%=releaseId%>/environment/<%=envId%>/workflow/<%=workflowId%>/stages",
+      "UPDATE_WORKFLOW": "/rls/release/<%=releaseId%>/environment/<%=environmentId%>/workflow/<%=workflowId%>?include_env=True",
+      "SAVE_WORKFLOW_TEMPLATE": "/rls/templates",
+      "GET_WORKFLOW_TEMPLATES": "/rls/templates/list",
+      "GET_WORKFLOW_TEMPLATE": "/rls/templates/<%=templateId%>",
+      "GET_AVAILABLE_PLUGINS": "/plugin/services",
+      "GET_FREQUENCY_TYPES": "/rls/frequency",
+      "GET_PLUGIN_FIELDS": "/plugin/service/<%=serviceId%>/action/<%=actionId%>/fields",
+      "PLUGIN_OUTPUT_FIELDS": "/plugin/service/<%=serviceId%>/action/<%=actionId%>/outputfields",
+      "GET_PARAMETER_LIST": "/rls/jenkins",
+      "GET_MILESTONE_TYPES": "/rls/release/milestones/milestone_status_cd",
+      "GET_MILESTONES": "/rls/release/<%=releaseId%>/milestones",
+      "SAVE_MILESTONES": "/rls/release/<%=releaseId%>/milestones/<%=milestoneId%>",
+      "DEL_MILESTONES":"/rls/release/<%=releaseId%>/milestones/<%=milestoneId%>"
+  
+    },
+    "discovery_services": {
+      
+     
+      "BASE_NETWORK_URL":  "http://192.168.10.199:5010/matilda",
+      
+      
+      "NETWORK_PORT_URL":"/hostdiscovery/services",
+      "DISCOVERY_NEW_NETWORK_URL": "/hostdiscovery",
+      "NETWORK_LIST_URL":"/hostdiscovery/result/discoverylist/account_id/007",
+      "NETWORK_DISCOVERY_LIST_URL":"/hostdiscovery/result/hostlist/task_id/<%= task_id %>",
+      "HOST_DETAILS_URL":"/hostdiscovery/result/hostdetails/host_id/<%= host_ID%>",
+      "NETWORK_SERVICES_URL":"/hostdiscovery/summary/services/tag?account_id=007",
+      "NETWORK_OS_URL":"/hostdiscovery/summary/operating_systems/tag?account_id=007",
+      "NETWORK_DISCOVERYLIST_SERVICE_LIST_URL":"/hostdiscovery/services/summary?account_id=007&task_id=<%= task_id %>",
+      "NETWORK_SERVERS_OS_DEVICES_URL":"/hostdiscovery/platform/summary?account_id=007",
+      "DASHBOARD_DETAILS_URL":"/hostdiscovery/dashboard/summary?account_id=007",
+     
+     "BASE_SERVICE_URL":"http://192.168.20.15:8080/matilda",
+     "NEW_SERVICE_URL":"/servicediscovery",
+    "SERVICE_SUMMARY_LIST_URL":"/servicediscovery/countbystatus",
+     "SERVICE_LIST_URL":"/servicediscovery/list",
+     "SERVICE_DISCOVERY_SUMMARY_URL":"/servicediscovery/id/<%=serviceDiscoveryID%>/summary",
+     "SERVICE_DISCOVERY_TOPOLOGY_URL":"/servicediscovery/id/<%=serviceDiscoveryID%>/topology",
+     "SERVICE_RETRY_LIST_URL":"/servicediscovery/id/<%=serviceDiscoveryID%>",
+     "RETRY_PATCH_URL":"/servicediscovery/<%=serviceDiscoveryID%>"
+     
+    
+    },
+    "migration_services": {},
+    "cost_services": {
+      "BASE_URL":"http://192.168.20.156:6010/matilda/cost/aws_ce",
+      "SECONDARY_URL":"http://192.168.10.20:5040/matilda/cost/aws_co",
+      "THIRD_URL":"http://192.168.20.139:6010/matilda/cost/aws_co",
+      "FOURTH_URL":"http://192.168.10.20:5080/matilda/cost/aws_co",
+      "FIFTH_URL":"http://192.168.10.169:5000/matilda/cost/aws_ce",
+      "SIXTH_URL":"http://192.168.10.44:6044/matilda/cost/aws_ce",
+  
+      "LOCAL_URL":"",
+      "A_URL":"/assets/mockdata/cost-management/APPLY_URL.json",
+      "BASE_FILTER_URL" :"/assets/mockdata/costmanagement/granularity.json",
+      "SER_URL" :"/filter?start=2019-01-01&end=2019-01-21&account_name=matilda-admin",
+      "BASE_GROUP_URL" :"/assets/mockdata/cost-management/GROUP_URL.json",
+      "BASE_ADVANCE_URL" :"/assets/mockdata/cost-management/ADV_FILTER.json",
+      "GROUP_URL": "/groupby?start=2018-10-01&end=2018-10-10&account_name=matilda-admin",
+      "FILTER_DD_URL": "/<%= value%>",
+      "CHART_URL": "/assets/mockdata/cost-management/chart.json",
+      "PIECHART_URL": "/assets/mockdata/cost-management/piechartdata.json",
+      "DASHBOARD_URL": "/describe_budget?accountId=046692759124",
+      "BUDGET_URL": "/assets/mockdata/cost-management/budget.json",
+      "MONTHLY_COST": "/monthly_cost?account_name=matilda-admin",
+      "PIE_URL": "/monthly_cost_services?account_name=matilda-admin",
+      "FILTER_URL": "/filter?start=2018-10-01&end=2018-10-10&account_name=matilda-admin",
+      "DASHBOARD_PIE_DUAL_DATA_URL": "/assets/mockdata/cost-management/SERVICE.json",
+      "DASHBOARD_PIE_DD_DATA_URL": "/assets/mockdata/cost-management/SERVICE_ALL_DATA.json",
+      "DASHBOARD_BAR_DATA_URL": "/assets/mockdata/cost-management/<%= value%>.json",
+      "DASHBOARD_PIE_DATA_URL": "/assets/mockdata/cost-management/PIE_ALL_DATA.json",
+      "APPLICATION_DETAILS_URL": "/assets/mockdata/cost-management/APPLICATION_INDETAILS.json",
+      "SERVICE_DETAILS_URL": "/assets/mockdata/cost-management/SERVICE_INDETAILS.json",
+      "SYSTEM_DETAILS_URL": "/assets/mockdata/cost-management/SYSTEM_DETAILS_URL.json",
+      "OPTIMIZE_URL": "/aws_optimize_summary?days=30&db_conn=0&iops=50",
+      "ELIMINATE_URL": "/aws_eliminate_summary?days=30&db_conn=0&iops=50",
+      "STACK_URL": "/monthly_cost/tag/Application?account_name=matilda-admin",
+      "SAVINGS_GRID_URL": "/assets/mockdata/cost-management/SAVINGS_GRID_URL.json",
+      "APP_URL": "/filter/tag?start=2018-10-01&end=2019-01-21&account_name=matilda-admin&tag_name=Application",
+      "ENV_URL": "/filter/tag?start=2018-10-01&end=2019-01-21&account_name=matilda-admin&tag_name=Environment",
+      "PROJ_URL": "/filter/tag?start=2018-10-01&end=2019-01-21&account_name=matilda-admin&tag_name=Project",
+      "NOTIFICATION_URL": "/get_notification_constants",
+      "DETAILS_URL": "/get_all_notifications?accountId=046692759124&accountName=matilda-admin",
+      "APPLY_URL": "http://192.168.10.44:6044/matilda/cost/aws_ce?account_name=matilda-admin",
+      "ALERT_URL": "http://192.168.10.20:5080/matilda/cost/aws_co/create_budget_notification",
+      "THRESHOLD_ALERT_URL": "http://192.168.10.20:5080/matilda/cost/aws_co/update_budget_notification",
+      "EMAIL_ALERT_URL": "http://192.168.10.20:5080/matilda/cost/aws_co/update_budget_subscriber",
+      "DELETE_ALERT_URL": "http://192.168.10.20:5080/matilda/cost/aws_co/delete_budget_subscriber"
+    },
+    "onboarding_service": {
+      "BASE_URL": "http://192.168.20.228:5010/matilda",
+      "PROJECTS_URL": "management/projects/environments",
+      "PROJECTSDETAILS_URL": "management/deployments?project_id=<%= projectId %>&env_id=<%= envId %>",
+      "CLONE_DEPLOYMENT_URL": "management/clone/deployment?deployment_id=<%= deployment_id %>",
+      "ZONES_PER_REGION": "zones?cloud_provider=<%= cloudprovider%>&account_name=<%=acctname%>&region=<%=region%>&compartment_id=<%=compartment_id%>",
+      "SERVICES_URL": "management/services/list",
+      "SERVICESDIALOG_URL": "management/services?name=<%= service%>",
+      "DB_SERVICES_URL": "dbservers?name=<%name%>",
+      "WEB_SERVICES_URL": "webservers?name=<%name%>",
+      "DEPLOYMENTDEF_URL": "management/deployments",
+      "_comment1": "<!--getcall with virtualization............-->",
+      "ACCOUNTSCOMPARTMENT_URL": "virtualization/compartments?cloud_provider=<%= cloudprovider%>",
+      "SUBNET_URL": "virtualization/subnets?cloud_provider=<%= cloudprovider %>&account_name=<%=acctname %>&vpn_id=<%= vpn %>&zone=<%= zone %>&compartment_id=<%=compartment_id %>",
+      "SECURITY_GROUP_URL": "virtualization/securitygroup?cloud_provider=<%= cloudprovider%>&account_name=<%= acctname %>&vcn_id=<%= vpn%>&compartment_id=<%=compartment_id %>",
+      "ACCOUNTSREGIONS_URL": "virtualization/accounts?cloud_provider=<%= cloudprovider%>",
+      "KEY_URL": "virtualization/keypair?cloud_provider=<%= cloudprovider %>&account_name=<%=acctname %>&compartment_id=<%=compartment_id %>",
+      "INSTANCETYPE_URL": "virtualization/instancetypes?cloud_provider=<%= cloudprovider %>&account_name=<%=acctname %>&compartment_id=<%=compartment_id %>",
+      "IMAGETYPE_URL": "virtualization/images?cloud_provider=<%= cloudprovider %>&account_name=<%=acctname %>&compartment_id=<%=compartment_id %>",
+      "VPC_URL": "virtualization/vpc?cloud_provider=<%= cloudprovider %>&account_name=<%= acctname %>&compartment_id=<%=compartment_id %>",
+      "_comment2": "<!--postcall............-->",
+      "POST_URL": "management/environment/create?cloud_provider=<%= cloudprovider%>&acctname=<%= acctname%>&compartment=<%= compartment_id%>"
+    },
+    "notifications": {
+      "options": {
+        "timeOut": 5000,
+        "showProgressBar": true,
+        "pauseOnHover": true,
+        "position": [
+          "top",
+          "right"
+        ],
+        "theClass": "sy-notification"
+      },
+      "unauthorizedEndpoints": [
+        "api/products"
+      ],
+      "notFoundEndpoints": [
+        "api/products",
+        "api/account/login",
+        "api/account/register"
+      ]
+    },
+    "aesEncryption": {
+      "key": "inputKey65781239",
+      "iv": "inputIV657812396"
+    },
+    "debugging": true
+  }

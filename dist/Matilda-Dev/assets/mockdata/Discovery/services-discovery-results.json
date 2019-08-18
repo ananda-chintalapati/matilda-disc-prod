@@ -1,0 +1,70 @@
+{
+        "service": [{
+               
+                "name": "CNET0002",
+                "ip": "192.168.0.1",
+                "os":"Microsoft Windows 10 Enterprise",
+                "state":"Active"
+            },{
+                "name": "CNET1002",
+                "ip": "192.168.1.10",
+                "os":"Red Hat Linux ",
+                "state":"Inactive"
+            },
+            {
+                "name": "CNET1102",
+                "ip": "192.168.20.45",
+                "os":"Microsoft Windows Server 2012 R2",
+                "state":"Active"
+            },
+            {
+                "name": "CNET0012",
+                "ip": "192.168.0.2000",
+                "os":"Microsoft Windows 10 Enterprise",
+                "state":"Progress"
+            },
+            {
+                "name": "CNET0002",
+                "ip": "192.168.1.45",
+                "os":"Microsoft Windows Server 2012 R2",
+                "state":"Inactive"
+            },
+            {
+                "name": "CNET0112",
+                "ip": "192.168.10.50",
+                "os":"Microsoft Windows 10 Enterprise",
+                "state":"Active"
+            },
+            {
+                "name": "CNET1782",
+                "ip": "192.168.0.420",
+                "os":"Red Hat Linux",
+                "state":"Progress"
+            },
+            {
+                "name": "CNET2002",
+                "ip": "192.168.02.50",
+                "os":"Microsoft Windows 10 Enterprise",
+                "state":"Active"
+            },
+            {
+                "name": "CNET1202",
+                "ip": "192.168.10.450",
+                "os":"Red Hat Linux",
+                "state":"Active"
+            },
+            {
+                "name": "CNET1302",
+                "ip": "192.168.10.500",
+                "os":"Microsoft Windows 10 Enterprise",
+                "state":"Progress"
+            },
+            {
+               
+               "name": "CNET0002",
+               "ip": "192.168.0.1",
+               "os":"Microsoft Windows 10 Enterprise",
+               "state":"Active"
+           }
+        ]
+}

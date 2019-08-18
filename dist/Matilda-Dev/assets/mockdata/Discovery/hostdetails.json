@@ -1,0 +1,3233 @@
+{
+  "HostId": 6820, 
+  "DiscoveryName": "latest_test", 
+  "HostIp": "192.168.10.192", 
+  "Host_details": {
+    "Platform": "Linux", 
+    "OperatingSystem": "Ubuntu  16.04.5 LTS (Xenial Xerus)", 
+    "BootUpDate": "Sat Jun  8 23:01:29 CDT 2019", 
+    "CoresCount": "4", 
+    "MemSize": "3.9 GB", 
+    "InstanceType": "vm", 
+    "ServiceProvider": "vmware", 
+    "TotalListeningPorts": 9, 
+    "TotalInterfaces": 2, 
+    "TotalServices": 3
+  }, 
+  "Storage_Information": [  
+    {  
+       "Disk":"fd0",
+       "Type": "disk",
+       "Group":"disk",
+       "Logical_Volume":null,
+       "Mountpoint":null,
+       "Owner":"root",
+       "Partition":null,
+       "Permissions":"brw-rw----"
+    },
+    {  
+       "Disk":"sda",
+       "Type": "disk",
+       "Group":"disk",
+       "Logical_Volume":null,
+       "Mountpoint":null,
+       "Owner":"root",
+       "Partition":null,
+       "Permissions":"brw-rw----"
+    },
+    {  
+       "Available_Space":"377M",
+       "Disk":"sda",
+       "Type": "disk",
+       "File_System":"/dev/sda1",
+       "Group":"disk",
+       "Logical_Volume":null,
+       "Mounted":"/boot",
+       "Owner":"root",
+       "Partition":"sda1",
+       "Permissions":"brw-rw----",
+       "Capacity":"720M",
+       "Used(%)":"75%",
+       "Used(GB)":"307M"
+    },
+    {  
+       "Disk":"sda",
+       "Group":"disk",
+       "Type": "part",
+       "Logical_Volume":null,
+       "Mountpoint":null,
+       "Owner":"root",
+       "Partition":"sda2",
+       "Permissions":"brw-rw----"
+    },
+    {  
+       "Disk":"sda",
+       "Group":"disk",
+       "Type": "part",
+       "Logical_Volume":null,
+       "Mountpoint":null,
+       "Owner":"root",
+       "Partition":"sda5",
+       "Permissions":"brw-rw----"
+    },
+    {  
+       "Available_Space":"28G",
+       "Disk":"sda",
+       "Type": "part",
+       "File_System":"/dev/mapper/ubuntu--vg-root",
+       "Group":"disk",
+       "Logical_Volume":"ubuntu--vg-root",
+       "Mounted":"/",
+       "Owner":"root",
+       "Partition":"sda5",
+       "Permissions":"brw-rw----",
+       "Capacity":"38G",
+       "Used(%)":"23%",
+       "Used(GB)":"8.0G"
+    },
+    {  
+       "Disk":"sda",
+       "Group":"disk",
+       "Type": "part",
+       "Logical_Volume":"ubuntu--vg-swap_1",
+       "Mountpoint":null,
+       "Owner":"root",
+       "Partition":"sda5",
+       "Permissions":"brw-rw----"
+    },
+    {  
+       "Disk":"sr0",
+       "Group":"cdrom",
+       "Type": "part",
+       "Logical_Volume":null,
+       "Mountpoint":null,
+       "Owner":"root",
+       "Partition":null,
+       "Permissions":"brw-rw----"
+    }
+ ], 
+  "Memory_Information": {
+    "Used(GB)": "81 MB", 
+    "FreeMem": "2.2 GB", 
+    "Available": "3.4 GB", 
+    "Capacity": "3.9 GB", 
+    "Used(%)": "12.82"
+  }, 
+  "Services": [
+    {
+      "ServiceName": "weblogic", 
+      "Status": "Down", 
+      "ServiceType": "Application Server", 
+      "AdditionalDetails": [
+        {
+          "ServiceName": "weblogic", 
+          "ServiceDiscoveryID": 1111, 
+          "Version": null, 
+          "Port": null, 
+          "CPU(%)": null, 
+          "Mem(%)": null, 
+          "Path": "/home/abhinav/Oracle/Middleware/Oracle_Home/domain-registry.xml"
+        }
+      ]
+    }, 
+    {
+      "ServiceName": "nginx", 
+      "Status": "Running", 
+      "ServiceType": "Web Server", 
+      "AdditionalDetails": [
+        {
+          "ServiceName": "nginx", 
+          "ServiceDiscoveryID": null, 
+          "Version": null, 
+          "Port": "80", 
+          "CPU(%)": "0.0", 
+          "Mem(%)": "0.0", 
+          "Path": "/etc/nginx/nginx.conf"
+        }
+      ]
+    }, 
+    {
+      "ServiceName": "nginx", 
+      "Status": "Running", 
+      "ServiceType": "Web Server", 
+      "AdditionalDetails": [
+        {
+          "ServiceName": "nginx", 
+          "ServiceDiscoveryID": null, 
+          "Version": null, 
+          "Port": "80", 
+          "CPU(%)": "0.0", 
+          "Mem(%)": "0.0", 
+          "Path": "/etc/init/nginx.conf"
+        }
+      ]
+    }
+  ], 
+  "Disk_usage": {
+    "Filesystem": "/dev/mapper/ubuntu--vg-root", 
+    "Capacity": "38 GB", 
+    "Used(GB)": "8.0 GB", 
+    "Available": "28 GB", 
+    "Used(%)": "23"
+  }, 
+  "Interfaces": [
+    {
+      "InterfaceName": "ens160", 
+      "IPAddress": "192.168.10.192", 
+      "MACAddress": " 00:0c:29:50:06:91", 
+      "PktMaxSize": "1500", 
+      "Received_Packets": "3535256", 
+      "Sent_Packets": "517061", 
+      "Speed": null, 
+      "Type": "Hardware type", 
+      "Status": "Up", 
+      "Description": "A broadcast address has been set for this interface. ,This interface supports multicast"
+    }, 
+    {
+      "InterfaceName": "lo", 
+      "IPAddress": "127.0.0.1", 
+      "MACAddress": " 00:00:00:00:00:00", 
+      "PktMaxSize": "65536", 
+      "Received_Packets": "195", 
+      "Sent_Packets": "195", 
+      "Speed": null, 
+      "Type": "Virtual type", 
+      "Status": "Down", 
+      "Description": "This interface is a loopback device."
+    }
+  ], 
+  "Ports": [
+    {
+      "Port": "80", 
+      "Interface": "ens160", 
+      "TX/RX_Bytes": "0/0", 
+      "Status": "OPEN", 
+      "Service": "nginx"
+    }, 
+    {
+      "Port": "80", 
+      "Interface": "lo", 
+      "TX/RX_Bytes": "0/0", 
+      "Status": "OPEN", 
+      "Service": "nginx"
+    }, 
+    {
+      "Port": "22", 
+      "Interface": "ens160", 
+      "TX/RX_Bytes": "0/0", 
+      "Status": "OPEN", 
+      "Service": "sshd"
+    }, 
+    {
+      "Port": "6010", 
+      "Interface": "ens160", 
+      "TX/RX_Bytes": "0/0", 
+      "Status": "OPEN", 
+      "Service": "0"
+    }, 
+    {
+      "Port": "22", 
+      "Interface": "ens160", 
+      "TX/RX_Bytes": "0/0", 
+      "Status": "ACTIVE", 
+      "Service": "sshd:"
+    }, 
+    {
+      "Port": "22", 
+      "Interface": "ens160", 
+      "TX/RX_Bytes": "112/0", 
+      "Status": "ACTIVE", 
+      "Service": "sshd:"
+    }, 
+    {
+      "Port": "22", 
+      "Interface": "ens160", 
+      "TX/RX_Bytes": "0/0", 
+      "Status": "ACTIVE", 
+      "Service": "0"
+    }, 
+    {
+      "Port": "", 
+      "Interface": "ens160", 
+      "TX/RX_Bytes": "0/0", 
+      "Status": "OPEN", 
+      "Service": "nginx"
+    }, 
+    {
+      "Port": "", 
+      "Interface": "ens160", 
+      "TX/RX_Bytes": "0/0", 
+      "Status": "OPEN", 
+      "Service": "sshd"
+    }, 
+    {
+      "Port": "", 
+      "Interface": "ens160", 
+      "TX/RX_Bytes": "0/0", 
+      "Status": "OPEN", 
+      "Service": "0"
+    }
+  ], 
+  "Packages": [
+    {
+      "PackageName": "accountsservice", 
+      "PackageVersion": "0.6.40-2ubuntu11.3"
+    }, 
+    {
+      "PackageName": "acl", 
+      "PackageVersion": "2.2.52-3"
+    }, 
+    {
+      "PackageName": "acpid", 
+      "PackageVersion": "1:2.0.26-1ubuntu2"
+    }, 
+    {
+      "PackageName": "adduser", 
+      "PackageVersion": "3.113+nmu3ubuntu4"
+    }, 
+    {
+      "PackageName": "adwaita-icon-theme", 
+      "PackageVersion": "3.18.0-2ubuntu3.1"
+    }, 
+    {
+      "PackageName": "amd64-microcode", 
+      "PackageVersion": "3.20180524.1~ubuntu0.16.04.2"
+    }, 
+    {
+      "PackageName": "apparmor", 
+      "PackageVersion": "2.10.95-0ubuntu2.11"
+    }, 
+    {
+      "PackageName": "apport", 
+      "PackageVersion": "2.20.1-0ubuntu2.18"
+    }, 
+    {
+      "PackageName": "apport-symptoms", 
+      "PackageVersion": "0.20"
+    }, 
+    {
+      "PackageName": "apt", 
+      "PackageVersion": "1.2.29ubuntu0.1"
+    }, 
+    {
+      "PackageName": "apt-transport-https", 
+      "PackageVersion": "1.2.29ubuntu0.1"
+    }, 
+    {
+      "PackageName": "apt-utils", 
+      "PackageVersion": "1.2.29ubuntu0.1"
+    }, 
+    {
+      "PackageName": "aspell", 
+      "PackageVersion": "0.60.7~20110707-3build1"
+    }, 
+    {
+      "PackageName": "aspell-en", 
+      "PackageVersion": "7.1-0-1.1"
+    }, 
+    {
+      "PackageName": "at", 
+      "PackageVersion": "3.1.18-2ubuntu1"
+    }, 
+    {
+      "PackageName": "at-spi2-core", 
+      "PackageVersion": "2.18.3-4ubuntu1"
+    }, 
+    {
+      "PackageName": "base-files", 
+      "PackageVersion": "9.4ubuntu4.7"
+    }, 
+    {
+      "PackageName": "base-passwd", 
+      "PackageVersion": "3.5.39"
+    }, 
+    {
+      "PackageName": "bash", 
+      "PackageVersion": "4.3-14ubuntu1.2"
+    }, 
+    {
+      "PackageName": "bash-completion", 
+      "PackageVersion": "1:2.1-4.2ubuntu1.1"
+    }, 
+    {
+      "PackageName": "bcache-tools", 
+      "PackageVersion": "1.0.8-2"
+    }, 
+    {
+      "PackageName": "bind9-host", 
+      "PackageVersion": "1:9.10.3.dfsg.P4-8ubuntu1.14"
+    }, 
+    {
+      "PackageName": "binutils", 
+      "PackageVersion": "2.26.1-1ubuntu1~16.04.8"
+    }, 
+    {
+      "PackageName": "blockout2", 
+      "PackageVersion": "2.4+dfsg1-7"
+    }, 
+    {
+      "PackageName": "bsdmainutils", 
+      "PackageVersion": "9.0.6ubuntu3"
+    }, 
+    {
+      "PackageName": "bsdutils", 
+      "PackageVersion": "1:2.27.1-6ubuntu3.6"
+    }, 
+    {
+      "PackageName": "btrfs-tools", 
+      "PackageVersion": "4.4-1ubuntu1"
+    }, 
+    {
+      "PackageName": "busybox-initramfs", 
+      "PackageVersion": "1:1.22.0-15ubuntu1.4"
+    }, 
+    {
+      "PackageName": "busybox-static", 
+      "PackageVersion": "1:1.22.0-15ubuntu1.4"
+    }, 
+    {
+      "PackageName": "byobu", 
+      "PackageVersion": "5.106-0ubuntu1"
+    }, 
+    {
+      "PackageName": "bzip2", 
+      "PackageVersion": "1.0.6-8"
+    }, 
+    {
+      "PackageName": "ca-certificates", 
+      "PackageVersion": "20170717~16.04.1"
+    }, 
+    {
+      "PackageName": "ca-certificates-java", 
+      "PackageVersion": "20160321ubuntu1"
+    }, 
+    {
+      "PackageName": "cloud-guest-utils", 
+      "PackageVersion": "0.27-0ubuntu25.1"
+    }, 
+    {
+      "PackageName": "cloud-initramfs-copymods", 
+      "PackageVersion": "0.27ubuntu1.5"
+    }, 
+    {
+      "PackageName": "cloud-initramfs-dyn-netconf", 
+      "PackageVersion": "0.27ubuntu1.5"
+    }, 
+    {
+      "PackageName": "colord", 
+      "PackageVersion": "1.2.12-1ubuntu1"
+    }, 
+    {
+      "PackageName": "colord-data", 
+      "PackageVersion": "1.2.12-1ubuntu1"
+    }, 
+    {
+      "PackageName": "command-not-found", 
+      "PackageVersion": "0.3ubuntu16.04.2"
+    }, 
+    {
+      "PackageName": "command-not-found-data", 
+      "PackageVersion": "0.3ubuntu16.04.2"
+    }, 
+    {
+      "PackageName": "console-setup", 
+      "PackageVersion": "1.108ubuntu15.4"
+    }, 
+    {
+      "PackageName": "console-setup-linux", 
+      "PackageVersion": "1.108ubuntu15.4"
+    }, 
+    {
+      "PackageName": "coreutils", 
+      "PackageVersion": "8.25-2ubuntu3~16.04"
+    }, 
+    {
+      "PackageName": "cpio", 
+      "PackageVersion": "2.11+dfsg-5ubuntu1"
+    }, 
+    {
+      "PackageName": "cpp", 
+      "PackageVersion": "4:5.3.1-1ubuntu1"
+    }, 
+    {
+      "PackageName": "cpp-5", 
+      "PackageVersion": "5.4.0-6ubuntu1~16.04.11"
+    }, 
+    {
+      "PackageName": "crda", 
+      "PackageVersion": "3.13-1"
+    }, 
+    {
+      "PackageName": "cron", 
+      "PackageVersion": "3.0pl1-128ubuntu2"
+    }, 
+    {
+      "PackageName": "cryptsetup", 
+      "PackageVersion": "2:1.6.6-5ubuntu2.1"
+    }, 
+    {
+      "PackageName": "cryptsetup-bin", 
+      "PackageVersion": "2:1.6.6-5ubuntu2.1"
+    }, 
+    {
+      "PackageName": "curl", 
+      "PackageVersion": "7.47.0-1ubuntu2.13"
+    }, 
+    {
+      "PackageName": "dash", 
+      "PackageVersion": "0.5.8-2.1ubuntu2"
+    }, 
+    {
+      "PackageName": "dbus", 
+      "PackageVersion": "1.10.6-1ubuntu3.3"
+    }, 
+    {
+      "PackageName": "dconf-gsettings-backend:amd64", 
+      "PackageVersion": "0.24.0-2"
+    }, 
+    {
+      "PackageName": "dconf-service", 
+      "PackageVersion": "0.24.0-2"
+    }, 
+    {
+      "PackageName": "debconf", 
+      "PackageVersion": "1.5.58ubuntu1"
+    }, 
+    {
+      "PackageName": "debconf-i18n", 
+      "PackageVersion": "1.5.58ubuntu1"
+    }, 
+    {
+      "PackageName": "debianutils", 
+      "PackageVersion": "4.7"
+    }, 
+    {
+      "PackageName": "default-jre", 
+      "PackageVersion": "2:1.8-56ubuntu2"
+    }, 
+    {
+      "PackageName": "default-jre-headless", 
+      "PackageVersion": "2:1.8-56ubuntu2"
+    }, 
+    {
+      "PackageName": "dh-python", 
+      "PackageVersion": "2.20151103ubuntu1.1"
+    }, 
+    {
+      "PackageName": "dictionaries-common", 
+      "PackageVersion": "1.26.3"
+    }, 
+    {
+      "PackageName": "diffutils", 
+      "PackageVersion": "1:3.3-3"
+    }, 
+    {
+      "PackageName": "distro-info-data", 
+      "PackageVersion": "0.28ubuntu0.12"
+    }, 
+    {
+      "PackageName": "dmeventd", 
+      "PackageVersion": "2:1.02.110-1ubuntu10"
+    }, 
+    {
+      "PackageName": "dmidecode", 
+      "PackageVersion": "3.0-2ubuntu0.1"
+    }, 
+    {
+      "PackageName": "dmsetup", 
+      "PackageVersion": "2:1.02.110-1ubuntu10"
+    }, 
+    {
+      "PackageName": "dns-root-data", 
+      "PackageVersion": "2018013001~16.04.1"
+    }, 
+    {
+      "PackageName": "dnsmasq-base", 
+      "PackageVersion": "2.75-1ubuntu0.16.04.5"
+    }, 
+    {
+      "PackageName": "dnsutils", 
+      "PackageVersion": "1:9.10.3.dfsg.P4-8ubuntu1.14"
+    }, 
+    {
+      "PackageName": "dosfstools", 
+      "PackageVersion": "3.0.28-2ubuntu0.1"
+    }, 
+    {
+      "PackageName": "dpkg", 
+      "PackageVersion": "1.18.4ubuntu1.4"
+    }, 
+    {
+      "PackageName": "dropbear", 
+      "PackageVersion": "2016.72-1"
+    }, 
+    {
+      "PackageName": "dropbear-bin", 
+      "PackageVersion": "2016.72-1"
+    }, 
+    {
+      "PackageName": "dropbear-initramfs", 
+      "PackageVersion": "2016.72-1"
+    }, 
+    {
+      "PackageName": "dropbear-run", 
+      "PackageVersion": "2016.72-1"
+    }, 
+    {
+      "PackageName": "e2fslibs:amd64", 
+      "PackageVersion": "1.42.13-1ubuntu1"
+    }, 
+    {
+      "PackageName": "e2fsprogs", 
+      "PackageVersion": "1.42.13-1ubuntu1"
+    }, 
+    {
+      "PackageName": "ed", 
+      "PackageVersion": "1.10-2"
+    }, 
+    {
+      "PackageName": "eject", 
+      "PackageVersion": "2.1.5+deb1+cvs20081104-13.1ubuntu0.16.04.1"
+    }, 
+    {
+      "PackageName": "emacsen-common", 
+      "PackageVersion": "2.0.8"
+    }, 
+    {
+      "PackageName": "enchant", 
+      "PackageVersion": "1.6.0-10.1build2"
+    }, 
+    {
+      "PackageName": "ethtool", 
+      "PackageVersion": "1:4.5-1"
+    }, 
+    {
+      "PackageName": "file", 
+      "PackageVersion": "1:5.25-2ubuntu1.2"
+    }, 
+    {
+      "PackageName": "findutils", 
+      "PackageVersion": "4.6.0+git+20160126-2"
+    }, 
+    {
+      "PackageName": "fontconfig", 
+      "PackageVersion": "2.11.94-0ubuntu1.1"
+    }, 
+    {
+      "PackageName": "fontconfig-config", 
+      "PackageVersion": "2.11.94-0ubuntu1.1"
+    }, 
+    {
+      "PackageName": "fonts-dejavu-core", 
+      "PackageVersion": "2.35-1"
+    }, 
+    {
+      "PackageName": "fonts-dejavu-extra", 
+      "PackageVersion": "2.35-1"
+    }, 
+    {
+      "PackageName": "fonts-ubuntu-font-family-console", 
+      "PackageVersion": "1:0.83-0ubuntu2"
+    }, 
+    {
+      "PackageName": "friendly-recovery", 
+      "PackageVersion": "0.2.31ubuntu1"
+    }, 
+    {
+      "PackageName": "ftp", 
+      "PackageVersion": "0.17-33"
+    }, 
+    {
+      "PackageName": "fuse", 
+      "PackageVersion": "2.9.4-1ubuntu3.1"
+    }, 
+    {
+      "PackageName": "gawk", 
+      "PackageVersion": "1:4.1.3+dfsg-0.1"
+    }, 
+    {
+      "PackageName": "gcc-5-base:amd64", 
+      "PackageVersion": "5.4.0-6ubuntu1~16.04.11"
+    }, 
+    {
+      "PackageName": "gcc-6-base:amd64", 
+      "PackageVersion": "6.0.1-0ubuntu1"
+    }, 
+    {
+      "PackageName": "gedit", 
+      "PackageVersion": "3.18.3-0ubuntu4"
+    }, 
+    {
+      "PackageName": "gedit-common", 
+      "PackageVersion": "3.18.3-0ubuntu4"
+    }, 
+    {
+      "PackageName": "geoip-database", 
+      "PackageVersion": "20160408-1"
+    }, 
+    {
+      "PackageName": "gettext-base", 
+      "PackageVersion": "0.19.7-2ubuntu3.1"
+    }, 
+    {
+      "PackageName": "gir1.2-atk-1.0", 
+      "PackageVersion": "2.18.0-1"
+    }, 
+    {
+      "PackageName": "gir1.2-freedesktop:amd64", 
+      "PackageVersion": "1.46.0-3ubuntu1"
+    }, 
+    {
+      "PackageName": "gir1.2-gdkpixbuf-2.0:amd64", 
+      "PackageVersion": "2.32.2-1ubuntu1.6"
+    }, 
+    {
+      "PackageName": "gir1.2-glib-2.0:amd64", 
+      "PackageVersion": "1.46.0-3ubuntu1"
+    }, 
+    {
+      "PackageName": "gir1.2-gtk-3.0:amd64", 
+      "PackageVersion": "3.18.9-1ubuntu3.3"
+    }, 
+    {
+      "PackageName": "gir1.2-gtksource-3.0:amd64", 
+      "PackageVersion": "3.18.2-1"
+    }, 
+    {
+      "PackageName": "gir1.2-pango-1.0:amd64", 
+      "PackageVersion": "1.38.1-1"
+    }, 
+    {
+      "PackageName": "gir1.2-peas-1.0:amd64", 
+      "PackageVersion": "1.16.0-1ubuntu2"
+    }, 
+    {
+      "PackageName": "git", 
+      "PackageVersion": "1:2.7.4-0ubuntu1.6"
+    }, 
+    {
+      "PackageName": "git-man", 
+      "PackageVersion": "1:2.7.4-0ubuntu1.6"
+    }, 
+    {
+      "PackageName": "glib-networking:amd64", 
+      "PackageVersion": "2.48.2-1~ubuntu16.04.1"
+    }, 
+    {
+      "PackageName": "glib-networking-common", 
+      "PackageVersion": "2.48.2-1~ubuntu16.04.1"
+    }, 
+    {
+      "PackageName": "glib-networking-services", 
+      "PackageVersion": "2.48.2-1~ubuntu16.04.1"
+    }, 
+    {
+      "PackageName": "gnome-user-guide", 
+      "PackageVersion": "3.18.1-1"
+    }, 
+    {
+      "PackageName": "gnupg", 
+      "PackageVersion": "1.4.20-1ubuntu3.3"
+    }, 
+    {
+      "PackageName": "gpgv", 
+      "PackageVersion": "1.4.20-1ubuntu3.3"
+    }, 
+    {
+      "PackageName": "grep", 
+      "PackageVersion": "2.25-1~16.04.1"
+    }, 
+    {
+      "PackageName": "groff-base", 
+      "PackageVersion": "1.22.3-7"
+    }, 
+    {
+      "PackageName": "grub-common", 
+      "PackageVersion": "2.02~beta2-36ubuntu3.20"
+    }, 
+    {
+      "PackageName": "grub-gfxpayload-lists", 
+      "PackageVersion": "0.7"
+    }, 
+    {
+      "PackageName": "grub-legacy-ec2", 
+      "PackageVersion": "18.2-4-g05926e48-0ubuntu1~16.04.2"
+    }, 
+    {
+      "PackageName": "grub-pc", 
+      "PackageVersion": "2.02~beta2-36ubuntu3.20"
+    }, 
+    {
+      "PackageName": "grub-pc-bin", 
+      "PackageVersion": "2.02~beta2-36ubuntu3.20"
+    }, 
+    {
+      "PackageName": "grub2-common", 
+      "PackageVersion": "2.02~beta2-36ubuntu3.20"
+    }, 
+    {
+      "PackageName": "gsettings-desktop-schemas", 
+      "PackageVersion": "3.18.1-1ubuntu1"
+    }, 
+    {
+      "PackageName": "gsfonts", 
+      "PackageVersion": "1:8.11+urwcyr1.0.7~pre44-4.2ubuntu1"
+    }, 
+    {
+      "PackageName": "gsfonts-x11", 
+      "PackageVersion": "0.24"
+    }, 
+    {
+      "PackageName": "gstreamer1.0-plugins-base:amd64", 
+      "PackageVersion": "1.8.3-1ubuntu0.3"
+    }, 
+    {
+      "PackageName": "gstreamer1.0-plugins-good:amd64", 
+      "PackageVersion": "1.8.3-1ubuntu0.4"
+    }, 
+    {
+      "PackageName": "gstreamer1.0-x:amd64", 
+      "PackageVersion": "1.8.3-1ubuntu0.3"
+    }, 
+    {
+      "PackageName": "gzip", 
+      "PackageVersion": "1.6-4ubuntu1"
+    }, 
+    {
+      "PackageName": "hdparm", 
+      "PackageVersion": "9.48+ds-1ubuntu0.1"
+    }, 
+    {
+      "PackageName": "hicolor-icon-theme", 
+      "PackageVersion": "0.15-0ubuntu1.1"
+    }, 
+    {
+      "PackageName": "hostname", 
+      "PackageVersion": "3.16ubuntu2"
+    }, 
+    {
+      "PackageName": "humanity-icon-theme", 
+      "PackageVersion": "0.6.10.1"
+    }, 
+    {
+      "PackageName": "hunspell-en-us", 
+      "PackageVersion": "20070829-6ubuntu3"
+    }, 
+    {
+      "PackageName": "ifenslave", 
+      "PackageVersion": "2.7ubuntu1"
+    }, 
+    {
+      "PackageName": "ifupdown", 
+      "PackageVersion": "0.8.10ubuntu1.4"
+    }, 
+    {
+      "PackageName": "info", 
+      "PackageVersion": "6.1.0.dfsg.1-5"
+    }, 
+    {
+      "PackageName": "init", 
+      "PackageVersion": "1.29ubuntu4"
+    }, 
+    {
+      "PackageName": "init-system-helpers", 
+      "PackageVersion": "1.29ubuntu4"
+    }, 
+    {
+      "PackageName": "initramfs-tools", 
+      "PackageVersion": "0.122ubuntu8.14"
+    }, 
+    {
+      "PackageName": "initramfs-tools-bin", 
+      "PackageVersion": "0.122ubuntu8.14"
+    }, 
+    {
+      "PackageName": "initramfs-tools-core", 
+      "PackageVersion": "0.122ubuntu8.14"
+    }, 
+    {
+      "PackageName": "initscripts", 
+      "PackageVersion": "2.88dsf-59.3ubuntu2"
+    }, 
+    {
+      "PackageName": "insserv", 
+      "PackageVersion": "1.14.0-5ubuntu3"
+    }, 
+    {
+      "PackageName": "install-info", 
+      "PackageVersion": "6.1.0.dfsg.1-5"
+    }, 
+    {
+      "PackageName": "installation-report", 
+      "PackageVersion": "2.60ubuntu1"
+    }, 
+    {
+      "PackageName": "intel-microcode", 
+      "PackageVersion": "3.20190514.0ubuntu0.16.04.2"
+    }, 
+    {
+      "PackageName": "iproute2", 
+      "PackageVersion": "4.3.0-1ubuntu3.16.04.3"
+    }, 
+    {
+      "PackageName": "iptables", 
+      "PackageVersion": "1.6.0-2ubuntu3"
+    }, 
+    {
+      "PackageName": "iputils-ping", 
+      "PackageVersion": "3:20121221-5ubuntu2"
+    }, 
+    {
+      "PackageName": "iputils-tracepath", 
+      "PackageVersion": "3:20121221-5ubuntu2"
+    }, 
+    {
+      "PackageName": "irqbalance", 
+      "PackageVersion": "1.1.0-2ubuntu1"
+    }, 
+    {
+      "PackageName": "isc-dhcp-client", 
+      "PackageVersion": "4.3.3-5ubuntu12.10"
+    }, 
+    {
+      "PackageName": "isc-dhcp-common", 
+      "PackageVersion": "4.3.3-5ubuntu12.10"
+    }, 
+    {
+      "PackageName": "iso-codes", 
+      "PackageVersion": "3.65-1"
+    }, 
+    {
+      "PackageName": "iucode-tool", 
+      "PackageVersion": "1.5.1-1ubuntu0.1"
+    }, 
+    {
+      "PackageName": "iw", 
+      "PackageVersion": "3.17-1"
+    }, 
+    {
+      "PackageName": "java-common", 
+      "PackageVersion": "0.56ubuntu2"
+    }, 
+    {
+      "PackageName": "kbd", 
+      "PackageVersion": "1.15.5-1ubuntu5"
+    }, 
+    {
+      "PackageName": "keyboard-configuration", 
+      "PackageVersion": "1.108ubuntu15.4"
+    }, 
+    {
+      "PackageName": "klibc-utils", 
+      "PackageVersion": "2.0.4-8ubuntu1.16.04.4"
+    }, 
+    {
+      "PackageName": "kmod", 
+      "PackageVersion": "22-1ubuntu5"
+    }, 
+    {
+      "PackageName": "krb5-locales", 
+      "PackageVersion": "1.13.2+dfsg-5ubuntu2.1"
+    }, 
+    {
+      "PackageName": "language-pack-en", 
+      "PackageVersion": "1:16.04+20161009"
+    }, 
+    {
+      "PackageName": "language-pack-en-base", 
+      "PackageVersion": "1:16.04+20160627"
+    }, 
+    {
+      "PackageName": "language-selector-common", 
+      "PackageVersion": "0.165.4"
+    }, 
+    {
+      "PackageName": "laptop-detect", 
+      "PackageVersion": "0.13.7ubuntu2"
+    }, 
+    {
+      "PackageName": "less", 
+      "PackageVersion": "481-2.1ubuntu0.2"
+    }, 
+    {
+      "PackageName": "libaa1:amd64", 
+      "PackageVersion": "1.4p5-44build1"
+    }, 
+    {
+      "PackageName": "libaccountsservice0:amd64", 
+      "PackageVersion": "0.6.40-2ubuntu11.3"
+    }, 
+    {
+      "PackageName": "libacl1:amd64", 
+      "PackageVersion": "2.2.52-3"
+    }, 
+    {
+      "PackageName": "libapparmor-perl", 
+      "PackageVersion": "2.10.95-0ubuntu2.11"
+    }, 
+    {
+      "PackageName": "libapparmor1:amd64", 
+      "PackageVersion": "2.10.95-0ubuntu2.11"
+    }, 
+    {
+      "PackageName": "libapt-inst2.0:amd64", 
+      "PackageVersion": "1.2.29ubuntu0.1"
+    }, 
+    {
+      "PackageName": "libapt-pkg5.0:amd64", 
+      "PackageVersion": "1.2.29ubuntu0.1"
+    }, 
+    {
+      "PackageName": "libasn1-8-heimdal:amd64", 
+      "PackageVersion": "1.7~git20150920+dfsg-4ubuntu1.16.04.1"
+    }, 
+    {
+      "PackageName": "libasound2:amd64", 
+      "PackageVersion": "1.1.0-0ubuntu1"
+    }, 
+    {
+      "PackageName": "libasound2-data", 
+      "PackageVersion": "1.1.0-0ubuntu1"
+    }, 
+    {
+      "PackageName": "libaspell15:amd64", 
+      "PackageVersion": "0.60.7~20110707-3build1"
+    }, 
+    {
+      "PackageName": "libasprintf0v5:amd64", 
+      "PackageVersion": "0.19.7-2ubuntu3.1"
+    }, 
+    {
+      "PackageName": "libasyncns0:amd64", 
+      "PackageVersion": "0.8-5build1"
+    }, 
+    {
+      "PackageName": "libatk-bridge2.0-0:amd64", 
+      "PackageVersion": "2.18.1-2ubuntu1"
+    }, 
+    {
+      "PackageName": "libatk1.0-0:amd64", 
+      "PackageVersion": "2.18.0-1"
+    }, 
+    {
+      "PackageName": "libatk1.0-data", 
+      "PackageVersion": "2.18.0-1"
+    }, 
+    {
+      "PackageName": "libatm1:amd64", 
+      "PackageVersion": "1:2.5.1-1.5"
+    }, 
+    {
+      "PackageName": "libatspi2.0-0:amd64", 
+      "PackageVersion": "2.18.3-4ubuntu1"
+    }, 
+    {
+      "PackageName": "libattr1:amd64", 
+      "PackageVersion": "1:2.4.47-2"
+    }, 
+    {
+      "PackageName": "libaudit-common", 
+      "PackageVersion": "1:2.4.5-1ubuntu2.1"
+    }, 
+    {
+      "PackageName": "libaudit1:amd64", 
+      "PackageVersion": "1:2.4.5-1ubuntu2.1"
+    }, 
+    {
+      "PackageName": "libavahi-client3:amd64", 
+      "PackageVersion": "0.6.32~rc+dfsg-1ubuntu2.3"
+    }, 
+    {
+      "PackageName": "libavahi-common-data:amd64", 
+      "PackageVersion": "0.6.32~rc+dfsg-1ubuntu2.3"
+    }, 
+    {
+      "PackageName": "libavahi-common3:amd64", 
+      "PackageVersion": "0.6.32~rc+dfsg-1ubuntu2.3"
+    }, 
+    {
+      "PackageName": "libavc1394-0:amd64", 
+      "PackageVersion": "0.5.4-4"
+    }, 
+    {
+      "PackageName": "libbind9-140:amd64", 
+      "PackageVersion": "1:9.10.3.dfsg.P4-8ubuntu1.14"
+    }, 
+    {
+      "PackageName": "libblkid1:amd64", 
+      "PackageVersion": "2.27.1-6ubuntu3.6"
+    }, 
+    {
+      "PackageName": "libboost-filesystem1.58.0:amd64", 
+      "PackageVersion": "1.58.0+dfsg-5ubuntu3.1"
+    }, 
+    {
+      "PackageName": "libboost-system1.58.0:amd64", 
+      "PackageVersion": "1.58.0+dfsg-5ubuntu3.1"
+    }, 
+    {
+      "PackageName": "libbsd0:amd64", 
+      "PackageVersion": "0.8.2-1"
+    }, 
+    {
+      "PackageName": "libbz2-1.0:amd64", 
+      "PackageVersion": "1.0.6-8"
+    }, 
+    {
+      "PackageName": "libc-bin", 
+      "PackageVersion": "2.23-0ubuntu10"
+    }, 
+    {
+      "PackageName": "libc6:amd64", 
+      "PackageVersion": "2.23-0ubuntu10"
+    }, 
+    {
+      "PackageName": "libcaca0:amd64", 
+      "PackageVersion": "0.99.beta19-2ubuntu0.16.04.1"
+    }, 
+    {
+      "PackageName": "libcairo-gobject2:amd64", 
+      "PackageVersion": "1.14.6-1"
+    }, 
+    {
+      "PackageName": "libcairo2:amd64", 
+      "PackageVersion": "1.14.6-1"
+    }, 
+    {
+      "PackageName": "libcap-ng0:amd64", 
+      "PackageVersion": "0.7.7-1"
+    }, 
+    {
+      "PackageName": "libcap2:amd64", 
+      "PackageVersion": "1:2.24-12"
+    }, 
+    {
+      "PackageName": "libcap2-bin", 
+      "PackageVersion": "1:2.24-12"
+    }, 
+    {
+      "PackageName": "libcapnp-0.5.3:amd64", 
+      "PackageVersion": "0.5.3-2ubuntu1.1"
+    }, 
+    {
+      "PackageName": "libcdparanoia0:amd64", 
+      "PackageVersion": "3.10.2+debian-11"
+    }, 
+    {
+      "PackageName": "libcolord2:amd64", 
+      "PackageVersion": "1.2.12-1ubuntu1"
+    }, 
+    {
+      "PackageName": "libcolorhug2:amd64", 
+      "PackageVersion": "1.2.12-1ubuntu1"
+    }, 
+    {
+      "PackageName": "libcomerr2:amd64", 
+      "PackageVersion": "1.42.13-1ubuntu1"
+    }, 
+    {
+      "PackageName": "libcroco3:amd64", 
+      "PackageVersion": "0.6.11-1"
+    }, 
+    {
+      "PackageName": "libcryptsetup4:amd64", 
+      "PackageVersion": "2:1.6.6-5ubuntu2.1"
+    }, 
+    {
+      "PackageName": "libcups2:amd64", 
+      "PackageVersion": "2.1.3-4ubuntu0.7"
+    }, 
+    {
+      "PackageName": "libcurl3-gnutls:amd64", 
+      "PackageVersion": "7.47.0-1ubuntu2.13"
+    }, 
+    {
+      "PackageName": "libdatrie1:amd64", 
+      "PackageVersion": "0.2.10-2"
+    }, 
+    {
+      "PackageName": "libdb5.3:amd64", 
+      "PackageVersion": "5.3.28-11ubuntu0.2"
+    }, 
+    {
+      "PackageName": "libdbus-1-3:amd64", 
+      "PackageVersion": "1.10.6-1ubuntu3.3"
+    }, 
+    {
+      "PackageName": "libdbus-glib-1-2:amd64", 
+      "PackageVersion": "0.106-1"
+    }, 
+    {
+      "PackageName": "libdconf1:amd64", 
+      "PackageVersion": "0.24.0-2"
+    }, 
+    {
+      "PackageName": "libdebconfclient0:amd64", 
+      "PackageVersion": "0.198ubuntu1"
+    }, 
+    {
+      "PackageName": "libdevmapper-event1.02.1:amd64", 
+      "PackageVersion": "2:1.02.110-1ubuntu10"
+    }, 
+    {
+      "PackageName": "libdevmapper1.02.1:amd64", 
+      "PackageVersion": "2:1.02.110-1ubuntu10"
+    }, 
+    {
+      "PackageName": "libdns-export162", 
+      "PackageVersion": "1:9.10.3.dfsg.P4-8ubuntu1.14"
+    }, 
+    {
+      "PackageName": "libdns162:amd64", 
+      "PackageVersion": "1:9.10.3.dfsg.P4-8ubuntu1.14"
+    }, 
+    {
+      "PackageName": "libdrm-amdgpu1:amd64", 
+      "PackageVersion": "2.4.91-2~16.04.1"
+    }, 
+    {
+      "PackageName": "libdrm-common", 
+      "PackageVersion": "2.4.91-2~16.04.1"
+    }, 
+    {
+      "PackageName": "libdrm-intel1:amd64", 
+      "PackageVersion": "2.4.91-2~16.04.1"
+    }, 
+    {
+      "PackageName": "libdrm-nouveau2:amd64", 
+      "PackageVersion": "2.4.91-2~16.04.1"
+    }, 
+    {
+      "PackageName": "libdrm-radeon1:amd64", 
+      "PackageVersion": "2.4.91-2~16.04.1"
+    }, 
+    {
+      "PackageName": "libdrm2:amd64", 
+      "PackageVersion": "2.4.91-2~16.04.1"
+    }, 
+    {
+      "PackageName": "libdumbnet1:amd64", 
+      "PackageVersion": "1.12-7"
+    }, 
+    {
+      "PackageName": "libdv4:amd64", 
+      "PackageVersion": "1.0.0-7"
+    }, 
+    {
+      "PackageName": "libedit2:amd64", 
+      "PackageVersion": "3.1-20150325-1ubuntu2"
+    }, 
+    {
+      "PackageName": "libegl1-mesa:amd64", 
+      "PackageVersion": "18.0.5-0ubuntu0~16.04.1"
+    }, 
+    {
+      "PackageName": "libelf1:amd64", 
+      "PackageVersion": "0.165-3ubuntu1.1"
+    }, 
+    {
+      "PackageName": "libenchant1c2a:amd64", 
+      "PackageVersion": "1.6.0-10.1build2"
+    }, 
+    {
+      "PackageName": "libepoxy0:amd64", 
+      "PackageVersion": "1.3.1-1ubuntu0.16.04.2"
+    }, 
+    {
+      "PackageName": "liberror-perl", 
+      "PackageVersion": "0.17-1.2"
+    }, 
+    {
+      "PackageName": "libestr0", 
+      "PackageVersion": "0.1.10-1"
+    }, 
+    {
+      "PackageName": "libevent-2.0-5:amd64", 
+      "PackageVersion": "2.0.21-stable-2ubuntu0.16.04.1"
+    }, 
+    {
+      "PackageName": "libexif12:amd64", 
+      "PackageVersion": "0.6.21-2"
+    }, 
+    {
+      "PackageName": "libexpat1:amd64", 
+      "PackageVersion": "2.1.0-7ubuntu0.16.04.3"
+    }, 
+    {
+      "PackageName": "libfdisk1:amd64", 
+      "PackageVersion": "2.27.1-6ubuntu3.6"
+    }, 
+    {
+      "PackageName": "libffi6:amd64", 
+      "PackageVersion": "3.2.1-4"
+    }, 
+    {
+      "PackageName": "libflac8:amd64", 
+      "PackageVersion": "1.3.1-4"
+    }, 
+    {
+      "PackageName": "libfluidsynth1:amd64", 
+      "PackageVersion": "1.1.6-3"
+    }, 
+    {
+      "PackageName": "libfontconfig1:amd64", 
+      "PackageVersion": "2.11.94-0ubuntu1.1"
+    }, 
+    {
+      "PackageName": "libfontenc1:amd64", 
+      "PackageVersion": "1:1.1.3-1"
+    }, 
+    {
+      "PackageName": "libfreetype6:amd64", 
+      "PackageVersion": "2.6.1-0.1ubuntu2.3"
+    }, 
+    {
+      "PackageName": "libfribidi0:amd64", 
+      "PackageVersion": "0.19.7-1"
+    }, 
+    {
+      "PackageName": "libfuse2:amd64", 
+      "PackageVersion": "2.9.4-1ubuntu3.1"
+    }, 
+    {
+      "PackageName": "libgbm1:amd64", 
+      "PackageVersion": "18.0.5-0ubuntu0~16.04.1"
+    }, 
+    {
+      "PackageName": "libgcc1:amd64", 
+      "PackageVersion": "1:6.0.1-0ubuntu1"
+    }, 
+    {
+      "PackageName": "libgcrypt20:amd64", 
+      "PackageVersion": "1.6.5-2ubuntu0.5"
+    }, 
+    {
+      "PackageName": "libgd3:amd64", 
+      "PackageVersion": "2.1.1-4ubuntu0.16.04.11"
+    }, 
+    {
+      "PackageName": "libgdbm3:amd64", 
+      "PackageVersion": "1.8.3-13.1"
+    }, 
+    {
+      "PackageName": "libgdk-pixbuf2.0-0:amd64", 
+      "PackageVersion": "2.32.2-1ubuntu1.6"
+    }, 
+    {
+      "PackageName": "libgdk-pixbuf2.0-common", 
+      "PackageVersion": "2.32.2-1ubuntu1.6"
+    }, 
+    {
+      "PackageName": "libgeoip1:amd64", 
+      "PackageVersion": "1.6.9-1"
+    }, 
+    {
+      "PackageName": "libgif7:amd64", 
+      "PackageVersion": "5.1.4-0.3~16.04"
+    }, 
+    {
+      "PackageName": "libgirepository-1.0-1:amd64", 
+      "PackageVersion": "1.46.0-3ubuntu1"
+    }, 
+    {
+      "PackageName": "libgl1-mesa-dri:amd64", 
+      "PackageVersion": "18.0.5-0ubuntu0~16.04.1"
+    }, 
+    {
+      "PackageName": "libgl1-mesa-glx:amd64", 
+      "PackageVersion": "18.0.5-0ubuntu0~16.04.1"
+    }, 
+    {
+      "PackageName": "libglapi-mesa:amd64", 
+      "PackageVersion": "18.0.5-0ubuntu0~16.04.1"
+    }, 
+    {
+      "PackageName": "libglib2.0-0:amd64", 
+      "PackageVersion": "2.48.2-0ubuntu4.1"
+    }, 
+    {
+      "PackageName": "libglib2.0-data", 
+      "PackageVersion": "2.48.2-0ubuntu4.1"
+    }, 
+    {
+      "PackageName": "libglu1-mesa:amd64", 
+      "PackageVersion": "9.0.0-2.1"
+    }, 
+    {
+      "PackageName": "libgmp10:amd64", 
+      "PackageVersion": "2:6.1.0+dfsg-2"
+    }, 
+    {
+      "PackageName": "libgnutls-openssl27:amd64", 
+      "PackageVersion": "3.4.10-4ubuntu1.5"
+    }, 
+    {
+      "PackageName": "libgnutls30:amd64", 
+      "PackageVersion": "3.4.10-4ubuntu1.5"
+    }, 
+    {
+      "PackageName": "libgpg-error0:amd64", 
+      "PackageVersion": "1.21-2ubuntu1"
+    }, 
+    {
+      "PackageName": "libgphoto2-6:amd64", 
+      "PackageVersion": "2.5.9-3"
+    }, 
+    {
+      "PackageName": "libgphoto2-l10n", 
+      "PackageVersion": "2.5.9-3"
+    }, 
+    {
+      "PackageName": "libgphoto2-port12:amd64", 
+      "PackageVersion": "2.5.9-3"
+    }, 
+    {
+      "PackageName": "libgpm2:amd64", 
+      "PackageVersion": "1.20.4-6.1"
+    }, 
+    {
+      "PackageName": "libgraphite2-3:amd64", 
+      "PackageVersion": "1.3.10-0ubuntu0.16.04.1"
+    }, 
+    {
+      "PackageName": "libgssapi-krb5-2:amd64", 
+      "PackageVersion": "1.13.2+dfsg-5ubuntu2.1"
+    }, 
+    {
+      "PackageName": "libgssapi3-heimdal:amd64", 
+      "PackageVersion": "1.7~git20150920+dfsg-4ubuntu1.16.04.1"
+    }, 
+    {
+      "PackageName": "libgstreamer-plugins-base1.0-0:amd64", 
+      "PackageVersion": "1.8.3-1ubuntu0.3"
+    }, 
+    {
+      "PackageName": "libgstreamer-plugins-good1.0-0:amd64", 
+      "PackageVersion": "1.8.3-1ubuntu0.4"
+    }, 
+    {
+      "PackageName": "libgstreamer1.0-0:amd64", 
+      "PackageVersion": "1.8.3-1~ubuntu0.1"
+    }, 
+    {
+      "PackageName": "libgtk-3-0:amd64", 
+      "PackageVersion": "3.18.9-1ubuntu3.3"
+    }, 
+    {
+      "PackageName": "libgtk-3-bin", 
+      "PackageVersion": "3.18.9-1ubuntu3.3"
+    }, 
+    {
+      "PackageName": "libgtk-3-common", 
+      "PackageVersion": "3.18.9-1ubuntu3.3"
+    }, 
+    {
+      "PackageName": "libgtk2.0-0:amd64", 
+      "PackageVersion": "2.24.30-1ubuntu1.16.04.2"
+    }, 
+    {
+      "PackageName": "libgtk2.0-bin", 
+      "PackageVersion": "2.24.30-1ubuntu1.16.04.2"
+    }, 
+    {
+      "PackageName": "libgtk2.0-common", 
+      "PackageVersion": "2.24.30-1ubuntu1.16.04.2"
+    }, 
+    {
+      "PackageName": "libgtksourceview-3.0-1:amd64", 
+      "PackageVersion": "3.18.2-1"
+    }, 
+    {
+      "PackageName": "libgtksourceview-3.0-common", 
+      "PackageVersion": "3.18.2-1"
+    }, 
+    {
+      "PackageName": "libgudev-1.0-0:amd64", 
+      "PackageVersion": "1:230-2"
+    }, 
+    {
+      "PackageName": "libgusb2:amd64", 
+      "PackageVersion": "0.2.9-0ubuntu1"
+    }, 
+    {
+      "PackageName": "libharfbuzz-icu0:amd64", 
+      "PackageVersion": "1.0.1-1ubuntu0.1"
+    }, 
+    {
+      "PackageName": "libharfbuzz0b:amd64", 
+      "PackageVersion": "1.0.1-1ubuntu0.1"
+    }, 
+    {
+      "PackageName": "libhcrypto4-heimdal:amd64", 
+      "PackageVersion": "1.7~git20150920+dfsg-4ubuntu1.16.04.1"
+    }, 
+    {
+      "PackageName": "libheimbase1-heimdal:amd64", 
+      "PackageVersion": "1.7~git20150920+dfsg-4ubuntu1.16.04.1"
+    }, 
+    {
+      "PackageName": "libheimntlm0-heimdal:amd64", 
+      "PackageVersion": "1.7~git20150920+dfsg-4ubuntu1.16.04.1"
+    }, 
+    {
+      "PackageName": "libhogweed4:amd64", 
+      "PackageVersion": "3.2-1ubuntu0.16.04.1"
+    }, 
+    {
+      "PackageName": "libhunspell-1.3-0:amd64", 
+      "PackageVersion": "1.3.3-4ubuntu1"
+    }, 
+    {
+      "PackageName": "libhx509-5-heimdal:amd64", 
+      "PackageVersion": "1.7~git20150920+dfsg-4ubuntu1.16.04.1"
+    }, 
+    {
+      "PackageName": "libhyphen0:amd64", 
+      "PackageVersion": "2.8.8-2ubuntu1"
+    }, 
+    {
+      "PackageName": "libice6:amd64", 
+      "PackageVersion": "2:1.0.9-1"
+    }, 
+    {
+      "PackageName": "libicu55:amd64", 
+      "PackageVersion": "55.1-7ubuntu0.4"
+    }, 
+    {
+      "PackageName": "libidn11:amd64", 
+      "PackageVersion": "1.32-3ubuntu1.2"
+    }, 
+    {
+      "PackageName": "libiec61883-0:amd64", 
+      "PackageVersion": "1.2.0-0.2"
+    }, 
+    {
+      "PackageName": "libieee1284-3:amd64", 
+      "PackageVersion": "0.2.11-12"
+    }, 
+    {
+      "PackageName": "libisc-export160", 
+      "PackageVersion": "1:9.10.3.dfsg.P4-8ubuntu1.14"
+    }, 
+    {
+      "PackageName": "libisc160:amd64", 
+      "PackageVersion": "1:9.10.3.dfsg.P4-8ubuntu1.14"
+    }, 
+    {
+      "PackageName": "libisccc140:amd64", 
+      "PackageVersion": "1:9.10.3.dfsg.P4-8ubuntu1.14"
+    }, 
+    {
+      "PackageName": "libisccfg140:amd64", 
+      "PackageVersion": "1:9.10.3.dfsg.P4-8ubuntu1.14"
+    }, 
+    {
+      "PackageName": "libisl15:amd64", 
+      "PackageVersion": "0.16.1-1"
+    }, 
+    {
+      "PackageName": "libjack-jackd2-0:amd64", 
+      "PackageVersion": "1.9.10+20150825git1ed50c92~dfsg-1ubuntu1"
+    }, 
+    {
+      "PackageName": "libjavascriptcoregtk-4.0-18:amd64", 
+      "PackageVersion": "2.20.5-0ubuntu0.16.04.1"
+    }, 
+    {
+      "PackageName": "libjbig0:amd64", 
+      "PackageVersion": "2.1-3.1"
+    }, 
+    {
+      "PackageName": "libjpeg-turbo8:amd64", 
+      "PackageVersion": "1.4.2-0ubuntu3.1"
+    }, 
+    {
+      "PackageName": "libjpeg8:amd64", 
+      "PackageVersion": "8c-2ubuntu8"
+    }, 
+    {
+      "PackageName": "libjson-c2:amd64", 
+      "PackageVersion": "0.11-4ubuntu2"
+    }, 
+    {
+      "PackageName": "libjson-glib-1.0-0:amd64", 
+      "PackageVersion": "1.1.2-0ubuntu1"
+    }, 
+    {
+      "PackageName": "libjson-glib-1.0-common", 
+      "PackageVersion": "1.1.2-0ubuntu1"
+    }, 
+    {
+      "PackageName": "libk5crypto3:amd64", 
+      "PackageVersion": "1.13.2+dfsg-5ubuntu2.1"
+    }, 
+    {
+      "PackageName": "libkeyutils1:amd64", 
+      "PackageVersion": "1.5.9-8ubuntu1"
+    }, 
+    {
+      "PackageName": "libklibc", 
+      "PackageVersion": "2.0.4-8ubuntu1.16.04.4"
+    }, 
+    {
+      "PackageName": "libkmod2:amd64", 
+      "PackageVersion": "22-1ubuntu5"
+    }, 
+    {
+      "PackageName": "libkrb5-26-heimdal:amd64", 
+      "PackageVersion": "1.7~git20150920+dfsg-4ubuntu1.16.04.1"
+    }, 
+    {
+      "PackageName": "libkrb5-3:amd64", 
+      "PackageVersion": "1.13.2+dfsg-5ubuntu2.1"
+    }, 
+    {
+      "PackageName": "libkrb5support0:amd64", 
+      "PackageVersion": "1.13.2+dfsg-5ubuntu2.1"
+    }, 
+    {
+      "PackageName": "liblcms2-2:amd64", 
+      "PackageVersion": "2.6-3ubuntu2.1"
+    }, 
+    {
+      "PackageName": "libldap-2.4-2:amd64", 
+      "PackageVersion": "2.4.42+dfsg-2ubuntu3.3"
+    }, 
+    {
+      "PackageName": "libllvm6.0:amd64", 
+      "PackageVersion": "1:6.0-1ubuntu2~16.04.1"
+    }, 
+    {
+      "PackageName": "liblocale-gettext-perl", 
+      "PackageVersion": "1.07-1build1"
+    }, 
+    {
+      "PackageName": "libltdl7:amd64", 
+      "PackageVersion": "2.4.6-0.1"
+    }, 
+    {
+      "PackageName": "liblvm2app2.2:amd64", 
+      "PackageVersion": "2.02.133-1ubuntu10"
+    }, 
+    {
+      "PackageName": "liblvm2cmd2.02:amd64", 
+      "PackageVersion": "2.02.133-1ubuntu10"
+    }, 
+    {
+      "PackageName": "liblwres141:amd64", 
+      "PackageVersion": "1:9.10.3.dfsg.P4-8ubuntu1.14"
+    }, 
+    {
+      "PackageName": "liblxc1", 
+      "PackageVersion": "2.0.8-0ubuntu1~16.04.2"
+    }, 
+    {
+      "PackageName": "liblz4-1:amd64", 
+      "PackageVersion": "0.0~r131-2ubuntu2"
+    }, 
+    {
+      "PackageName": "liblzma5:amd64", 
+      "PackageVersion": "5.1.1alpha+20120614-2ubuntu2"
+    }, 
+    {
+      "PackageName": "liblzo2-2:amd64", 
+      "PackageVersion": "2.08-1.2"
+    }, 
+    {
+      "PackageName": "libmad0:amd64", 
+      "PackageVersion": "0.15.1b-9ubuntu16.04.1"
+    }, 
+    {
+      "PackageName": "libmagic1:amd64", 
+      "PackageVersion": "1:5.25-2ubuntu1.2"
+    }, 
+    {
+      "PackageName": "libmikmod3:amd64", 
+      "PackageVersion": "3.3.8-2"
+    }, 
+    {
+      "PackageName": "libmirclient9:amd64", 
+      "PackageVersion": "0.26.3+16.04.20170605-0ubuntu1.1"
+    }, 
+    {
+      "PackageName": "libmircommon7:amd64", 
+      "PackageVersion": "0.26.3+16.04.20170605-0ubuntu1.1"
+    }, 
+    {
+      "PackageName": "libmircore1:amd64", 
+      "PackageVersion": "0.26.3+16.04.20170605-0ubuntu1.1"
+    }, 
+    {
+      "PackageName": "libmirprotobuf3:amd64", 
+      "PackageVersion": "0.26.3+16.04.20170605-0ubuntu1.1"
+    }, 
+    {
+      "PackageName": "libmnl0:amd64", 
+      "PackageVersion": "1.0.3-5"
+    }, 
+    {
+      "PackageName": "libmount1:amd64", 
+      "PackageVersion": "2.27.1-6ubuntu3.6"
+    }, 
+    {
+      "PackageName": "libmpc3:amd64", 
+      "PackageVersion": "1.0.3-1"
+    }, 
+    {
+      "PackageName": "libmpdec2:amd64", 
+      "PackageVersion": "2.4.2-1"
+    }, 
+    {
+      "PackageName": "libmpfr4:amd64", 
+      "PackageVersion": "3.1.4-1"
+    }, 
+    {
+      "PackageName": "libmspack0:amd64", 
+      "PackageVersion": "0.5-1ubuntu0.16.04.3"
+    }, 
+    {
+      "PackageName": "libncurses5:amd64", 
+      "PackageVersion": "6.0+20160213-1ubuntu1"
+    }, 
+    {
+      "PackageName": "libncursesw5:amd64", 
+      "PackageVersion": "6.0+20160213-1ubuntu1"
+    }, 
+    {
+      "PackageName": "libnetfilter-conntrack3:amd64", 
+      "PackageVersion": "1.0.5-1"
+    }, 
+    {
+      "PackageName": "libnettle6:amd64", 
+      "PackageVersion": "3.2-1ubuntu0.16.04.1"
+    }, 
+    {
+      "PackageName": "libnewt0.52:amd64", 
+      "PackageVersion": "0.52.18-1ubuntu2"
+    }, 
+    {
+      "PackageName": "libnfnetlink0:amd64", 
+      "PackageVersion": "1.0.1-3"
+    }, 
+    {
+      "PackageName": "libnih1:amd64", 
+      "PackageVersion": "1.0.3-4.3ubuntu1"
+    }, 
+    {
+      "PackageName": "libnl-3-200:amd64", 
+      "PackageVersion": "3.2.27-1ubuntu0.16.04.1"
+    }, 
+    {
+      "PackageName": "libnl-genl-3-200:amd64", 
+      "PackageVersion": "3.2.27-1ubuntu0.16.04.1"
+    }, 
+    {
+      "PackageName": "libnotify4:amd64", 
+      "PackageVersion": "0.7.6-2svn1"
+    }, 
+    {
+      "PackageName": "libnspr4:amd64", 
+      "PackageVersion": "2:4.13.1-0ubuntu0.16.04.1"
+    }, 
+    {
+      "PackageName": "libnss3:amd64", 
+      "PackageVersion": "2:3.28.4-0ubuntu0.16.04.5"
+    }, 
+    {
+      "PackageName": "libnss3-nssdb", 
+      "PackageVersion": "2:3.28.4-0ubuntu0.16.04.5"
+    }, 
+    {
+      "PackageName": "libnuma1:amd64", 
+      "PackageVersion": "2.0.11-1ubuntu1.1"
+    }, 
+    {
+      "PackageName": "libogg0:amd64", 
+      "PackageVersion": "1.3.2-1"
+    }, 
+    {
+      "PackageName": "libopenal-data", 
+      "PackageVersion": "1:1.16.0-3"
+    }, 
+    {
+      "PackageName": "libopenal1:amd64", 
+      "PackageVersion": "1:1.16.0-3"
+    }, 
+    {
+      "PackageName": "libopus0:amd64", 
+      "PackageVersion": "1.1.2-1ubuntu1"
+    }, 
+    {
+      "PackageName": "liborc-0.4-0:amd64", 
+      "PackageVersion": "1:0.4.25-1"
+    }, 
+    {
+      "PackageName": "libp11-kit0:amd64", 
+      "PackageVersion": "0.23.2-5~ubuntu16.04.1"
+    }, 
+    {
+      "PackageName": "libpam-modules:amd64", 
+      "PackageVersion": "1.1.8-3.2ubuntu2.1"
+    }, 
+    {
+      "PackageName": "libpam-modules-bin", 
+      "PackageVersion": "1.1.8-3.2ubuntu2.1"
+    }, 
+    {
+      "PackageName": "libpam-runtime", 
+      "PackageVersion": "1.1.8-3.2ubuntu2.1"
+    }, 
+    {
+      "PackageName": "libpam-systemd:amd64", 
+      "PackageVersion": "229-4ubuntu21.21"
+    }, 
+    {
+      "PackageName": "libpam0g:amd64", 
+      "PackageVersion": "1.1.8-3.2ubuntu2.1"
+    }, 
+    {
+      "PackageName": "libpango-1.0-0:amd64", 
+      "PackageVersion": "1.38.1-1"
+    }, 
+    {
+      "PackageName": "libpangocairo-1.0-0:amd64", 
+      "PackageVersion": "1.38.1-1"
+    }, 
+    {
+      "PackageName": "libpangoft2-1.0-0:amd64", 
+      "PackageVersion": "1.38.1-1"
+    }, 
+    {
+      "PackageName": "libpangoxft-1.0-0:amd64", 
+      "PackageVersion": "1.38.1-1"
+    }, 
+    {
+      "PackageName": "libparted2:amd64", 
+      "PackageVersion": "3.2-15ubuntu0.1"
+    }, 
+    {
+      "PackageName": "libpcap0.8:amd64", 
+      "PackageVersion": "1.7.4-2"
+    }, 
+    {
+      "PackageName": "libpci3:amd64", 
+      "PackageVersion": "1:3.3.1-1.1ubuntu1.2"
+    }, 
+    {
+      "PackageName": "libpciaccess0:amd64", 
+      "PackageVersion": "0.13.4-1"
+    }, 
+    {
+      "PackageName": "libpcre3:amd64", 
+      "PackageVersion": "2:8.38-3.1"
+    }, 
+    {
+      "PackageName": "libpcsclite1:amd64", 
+      "PackageVersion": "1.8.14-1ubuntu1.16.04.1"
+    }, 
+    {
+      "PackageName": "libpeas-1.0-0:amd64", 
+      "PackageVersion": "1.16.0-1ubuntu2"
+    }, 
+    {
+      "PackageName": "libpeas-1.0-0-python3loader", 
+      "PackageVersion": "1.16.0-1ubuntu2"
+    }, 
+    {
+      "PackageName": "libpeas-common", 
+      "PackageVersion": "1.16.0-1ubuntu2"
+    }, 
+    {
+      "PackageName": "libperl5.22:amd64", 
+      "PackageVersion": "5.22.1-9ubuntu0.6"
+    }, 
+    {
+      "PackageName": "libpipeline1:amd64", 
+      "PackageVersion": "1.4.1-2"
+    }, 
+    {
+      "PackageName": "libpixman-1-0:amd64", 
+      "PackageVersion": "0.33.6-1"
+    }, 
+    {
+      "PackageName": "libplymouth4:amd64", 
+      "PackageVersion": "0.9.2-3ubuntu13.5"
+    }, 
+    {
+      "PackageName": "libpng12-0:amd64", 
+      "PackageVersion": "1.2.54-1ubuntu1.1"
+    }, 
+    {
+      "PackageName": "libpolkit-agent-1-0:amd64", 
+      "PackageVersion": "0.105-14.1ubuntu0.5"
+    }, 
+    {
+      "PackageName": "libpolkit-backend-1-0:amd64", 
+      "PackageVersion": "0.105-14.1ubuntu0.5"
+    }, 
+    {
+      "PackageName": "libpolkit-gobject-1-0:amd64", 
+      "PackageVersion": "0.105-14.1ubuntu0.5"
+    }, 
+    {
+      "PackageName": "libpopt0:amd64", 
+      "PackageVersion": "1.16-10"
+    }, 
+    {
+      "PackageName": "libprocps4:amd64", 
+      "PackageVersion": "2:3.3.10-4ubuntu2.4"
+    }, 
+    {
+      "PackageName": "libprotobuf-lite9v5:amd64", 
+      "PackageVersion": "2.6.1-1.3"
+    }, 
+    {
+      "PackageName": "libproxy1v5:amd64", 
+      "PackageVersion": "0.4.11-5ubuntu1"
+    }, 
+    {
+      "PackageName": "libpulse0:amd64", 
+      "PackageVersion": "1:8.0-0ubuntu3.10"
+    }, 
+    {
+      "PackageName": "libpython3-stdlib:amd64", 
+      "PackageVersion": "3.5.1-3"
+    }, 
+    {
+      "PackageName": "libpython3.5:amd64", 
+      "PackageVersion": "3.5.2-2ubuntu0~16.04.5"
+    }, 
+    {
+      "PackageName": "libpython3.5-minimal:amd64", 
+      "PackageVersion": "3.5.2-2ubuntu0~16.04.5"
+    }, 
+    {
+      "PackageName": "libpython3.5-stdlib:amd64", 
+      "PackageVersion": "3.5.2-2ubuntu0~16.04.5"
+    }, 
+    {
+      "PackageName": "libraw1394-11:amd64", 
+      "PackageVersion": "2.1.1-2"
+    }, 
+    {
+      "PackageName": "libreadline5:amd64", 
+      "PackageVersion": "5.2+dfsg-3build1"
+    }, 
+    {
+      "PackageName": "libreadline6:amd64", 
+      "PackageVersion": "6.3-8ubuntu2"
+    }, 
+    {
+      "PackageName": "librest-0.7-0:amd64", 
+      "PackageVersion": "0.7.93-1"
+    }, 
+    {
+      "PackageName": "libroken18-heimdal:amd64", 
+      "PackageVersion": "1.7~git20150920+dfsg-4ubuntu1.16.04.1"
+    }, 
+    {
+      "PackageName": "librsvg2-2:amd64", 
+      "PackageVersion": "2.40.13-3"
+    }, 
+    {
+      "PackageName": "librsvg2-common:amd64", 
+      "PackageVersion": "2.40.13-3"
+    }, 
+    {
+      "PackageName": "librtmp1:amd64", 
+      "PackageVersion": "2.4+20151223.gitfa8646d-1ubuntu0.1"
+    }, 
+    {
+      "PackageName": "libsamplerate0:amd64", 
+      "PackageVersion": "0.1.8-8"
+    }, 
+    {
+      "PackageName": "libsane:amd64", 
+      "PackageVersion": "1.0.25+git20150528-1ubuntu2.16.04.1"
+    }, 
+    {
+      "PackageName": "libsane-common", 
+      "PackageVersion": "1.0.25+git20150528-1ubuntu2.16.04.1"
+    }, 
+    {
+      "PackageName": "libsasl2-2:amd64", 
+      "PackageVersion": "2.1.26.dfsg1-14build1"
+    }, 
+    {
+      "PackageName": "libsasl2-modules:amd64", 
+      "PackageVersion": "2.1.26.dfsg1-14build1"
+    }, 
+    {
+      "PackageName": "libsasl2-modules-db:amd64", 
+      "PackageVersion": "2.1.26.dfsg1-14build1"
+    }, 
+    {
+      "PackageName": "libsdl-mixer1.2:amd64", 
+      "PackageVersion": "1.2.12-11build1"
+    }, 
+    {
+      "PackageName": "libsdl1.2debian:amd64", 
+      "PackageVersion": "1.2.15+dfsg1-3"
+    }, 
+    {
+      "PackageName": "libseccomp2:amd64", 
+      "PackageVersion": "2.4.1-0ubuntu0.16.04.2"
+    }, 
+    {
+      "PackageName": "libsecret-1-0:amd64", 
+      "PackageVersion": "0.18.4-1ubuntu2"
+    }, 
+    {
+      "PackageName": "libsecret-common", 
+      "PackageVersion": "0.18.4-1ubuntu2"
+    }, 
+    {
+      "PackageName": "libselinux1:amd64", 
+      "PackageVersion": "2.4-3build2"
+    }, 
+    {
+      "PackageName": "libsemanage-common", 
+      "PackageVersion": "2.3-1build3"
+    }, 
+    {
+      "PackageName": "libsemanage1:amd64", 
+      "PackageVersion": "2.3-1build3"
+    }, 
+    {
+      "PackageName": "libsensors4:amd64", 
+      "PackageVersion": "1:3.4.0-2"
+    }, 
+    {
+      "PackageName": "libsepol1:amd64", 
+      "PackageVersion": "2.4-2"
+    }, 
+    {
+      "PackageName": "libshout3:amd64", 
+      "PackageVersion": "2.3.1-3"
+    }, 
+    {
+      "PackageName": "libsigsegv2:amd64", 
+      "PackageVersion": "2.10-4"
+    }, 
+    {
+      "PackageName": "libslang2:amd64", 
+      "PackageVersion": "2.3.0-2ubuntu1.1"
+    }, 
+    {
+      "PackageName": "libsm6:amd64", 
+      "PackageVersion": "2:1.2.2-1"
+    }, 
+    {
+      "PackageName": "libsmartcols1:amd64", 
+      "PackageVersion": "2.27.1-6ubuntu3.6"
+    }, 
+    {
+      "PackageName": "libsndfile1:amd64", 
+      "PackageVersion": "1.0.25-10ubuntu0.16.04.1"
+    }, 
+    {
+      "PackageName": "libsnmp-base", 
+      "PackageVersion": "5.7.3+dfsg-1ubuntu4.2"
+    }, 
+    {
+      "PackageName": "libsnmp30:amd64", 
+      "PackageVersion": "5.7.3+dfsg-1ubuntu4.2"
+    }, 
+    {
+      "PackageName": "libsoup-gnome2.4-1:amd64", 
+      "PackageVersion": "2.52.2-1ubuntu0.3"
+    }, 
+    {
+      "PackageName": "libsoup2.4-1:amd64", 
+      "PackageVersion": "2.52.2-1ubuntu0.3"
+    }, 
+    {
+      "PackageName": "libspeex1:amd64", 
+      "PackageVersion": "1.2~rc1.2-1ubuntu1"
+    }, 
+    {
+      "PackageName": "libsqlite3-0:amd64", 
+      "PackageVersion": "3.11.0-1ubuntu1.1"
+    }, 
+    {
+      "PackageName": "libss2:amd64", 
+      "PackageVersion": "1.42.13-1ubuntu1"
+    }, 
+    {
+      "PackageName": "libssl1.0.0:amd64", 
+      "PackageVersion": "1.0.2g-1ubuntu4.15"
+    }, 
+    {
+      "PackageName": "libstdc++6:amd64", 
+      "PackageVersion": "5.4.0-6ubuntu1~16.04.11"
+    }, 
+    {
+      "PackageName": "libsystemd0:amd64", 
+      "PackageVersion": "229-4ubuntu21.21"
+    }, 
+    {
+      "PackageName": "libtag1v5:amd64", 
+      "PackageVersion": "1.9.1-2.4ubuntu1"
+    }, 
+    {
+      "PackageName": "libtag1v5-vanilla:amd64", 
+      "PackageVersion": "1.9.1-2.4ubuntu1"
+    }, 
+    {
+      "PackageName": "libtasn1-6:amd64", 
+      "PackageVersion": "4.7-3ubuntu0.16.04.3"
+    }, 
+    {
+      "PackageName": "libtext-charwidth-perl", 
+      "PackageVersion": "0.04-7build5"
+    }, 
+    {
+      "PackageName": "libtext-iconv-perl", 
+      "PackageVersion": "1.7-5build4"
+    }, 
+    {
+      "PackageName": "libtext-wrapi18n-perl", 
+      "PackageVersion": "0.06-7.1"
+    }, 
+    {
+      "PackageName": "libthai-data", 
+      "PackageVersion": "0.1.24-2"
+    }, 
+    {
+      "PackageName": "libthai0:amd64", 
+      "PackageVersion": "0.1.24-2"
+    }, 
+    {
+      "PackageName": "libtheora0:amd64", 
+      "PackageVersion": "1.1.1+dfsg.1-8"
+    }, 
+    {
+      "PackageName": "libtiff5:amd64", 
+      "PackageVersion": "4.0.6-1ubuntu0.6"
+    }, 
+    {
+      "PackageName": "libtinfo5:amd64", 
+      "PackageVersion": "6.0+20160213-1ubuntu1"
+    }, 
+    {
+      "PackageName": "libtxc-dxtn-s2tc0:amd64", 
+      "PackageVersion": "0~git20131104-1.1"
+    }, 
+    {
+      "PackageName": "libudev1:amd64", 
+      "PackageVersion": "229-4ubuntu21.21"
+    }, 
+    {
+      "PackageName": "libusb-0.1-4:amd64", 
+      "PackageVersion": "2:0.1.12-28"
+    }, 
+    {
+      "PackageName": "libusb-1.0-0:amd64", 
+      "PackageVersion": "2:1.0.20-1"
+    }, 
+    {
+      "PackageName": "libustr-1.0-1:amd64", 
+      "PackageVersion": "1.0.4-5"
+    }, 
+    {
+      "PackageName": "libutempter0:amd64", 
+      "PackageVersion": "1.1.6-3"
+    }, 
+    {
+      "PackageName": "libuuid1:amd64", 
+      "PackageVersion": "2.27.1-6ubuntu3.6"
+    }, 
+    {
+      "PackageName": "libv4l-0:amd64", 
+      "PackageVersion": "1.10.0-1"
+    }, 
+    {
+      "PackageName": "libv4lconvert0:amd64", 
+      "PackageVersion": "1.10.0-1"
+    }, 
+    {
+      "PackageName": "libvisual-0.4-0:amd64", 
+      "PackageVersion": "0.4.0-8"
+    }, 
+    {
+      "PackageName": "libvorbis0a:amd64", 
+      "PackageVersion": "1.3.5-3ubuntu0.2"
+    }, 
+    {
+      "PackageName": "libvorbisenc2:amd64", 
+      "PackageVersion": "1.3.5-3ubuntu0.2"
+    }, 
+    {
+      "PackageName": "libvorbisfile3:amd64", 
+      "PackageVersion": "1.3.5-3ubuntu0.2"
+    }, 
+    {
+      "PackageName": "libvpx3:amd64", 
+      "PackageVersion": "1.5.0-2ubuntu1"
+    }, 
+    {
+      "PackageName": "libwavpack1:amd64", 
+      "PackageVersion": "4.75.2-2ubuntu0.2"
+    }, 
+    {
+      "PackageName": "libwayland-client0:amd64", 
+      "PackageVersion": "1.12.0-1~ubuntu16.04.3"
+    }, 
+    {
+      "PackageName": "libwayland-cursor0:amd64", 
+      "PackageVersion": "1.12.0-1~ubuntu16.04.3"
+    }, 
+    {
+      "PackageName": "libwayland-egl1-mesa:amd64", 
+      "PackageVersion": "18.0.5-0ubuntu0~16.04.1"
+    }, 
+    {
+      "PackageName": "libwayland-server0:amd64", 
+      "PackageVersion": "1.12.0-1~ubuntu16.04.3"
+    }, 
+    {
+      "PackageName": "libwebkit2gtk-4.0-37:amd64", 
+      "PackageVersion": "2.20.5-0ubuntu0.16.04.1"
+    }, 
+    {
+      "PackageName": "libwebkit2gtk-4.0-37-gtk2:amd64", 
+      "PackageVersion": "2.20.5-0ubuntu0.16.04.1"
+    }, 
+    {
+      "PackageName": "libwebp5:amd64", 
+      "PackageVersion": "0.4.4-1"
+    }, 
+    {
+      "PackageName": "libwebpdemux1:amd64", 
+      "PackageVersion": "0.4.4-1"
+    }, 
+    {
+      "PackageName": "libwind0-heimdal:amd64", 
+      "PackageVersion": "1.7~git20150920+dfsg-4ubuntu1.16.04.1"
+    }, 
+    {
+      "PackageName": "libwrap0:amd64", 
+      "PackageVersion": "7.6.q-25"
+    }, 
+    {
+      "PackageName": "libx11-6:amd64", 
+      "PackageVersion": "2:1.6.3-1ubuntu2.1"
+    }, 
+    {
+      "PackageName": "libx11-data", 
+      "PackageVersion": "2:1.6.3-1ubuntu2.1"
+    }, 
+    {
+      "PackageName": "libx11-xcb1:amd64", 
+      "PackageVersion": "2:1.6.3-1ubuntu2.1"
+    }, 
+    {
+      "PackageName": "libxau6:amd64", 
+      "PackageVersion": "1:1.0.8-1"
+    }, 
+    {
+      "PackageName": "libxaw7:amd64", 
+      "PackageVersion": "2:1.0.13-1"
+    }, 
+    {
+      "PackageName": "libxcb-dri2-0:amd64", 
+      "PackageVersion": "1.11.1-1ubuntu1"
+    }, 
+    {
+      "PackageName": "libxcb-dri3-0:amd64", 
+      "PackageVersion": "1.11.1-1ubuntu1"
+    }, 
+    {
+      "PackageName": "libxcb-glx0:amd64", 
+      "PackageVersion": "1.11.1-1ubuntu1"
+    }, 
+    {
+      "PackageName": "libxcb-present0:amd64", 
+      "PackageVersion": "1.11.1-1ubuntu1"
+    }, 
+    {
+      "PackageName": "libxcb-render0:amd64", 
+      "PackageVersion": "1.11.1-1ubuntu1"
+    }, 
+    {
+      "PackageName": "libxcb-shm0:amd64", 
+      "PackageVersion": "1.11.1-1ubuntu1"
+    }, 
+    {
+      "PackageName": "libxcb-sync1:amd64", 
+      "PackageVersion": "1.11.1-1ubuntu1"
+    }, 
+    {
+      "PackageName": "libxcb-xfixes0:amd64", 
+      "PackageVersion": "1.11.1-1ubuntu1"
+    }, 
+    {
+      "PackageName": "libxcb1:amd64", 
+      "PackageVersion": "1.11.1-1ubuntu1"
+    }, 
+    {
+      "PackageName": "libxcomposite1:amd64", 
+      "PackageVersion": "1:0.4.4-1"
+    }, 
+    {
+      "PackageName": "libxcursor1:amd64", 
+      "PackageVersion": "1:1.1.14-1ubuntu0.16.04.2"
+    }, 
+    {
+      "PackageName": "libxdamage1:amd64", 
+      "PackageVersion": "1:1.1.4-2"
+    }, 
+    {
+      "PackageName": "libxdmcp6:amd64", 
+      "PackageVersion": "1:1.1.2-1.1"
+    }, 
+    {
+      "PackageName": "libxext6:amd64", 
+      "PackageVersion": "2:1.3.3-1"
+    }, 
+    {
+      "PackageName": "libxfixes3:amd64", 
+      "PackageVersion": "1:5.0.1-2"
+    }, 
+    {
+      "PackageName": "libxfont1:amd64", 
+      "PackageVersion": "1:1.5.1-1ubuntu0.16.04.4"
+    }, 
+    {
+      "PackageName": "libxft2:amd64", 
+      "PackageVersion": "2.3.2-1"
+    }, 
+    {
+      "PackageName": "libxi6:amd64", 
+      "PackageVersion": "2:1.7.6-1"
+    }, 
+    {
+      "PackageName": "libxinerama1:amd64", 
+      "PackageVersion": "2:1.1.3-1"
+    }, 
+    {
+      "PackageName": "libxkbcommon0:amd64", 
+      "PackageVersion": "0.5.0-1ubuntu2.1"
+    }, 
+    {
+      "PackageName": "libxkbfile1:amd64", 
+      "PackageVersion": "1:1.0.9-0ubuntu1"
+    }, 
+    {
+      "PackageName": "libxml2:amd64", 
+      "PackageVersion": "2.9.3+dfsg1-1ubuntu0.6"
+    }, 
+    {
+      "PackageName": "libxmlsec1", 
+      "PackageVersion": "1.2.20-2ubuntu4"
+    }, 
+    {
+      "PackageName": "libxmlsec1-openssl", 
+      "PackageVersion": "1.2.20-2ubuntu4"
+    }, 
+    {
+      "PackageName": "libxmu6:amd64", 
+      "PackageVersion": "2:1.1.2-2"
+    }, 
+    {
+      "PackageName": "libxmuu1:amd64", 
+      "PackageVersion": "2:1.1.2-2"
+    }, 
+    {
+      "PackageName": "libxpm4:amd64", 
+      "PackageVersion": "1:3.5.11-1ubuntu0.16.04.1"
+    }, 
+    {
+      "PackageName": "libxrandr2:amd64", 
+      "PackageVersion": "2:1.5.0-1"
+    }, 
+    {
+      "PackageName": "libxrender1:amd64", 
+      "PackageVersion": "1:0.9.9-0ubuntu1"
+    }, 
+    {
+      "PackageName": "libxshmfence1:amd64", 
+      "PackageVersion": "1.2-1"
+    }, 
+    {
+      "PackageName": "libxslt1.1:amd64", 
+      "PackageVersion": "1.1.28-2.1ubuntu0.2"
+    }, 
+    {
+      "PackageName": "libxt6:amd64", 
+      "PackageVersion": "1:1.1.5-0ubuntu1"
+    }, 
+    {
+      "PackageName": "libxtables11:amd64", 
+      "PackageVersion": "1.6.0-2ubuntu3"
+    }, 
+    {
+      "PackageName": "libxtst6:amd64", 
+      "PackageVersion": "2:1.2.2-1"
+    }, 
+    {
+      "PackageName": "libxv1:amd64", 
+      "PackageVersion": "2:1.0.10-1"
+    }, 
+    {
+      "PackageName": "libxxf86vm1:amd64", 
+      "PackageVersion": "1:1.1.4-1"
+    }, 
+    {
+      "PackageName": "libyelp0:amd64", 
+      "PackageVersion": "3.18.1-1ubuntu4"
+    }, 
+    {
+      "PackageName": "linux-base", 
+      "PackageVersion": "4.5ubuntu1~16.04.1"
+    }, 
+    {
+      "PackageName": "linux-firmware", 
+      "PackageVersion": "1.157.21"
+    }, 
+    {
+      "PackageName": "linux-generic", 
+      "PackageVersion": "4.4.0.150.158"
+    }, 
+    {
+      "PackageName": "linux-headers-4.4.0-131", 
+      "PackageVersion": "4.4.0-131.157"
+    }, 
+    {
+      "PackageName": "linux-headers-4.4.0-131-generic", 
+      "PackageVersion": "4.4.0-131.157"
+    }, 
+    {
+      "PackageName": "linux-headers-4.4.0-142", 
+      "PackageVersion": "4.4.0-142.168"
+    }, 
+    {
+      "PackageName": "linux-headers-4.4.0-142-generic", 
+      "PackageVersion": "4.4.0-142.168"
+    }, 
+    {
+      "PackageName": "linux-headers-4.4.0-143", 
+      "PackageVersion": "4.4.0-143.169"
+    }, 
+    {
+      "PackageName": "linux-headers-4.4.0-143-generic", 
+      "PackageVersion": "4.4.0-143.169"
+    }, 
+    {
+      "PackageName": "linux-headers-4.4.0-145", 
+      "PackageVersion": "4.4.0-145.171"
+    }, 
+    {
+      "PackageName": "linux-headers-4.4.0-145-generic", 
+      "PackageVersion": "4.4.0-145.171"
+    }, 
+    {
+      "PackageName": "linux-headers-4.4.0-148", 
+      "PackageVersion": "4.4.0-148.174"
+    }, 
+    {
+      "PackageName": "linux-headers-4.4.0-148-generic", 
+      "PackageVersion": "4.4.0-148.174"
+    }, 
+    {
+      "PackageName": "linux-headers-4.4.0-150", 
+      "PackageVersion": "4.4.0-150.176"
+    }, 
+    {
+      "PackageName": "linux-headers-4.4.0-150-generic", 
+      "PackageVersion": "4.4.0-150.176"
+    }, 
+    {
+      "PackageName": "linux-headers-generic", 
+      "PackageVersion": "4.4.0.150.158"
+    }, 
+    {
+      "PackageName": "linux-image-4.4.0-131-generic", 
+      "PackageVersion": "4.4.0-131.157"
+    }, 
+    {
+      "PackageName": "linux-image-4.4.0-142-generic", 
+      "PackageVersion": "4.4.0-142.168"
+    }, 
+    {
+      "PackageName": "linux-image-4.4.0-143-generic", 
+      "PackageVersion": "4.4.0-143.169"
+    }, 
+    {
+      "PackageName": "linux-image-4.4.0-145-generic", 
+      "PackageVersion": "4.4.0-145.171"
+    }, 
+    {
+      "PackageName": "linux-image-4.4.0-148-generic", 
+      "PackageVersion": "4.4.0-148.174"
+    }, 
+    {
+      "PackageName": "linux-image-4.4.0-150-generic", 
+      "PackageVersion": "4.4.0-150.176"
+    }, 
+    {
+      "PackageName": "linux-image-extra-4.4.0-131-generic", 
+      "PackageVersion": "4.4.0-131.157"
+    }, 
+    {
+      "PackageName": "linux-image-extra-4.4.0-142-generic", 
+      "PackageVersion": "4.4.0-142.168"
+    }, 
+    {
+      "PackageName": "linux-image-generic", 
+      "PackageVersion": "4.4.0.150.158"
+    }, 
+    {
+      "PackageName": "linux-modules-4.4.0-143-generic", 
+      "PackageVersion": "4.4.0-143.169"
+    }, 
+    {
+      "PackageName": "linux-modules-4.4.0-145-generic", 
+      "PackageVersion": "4.4.0-145.171"
+    }, 
+    {
+      "PackageName": "linux-modules-4.4.0-148-generic", 
+      "PackageVersion": "4.4.0-148.174"
+    }, 
+    {
+      "PackageName": "linux-modules-4.4.0-150-generic", 
+      "PackageVersion": "4.4.0-150.176"
+    }, 
+    {
+      "PackageName": "linux-modules-extra-4.4.0-143-generic", 
+      "PackageVersion": "4.4.0-143.169"
+    }, 
+    {
+      "PackageName": "linux-modules-extra-4.4.0-145-generic", 
+      "PackageVersion": "4.4.0-145.171"
+    }, 
+    {
+      "PackageName": "linux-modules-extra-4.4.0-148-generic", 
+      "PackageVersion": "4.4.0-148.174"
+    }, 
+    {
+      "PackageName": "linux-modules-extra-4.4.0-150-generic", 
+      "PackageVersion": "4.4.0-150.176"
+    }, 
+    {
+      "PackageName": "locales", 
+      "PackageVersion": "2.23-0ubuntu10"
+    }, 
+    {
+      "PackageName": "login", 
+      "PackageVersion": "1:4.2-3.1ubuntu5.3"
+    }, 
+    {
+      "PackageName": "logrotate", 
+      "PackageVersion": "3.8.7-2ubuntu2.16.04.2"
+    }, 
+    {
+      "PackageName": "lsb-base", 
+      "PackageVersion": "9.20160110ubuntu0.2"
+    }, 
+    {
+      "PackageName": "lsb-release", 
+      "PackageVersion": "9.20160110ubuntu0.2"
+    }, 
+    {
+      "PackageName": "lshw", 
+      "PackageVersion": "02.17-1.1ubuntu3.5"
+    }, 
+    {
+      "PackageName": "lsof", 
+      "PackageVersion": "4.89+dfsg-0.1"
+    }, 
+    {
+      "PackageName": "ltrace", 
+      "PackageVersion": "0.7.3-5.1ubuntu4"
+    }, 
+    {
+      "PackageName": "lvm2", 
+      "PackageVersion": "2.02.133-1ubuntu10"
+    }, 
+    {
+      "PackageName": "lxc-common", 
+      "PackageVersion": "2.0.8-0ubuntu1~16.04.2"
+    }, 
+    {
+      "PackageName": "lxcfs", 
+      "PackageVersion": "2.0.8-0ubuntu1~16.04.2"
+    }, 
+    {
+      "PackageName": "lxd", 
+      "PackageVersion": "2.0.11-0ubuntu1~16.04.4"
+    }, 
+    {
+      "PackageName": "lxd-client", 
+      "PackageVersion": "2.0.11-0ubuntu1~16.04.4"
+    }, 
+    {
+      "PackageName": "makedev", 
+      "PackageVersion": "2.3.1-93ubuntu2~ubuntu16.04.1"
+    }, 
+    {
+      "PackageName": "man-db", 
+      "PackageVersion": "2.7.5-1"
+    }, 
+    {
+      "PackageName": "manpages", 
+      "PackageVersion": "4.04-2"
+    }, 
+    {
+      "PackageName": "mawk", 
+      "PackageVersion": "1.3.3-17ubuntu2"
+    }, 
+    {
+      "PackageName": "mdadm", 
+      "PackageVersion": "3.3-2ubuntu7.6"
+    }, 
+    {
+      "PackageName": "mime-support", 
+      "PackageVersion": "3.59ubuntu1"
+    }, 
+    {
+      "PackageName": "mlocate", 
+      "PackageVersion": "0.26-1ubuntu2"
+    }, 
+    {
+      "PackageName": "mount", 
+      "PackageVersion": "2.27.1-6ubuntu3.6"
+    }, 
+    {
+      "PackageName": "mtr-tiny", 
+      "PackageVersion": "0.86-1ubuntu0.1"
+    }, 
+    {
+      "PackageName": "multiarch-support", 
+      "PackageVersion": "2.23-0ubuntu10"
+    }, 
+    {
+      "PackageName": "musescore-soundfont-gm", 
+      "PackageVersion": "2.0.2+dfsg-2ubuntu0.1"
+    }, 
+    {
+      "PackageName": "nano", 
+      "PackageVersion": "2.5.3-2ubuntu2"
+    }, 
+    {
+      "PackageName": "ncurses-base", 
+      "PackageVersion": "6.0+20160213-1ubuntu1"
+    }, 
+    {
+      "PackageName": "ncurses-bin", 
+      "PackageVersion": "6.0+20160213-1ubuntu1"
+    }, 
+    {
+      "PackageName": "ncurses-term", 
+      "PackageVersion": "6.0+20160213-1ubuntu1"
+    }, 
+    {
+      "PackageName": "net-tools", 
+      "PackageVersion": "1.60-26ubuntu1"
+    }, 
+    {
+      "PackageName": "netbase", 
+      "PackageVersion": "5.3"
+    }, 
+    {
+      "PackageName": "netcat-openbsd", 
+      "PackageVersion": "1.105-7ubuntu1"
+    }, 
+    {
+      "PackageName": "nginx", 
+      "PackageVersion": "1.10.3-0ubuntu0.16.04.3"
+    }, 
+    {
+      "PackageName": "nginx-common", 
+      "PackageVersion": "1.10.3-0ubuntu0.16.04.3"
+    }, 
+    {
+      "PackageName": "nginx-core", 
+      "PackageVersion": "1.10.3-0ubuntu0.16.04.3"
+    }, 
+    {
+      "PackageName": "notification-daemon", 
+      "PackageVersion": "3.18.2-1"
+    }, 
+    {
+      "PackageName": "ntfs-3g", 
+      "PackageVersion": "1:2015.3.14AR.1-1ubuntu0.3"
+    }, 
+    {
+      "PackageName": "open-iscsi", 
+      "PackageVersion": "2.0.873+git0.3b4b4500-14ubuntu3.4"
+    }, 
+    {
+      "PackageName": "open-vm-tools", 
+      "PackageVersion": "2:10.2.0-3~ubuntu0.16.04.1"
+    }, 
+    {
+      "PackageName": "openjdk-8-jre:amd64", 
+      "PackageVersion": "8u212-b03-0ubuntu1.16.04.1"
+    }, 
+    {
+      "PackageName": "openjdk-8-jre-headless:amd64", 
+      "PackageVersion": "8u212-b03-0ubuntu1.16.04.1"
+    }, 
+    {
+      "PackageName": "openssh-client", 
+      "PackageVersion": "1:7.2p2-4ubuntu2.8"
+    }, 
+    {
+      "PackageName": "openssh-server", 
+      "PackageVersion": "1:7.2p2-4ubuntu2.8"
+    }, 
+    {
+      "PackageName": "openssh-sftp-server", 
+      "PackageVersion": "1:7.2p2-4ubuntu2.8"
+    }, 
+    {
+      "PackageName": "openssl", 
+      "PackageVersion": "1.0.2g-1ubuntu4.15"
+    }, 
+    {
+      "PackageName": "oracle-java8-installer", 
+      "PackageVersion": "8u201-1~webupd8~1"
+    }, 
+    {
+      "PackageName": "oracle-java8-set-default", 
+      "PackageVersion": "8u201-1~webupd8~1"
+    }, 
+    {
+      "PackageName": "os-prober", 
+      "PackageVersion": "1.70ubuntu3.3"
+    }, 
+    {
+      "PackageName": "overlayroot", 
+      "PackageVersion": "0.27ubuntu1.5"
+    }, 
+    {
+      "PackageName": "parted", 
+      "PackageVersion": "3.2-15ubuntu0.1"
+    }, 
+    {
+      "PackageName": "passwd", 
+      "PackageVersion": "1:4.2-3.1ubuntu5.3"
+    }, 
+    {
+      "PackageName": "pastebinit", 
+      "PackageVersion": "1.5-1"
+    }, 
+    {
+      "PackageName": "patch", 
+      "PackageVersion": "2.7.5-1ubuntu0.16.04.1"
+    }, 
+    {
+      "PackageName": "pciutils", 
+      "PackageVersion": "1:3.3.1-1.1ubuntu1.2"
+    }, 
+    {
+      "PackageName": "perl", 
+      "PackageVersion": "5.22.1-9ubuntu0.6"
+    }, 
+    {
+      "PackageName": "perl-base", 
+      "PackageVersion": "5.22.1-9ubuntu0.6"
+    }, 
+    {
+      "PackageName": "perl-modules-5.22", 
+      "PackageVersion": "5.22.1-9ubuntu0.6"
+    }, 
+    {
+      "PackageName": "plymouth", 
+      "PackageVersion": "0.9.2-3ubuntu13.5"
+    }, 
+    {
+      "PackageName": "plymouth-theme-ubuntu-text", 
+      "PackageVersion": "0.9.2-3ubuntu13.5"
+    }, 
+    {
+      "PackageName": "policykit-1", 
+      "PackageVersion": "0.105-14.1ubuntu0.5"
+    }, 
+    {
+      "PackageName": "popularity-contest", 
+      "PackageVersion": "1.64ubuntu2"
+    }, 
+    {
+      "PackageName": "powermgmt-base", 
+      "PackageVersion": "1.31+nmu1"
+    }, 
+    {
+      "PackageName": "procps", 
+      "PackageVersion": "2:3.3.10-4ubuntu2.4"
+    }, 
+    {
+      "PackageName": "psmisc", 
+      "PackageVersion": "22.21-2.1build1"
+    }, 
+    {
+      "PackageName": "python-apt-common", 
+      "PackageVersion": "1.1.0~beta1ubuntu0.16.04.2"
+    }, 
+    {
+      "PackageName": "python3", 
+      "PackageVersion": "3.5.1-3"
+    }, 
+    {
+      "PackageName": "python3-apport", 
+      "PackageVersion": "2.20.1-0ubuntu2.18"
+    }, 
+    {
+      "PackageName": "python3-apt", 
+      "PackageVersion": "1.1.0~beta1ubuntu0.16.04.2"
+    }, 
+    {
+      "PackageName": "python3-cairo", 
+      "PackageVersion": "1.10.0+dfsg-5build1"
+    }, 
+    {
+      "PackageName": "python3-chardet", 
+      "PackageVersion": "2.3.0-2"
+    }, 
+    {
+      "PackageName": "python3-commandnotfound", 
+      "PackageVersion": "0.3ubuntu16.04.2"
+    }, 
+    {
+      "PackageName": "python3-dbus", 
+      "PackageVersion": "1.2.0-3"
+    }, 
+    {
+      "PackageName": "python3-debian", 
+      "PackageVersion": "0.1.27ubuntu2"
+    }, 
+    {
+      "PackageName": "python3-distupgrade", 
+      "PackageVersion": "1:16.04.25"
+    }, 
+    {
+      "PackageName": "python3-gdbm:amd64", 
+      "PackageVersion": "3.5.1-1"
+    }, 
+    {
+      "PackageName": "python3-gi", 
+      "PackageVersion": "3.20.0-0ubuntu1"
+    }, 
+    {
+      "PackageName": "python3-gi-cairo", 
+      "PackageVersion": "3.20.0-0ubuntu1"
+    }, 
+    {
+      "PackageName": "python3-minimal", 
+      "PackageVersion": "3.5.1-3"
+    }, 
+    {
+      "PackageName": "python3-newt", 
+      "PackageVersion": "0.52.18-1ubuntu2"
+    }, 
+    {
+      "PackageName": "python3-pkg-resources", 
+      "PackageVersion": "20.7.0-1"
+    }, 
+    {
+      "PackageName": "python3-problem-report", 
+      "PackageVersion": "2.20.1-0ubuntu2.18"
+    }, 
+    {
+      "PackageName": "python3-pycurl", 
+      "PackageVersion": "7.43.0-1ubuntu1"
+    }, 
+    {
+      "PackageName": "python3-requests", 
+      "PackageVersion": "2.9.1-3ubuntu0.1"
+    }, 
+    {
+      "PackageName": "python3-six", 
+      "PackageVersion": "1.10.0-3"
+    }, 
+    {
+      "PackageName": "python3-software-properties", 
+      "PackageVersion": "0.96.20.7"
+    }, 
+    {
+      "PackageName": "python3-systemd", 
+      "PackageVersion": "231-2build1"
+    }, 
+    {
+      "PackageName": "python3-update-manager", 
+      "PackageVersion": "1:16.04.13"
+    }, 
+    {
+      "PackageName": "python3-urllib3", 
+      "PackageVersion": "1.13.1-2ubuntu0.16.04.3"
+    }, 
+    {
+      "PackageName": "python3.5", 
+      "PackageVersion": "3.5.2-2ubuntu0~16.04.5"
+    }, 
+    {
+      "PackageName": "python3.5-minimal", 
+      "PackageVersion": "3.5.2-2ubuntu0~16.04.5"
+    }, 
+    {
+      "PackageName": "readline-common", 
+      "PackageVersion": "6.3-8ubuntu2"
+    }, 
+    {
+      "PackageName": "rename", 
+      "PackageVersion": "0.20-4"
+    }, 
+    {
+      "PackageName": "resolvconf", 
+      "PackageVersion": "1.78ubuntu6"
+    }, 
+    {
+      "PackageName": "rsync", 
+      "PackageVersion": "3.1.1-3ubuntu1.2"
+    }, 
+    {
+      "PackageName": "rsyslog", 
+      "PackageVersion": "8.16.0-1ubuntu3"
+    }, 
+    {
+      "PackageName": "run-one", 
+      "PackageVersion": "1.17-0ubuntu1"
+    }, 
+    {
+      "PackageName": "screen", 
+      "PackageVersion": "4.3.1-2build1"
+    }, 
+    {
+      "PackageName": "sed", 
+      "PackageVersion": "4.2.2-7"
+    }, 
+    {
+      "PackageName": "sensible-utils", 
+      "PackageVersion": "0.0.9ubuntu0.16.04.1"
+    }, 
+    {
+      "PackageName": "sgml-base", 
+      "PackageVersion": "1.26+nmu4ubuntu1"
+    }, 
+    {
+      "PackageName": "shared-mime-info", 
+      "PackageVersion": "1.5-2ubuntu0.2"
+    }, 
+    {
+      "PackageName": "snapd", 
+      "PackageVersion": "2.37.4ubuntu0.1"
+    }, 
+    {
+      "PackageName": "snmp", 
+      "PackageVersion": "5.7.3+dfsg-1ubuntu4.2"
+    }, 
+    {
+      "PackageName": "snmpd", 
+      "PackageVersion": "5.7.3+dfsg-1ubuntu4.2"
+    }, 
+    {
+      "PackageName": "software-properties-common", 
+      "PackageVersion": "0.96.20.7"
+    }, 
+    {
+      "PackageName": "sosreport", 
+      "PackageVersion": "3.5-1~ubuntu16.04.3"
+    }, 
+    {
+      "PackageName": "squashfs-tools", 
+      "PackageVersion": "1:4.3-3ubuntu2.16.04.2"
+    }, 
+    {
+      "PackageName": "ssh-import-id", 
+      "PackageVersion": "5.5-0ubuntu1"
+    }, 
+    {
+      "PackageName": "strace", 
+      "PackageVersion": "4.11-1ubuntu3"
+    }, 
+    {
+      "PackageName": "sudo", 
+      "PackageVersion": "1.8.16-0ubuntu1.6"
+    }, 
+    {
+      "PackageName": "systemd", 
+      "PackageVersion": "229-4ubuntu21.21"
+    }, 
+    {
+      "PackageName": "systemd-sysv", 
+      "PackageVersion": "229-4ubuntu21.21"
+    }, 
+    {
+      "PackageName": "sysv-rc", 
+      "PackageVersion": "2.88dsf-59.3ubuntu2"
+    }, 
+    {
+      "PackageName": "sysvinit-utils", 
+      "PackageVersion": "2.88dsf-59.3ubuntu2"
+    }, 
+    {
+      "PackageName": "tar", 
+      "PackageVersion": "1.28-2.1ubuntu0.1"
+    }, 
+    {
+      "PackageName": "tasksel", 
+      "PackageVersion": "3.34ubuntu3"
+    }, 
+    {
+      "PackageName": "tasksel-data", 
+      "PackageVersion": "3.34ubuntu3"
+    }, 
+    {
+      "PackageName": "tcpd", 
+      "PackageVersion": "7.6.q-25"
+    }, 
+    {
+      "PackageName": "tcpdump", 
+      "PackageVersion": "4.9.2-0ubuntu0.16.04.1"
+    }, 
+    {
+      "PackageName": "telnet", 
+      "PackageVersion": "0.17-40"
+    }, 
+    {
+      "PackageName": "time", 
+      "PackageVersion": "1.7-25.1"
+    }, 
+    {
+      "PackageName": "timgm6mb-soundfont", 
+      "PackageVersion": "1.3-2"
+    }, 
+    {
+      "PackageName": "tmux", 
+      "PackageVersion": "2.1-3build1"
+    }, 
+    {
+      "PackageName": "tzdata", 
+      "PackageVersion": "2019a-0ubuntu0.16.04"
+    }, 
+    {
+      "PackageName": "ubuntu-cloudimage-keyring", 
+      "PackageVersion": "2013.11.11"
+    }, 
+    {
+      "PackageName": "ubuntu-keyring", 
+      "PackageVersion": "2012.05.19"
+    }, 
+    {
+      "PackageName": "ubuntu-minimal", 
+      "PackageVersion": "1.361.1"
+    }, 
+    {
+      "PackageName": "ubuntu-mono", 
+      "PackageVersion": "14.04+16.04.20180326-0ubuntu1"
+    }, 
+    {
+      "PackageName": "ubuntu-release-upgrader-core", 
+      "PackageVersion": "1:16.04.25"
+    }, 
+    {
+      "PackageName": "ubuntu-server", 
+      "PackageVersion": "1.361.1"
+    }, 
+    {
+      "PackageName": "ubuntu-standard", 
+      "PackageVersion": "1.361.1"
+    }, 
+    {
+      "PackageName": "ucf", 
+      "PackageVersion": "3.0036"
+    }, 
+    {
+      "PackageName": "udev", 
+      "PackageVersion": "229-4ubuntu21.21"
+    }, 
+    {
+      "PackageName": "ufw", 
+      "PackageVersion": "0.35-0ubuntu2"
+    }, 
+    {
+      "PackageName": "uidmap", 
+      "PackageVersion": "1:4.2-3.1ubuntu5.3"
+    }, 
+    {
+      "PackageName": "unattended-upgrades", 
+      "PackageVersion": "0.90ubuntu0.10"
+    }, 
+    {
+      "PackageName": "unzip", 
+      "PackageVersion": "6.0-20ubuntu1"
+    }, 
+    {
+      "PackageName": "update-manager-core", 
+      "PackageVersion": "1:16.04.13"
+    }, 
+    {
+      "PackageName": "update-notifier-common", 
+      "PackageVersion": "3.168.9"
+    }, 
+    {
+      "PackageName": "ureadahead", 
+      "PackageVersion": "0.100.0-19"
+    }, 
+    {
+      "PackageName": "usbutils", 
+      "PackageVersion": "1:007-4"
+    }, 
+    {
+      "PackageName": "util-linux", 
+      "PackageVersion": "2.27.1-6ubuntu3.6"
+    }, 
+    {
+      "PackageName": "uuid-runtime", 
+      "PackageVersion": "2.27.1-6ubuntu3.6"
+    }, 
+    {
+      "PackageName": "vim", 
+      "PackageVersion": "2:7.4.1689-3ubuntu1.2"
+    }, 
+    {
+      "PackageName": "vim-common", 
+      "PackageVersion": "2:7.4.1689-3ubuntu1.2"
+    }, 
+    {
+      "PackageName": "vim-runtime", 
+      "PackageVersion": "2:7.4.1689-3ubuntu1.2"
+    }, 
+    {
+      "PackageName": "vim-tiny", 
+      "PackageVersion": "2:7.4.1689-3ubuntu1.2"
+    }, 
+    {
+      "PackageName": "vlan", 
+      "PackageVersion": "1.9-3.2ubuntu1.16.04.5"
+    }, 
+    {
+      "PackageName": "wget", 
+      "PackageVersion": "1.17.1-1ubuntu1.5"
+    }, 
+    {
+      "PackageName": "whiptail", 
+      "PackageVersion": "0.52.18-1ubuntu2"
+    }, 
+    {
+      "PackageName": "wireless-regdb", 
+      "PackageVersion": "2018.05.09-0ubuntu1~16.04.1"
+    }, 
+    {
+      "PackageName": "x11-apps", 
+      "PackageVersion": "7.7+5+nmu1ubuntu1"
+    }, 
+    {
+      "PackageName": "x11-common", 
+      "PackageVersion": "1:7.7+13ubuntu3.1"
+    }, 
+    {
+      "PackageName": "x11-xkb-utils", 
+      "PackageVersion": "7.7+2"
+    }, 
+    {
+      "PackageName": "x11-xserver-utils", 
+      "PackageVersion": "7.7+7"
+    }, 
+    {
+      "PackageName": "xauth", 
+      "PackageVersion": "1:1.0.9-1ubuntu2"
+    }, 
+    {
+      "PackageName": "xbitmaps", 
+      "PackageVersion": "1.1.1-2"
+    }, 
+    {
+      "PackageName": "xdg-user-dirs", 
+      "PackageVersion": "0.15-2ubuntu6.16.04.1"
+    }, 
+    {
+      "PackageName": "xfonts-base", 
+      "PackageVersion": "1:1.0.4+nmu1"
+    }, 
+    {
+      "PackageName": "xfonts-encodings", 
+      "PackageVersion": "1:1.0.4-2"
+    }, 
+    {
+      "PackageName": "xfonts-utils", 
+      "PackageVersion": "1:7.7+3ubuntu0.16.04.2"
+    }, 
+    {
+      "PackageName": "xfsprogs", 
+      "PackageVersion": "4.3.0+nmu1ubuntu1.1"
+    }, 
+    {
+      "PackageName": "xkb-data", 
+      "PackageVersion": "2.16-1ubuntu1"
+    }, 
+    {
+      "PackageName": "xml-core", 
+      "PackageVersion": "0.13+nmu2"
+    }, 
+    {
+      "PackageName": "xserver-common", 
+      "PackageVersion": "2:1.18.4-0ubuntu0.8"
+    }, 
+    {
+      "PackageName": "xvfb", 
+      "PackageVersion": "2:1.18.4-0ubuntu0.8"
+    }, 
+    {
+      "PackageName": "xz-utils", 
+      "PackageVersion": "5.1.1alpha+20120614-2ubuntu2"
+    }, 
+    {
+      "PackageName": "yelp", 
+      "PackageVersion": "3.18.1-1ubuntu4"
+    }, 
+    {
+      "PackageName": "yelp-xsl", 
+      "PackageVersion": "3.18.1-1"
+    }, 
+    {
+      "PackageName": "zenity", 
+      "PackageVersion": "3.18.1.1-1ubuntu2"
+    }, 
+    {
+      "PackageName": "zenity-common", 
+      "PackageVersion": "3.18.1.1-1ubuntu2"
+    }, 
+    {
+      "PackageName": "zerofree", 
+      "PackageVersion": "1.0.3-1"
+    }, 
+    {
+      "PackageName": "zip", 
+      "PackageVersion": "3.0-11"
+    }, 
+    {
+      "PackageName": "zlib1g:amd64", 
+      "PackageVersion": "1:1.2.8.dfsg-2ubuntu4.1"
+    }
+  ], 
+  "Cpu_Information": {
+    "Utilization(%)": "0.12", 
+    "Available(%)": "99.88", 
+    "Capacity(%)": "100", 
+    "CPUCount": "4", 
+    "DeviceName": "Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz", 
+    "CoresCount": "4"
+  }, 
+  "Connected_Services": [
+    {
+      "LocalService": "sshd", 
+      "Direction": "Incoming", 
+      "ConnectedHost": "192.168.10.237", 
+      "ConnectedService": "Unknown"
+    }, 
+    {
+      "LocalService": "sshd", 
+      "Direction": "Incoming", 
+      "ConnectedHost": "192.168.20.120", 
+      "ConnectedService": "Unknown"
+    }, 
+    {
+      "LocalService": "sshd", 
+      "Direction": "Incoming", 
+      "ConnectedHost": "192.168.10.234", 
+      "ConnectedService": "Unknown"
+    }
+  ]
+}

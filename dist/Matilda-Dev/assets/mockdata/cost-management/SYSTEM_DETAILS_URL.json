@@ -1,0 +1,44 @@
+[
+   {
+      "Server_Name": "S1",
+      "Hours_Used": "4",
+      "Average_Hours_Used": "2",
+      "Cost": 10.0
+   },
+   {
+      "Server_Name": "S11",
+      "Hours_Used": "5",
+      "Average_Hours_Used": "3",
+      "Cost": 90.0
+   },
+   {
+      "Server_Name": "S3",
+      "Hours_Used": "3",
+      "Average_Hours_Used": "2",
+      "Cost": 30.0
+   },
+   {
+      "Server_Name": "S5",
+      "Hours_Used": "3",
+      "Average_Hours_Used": "1",
+      "Cost": 40.0
+   },
+   {
+      "Server_Name": "S4",
+      "Hours_Used": "2",
+      "Average_Hours_Used": "1",
+      "Cost": 20.0
+   },
+   {
+      "Server_Name": "S2",
+      "Hours_Used": "6",
+      "Average_Hours_Used": "3",
+      "Cost": 50.0
+   },
+   {
+      "Server_Name": "S7",
+      "Hours_Used": "4",
+      "Average_Hours_Used": "2",
+      "Cost": 60.0
+   }
+]

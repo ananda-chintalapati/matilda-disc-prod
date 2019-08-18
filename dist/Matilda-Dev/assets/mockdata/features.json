@@ -1,0 +1,73 @@
+{
+    "metaData": [
+
+      {
+        "title": "Feature Id",
+        "field": "id",
+        "filterable": true,
+        "locked": false
+      },
+      {
+        "title": "Summary",
+        "field": "summary",
+        "filterable": true,
+        "locked": false
+      },
+      {
+        "title": "In Progress",
+        "field": "progress",
+        "filterable": true,
+        "locked": false
+      },
+      {
+        "title": "Status",
+        "field": "status",
+        "filterable": true,
+        "locked": false
+      },
+      {
+        "title": "Total Stories",
+        "field": "total",
+        "filterable": true,
+        "locked": false
+      }
+    ],
+    "data": [
+      {
+        "id": "MM-5",
+        "progress": 0,
+        "status": "Complete",
+        "summary": "Discover Host Server information(Windows and Linux)",
+        "total": 16
+      },
+      {
+        "id": "MM-4",
+        "progress": 0,
+        "status": "Complete",
+        "summary": "Discover IIS Server ",
+        "total": 4
+      },
+      {
+        "id": "MM-3",
+        "progress": 2,
+        "status": "In Progress",
+        "summary": "Discover Tomcat Server ",
+        "total": 8
+      },
+      {
+        "id": "MM-2",
+        "progress": 0,
+        "status": "Complete",
+        "summary": "Discover JBoss Server ",
+        "total": 12
+      },
+      {
+        "id": "MM-1",
+        "progress": 4,
+        "status": "In Progress",
+        "summary": "Discover WebLogic Server ",
+        "total": 4
+      }
+    ],
+    "title": "Features"
+  }

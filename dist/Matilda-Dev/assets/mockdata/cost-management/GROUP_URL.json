@@ -1,0 +1,19 @@
+
+    [
+        "APPLICATION",
+        "AZ",
+        "INSTANCE_TYPE",
+        "LINKED_ACCOUNT",
+        "OPERATION",
+        "PURCHASE_TYPE",
+        "REGION",
+        "SERVICE",
+        "USAGE_TYPE",
+        "TENANCY",
+        "PLATFORM",
+        "LEGAL_ENTITY_NAME",
+        "DEPLOYMENT_OPTION",
+        "DATABASE_ENGINE",
+        "CACHE_ENGINE",
+        "INSTANCE_TYPE_FAMILY"
+    ]

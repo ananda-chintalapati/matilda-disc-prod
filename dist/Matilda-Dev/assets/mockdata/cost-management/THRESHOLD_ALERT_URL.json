@@ -1,0 +1,14 @@
+{
+	"account_id": "046692759124",
+	"budget_name": "demobudget",
+	"old_notification": {
+		"NotificationType": "ACTUAL",
+		"ComparisonOperator": "GREATER_THAN",
+		"Threshold": 70.0
+	},
+	"new_notification": {
+		"NotificationType": "ACTUAL",
+		"ComparisonOperator": "GREATER_THAN",
+		"Threshold": 75.0
+	}
+}

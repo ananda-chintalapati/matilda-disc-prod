@@ -1,0 +1,11 @@
+[
+    {
+      "users": "c",
+      "end_dt": "Fri, 10 Aug 2018 19:20:32 GMT",
+      "ip_address": "192.168.20.124",
+      "service": "weblogic",
+      "service_discovery_name": "TFNM_weblogic",
+      "target_cp": "AWS",
+      "status": "Completed"
+    }
+  ]

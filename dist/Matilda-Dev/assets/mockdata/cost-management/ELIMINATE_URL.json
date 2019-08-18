@@ -1,0 +1,262 @@
+{
+   "response": {
+      "ebs_detached_snapshots": [
+         {
+            "VolumeExists": false,
+            "Status": "detached",
+            "SnapshotId": "snap-05cf1b5de8b51d53d",
+            "VolumeSize": 40,
+            "ImageExists": false,
+            "cldData": "ebs_detached_snapshots",
+            "State": "completed",
+            "cldSavings": 0,
+            "OwnerId": "046692759124",
+            "Progress": "100%",
+            "StartTime": "2018-05-15 15:58:14+00:00",
+            "Description": "Created by CreateImage(i-0b6799dbe262318fd) for ami-4283f13a from vol-0dc2fdabb3753f03b",
+            "VolumeId": "vol-0dc2fdabb3753f03b",
+            "InstanceExists": false,
+            "Encrypted": false
+         },
+         {
+            "VolumeExists": false,
+            "Status": "detached",
+            "SnapshotId": "snap-0ae2fe25c7942c8db",
+            "VolumeSize": 8,
+            "ImageExists": false,
+            "cldData": "ebs_detached_snapshots",
+            "State": "completed",
+            "cldSavings": 0,
+            "OwnerId": "046692759124",
+            "Progress": "100%",
+            "StartTime": "2018-05-15 15:07:24+00:00",
+            "Description": "Created by CreateImage(i-0d808368e94567d64) for ami-4a9def32 from vol-0d134f4a527a9da8a",
+            "VolumeId": "vol-0d134f4a527a9da8a",
+            "InstanceExists": false,
+            "Encrypted": false
+         },
+         {
+            "VolumeExists": false,
+            "Status": "detached",
+            "SnapshotId": "snap-0def6f54d08b9eb01",
+            "VolumeSize": 8,
+            "ImageExists": false,
+            "cldData": "ebs_detached_snapshots",
+            "State": "completed",
+            "cldSavings": 0,
+            "OwnerId": "046692759124",
+            "Progress": "100%",
+            "StartTime": "2018-05-10 15:15:22+00:00",
+            "Description": "Created by CreateImage(i-0d1dc7b50bf1d4e92) for ami-e353239b from vol-00af4678504333599",
+            "VolumeId": "vol-00af4678504333599",
+            "InstanceExists": false,
+            "Encrypted": false
+         },
+         {
+            "VolumeExists": false,
+            "Status": "detached",
+            "SnapshotId": "snap-0169833c2d89b6c45",
+            "VolumeSize": 24,
+            "ImageExists": "",
+            "cldData": "ebs_detached_snapshots",
+            "State": "completed",
+            "cldSavings": 0,
+            "OwnerId": "046692759124",
+            "Progress": "100%",
+            "StartTime": "2018-08-23 21:09:32+00:00",
+            "Description": "Created by AWS-VMImport service for import-ami-03fca62fb9b961815",
+            "VolumeId": "vol-ffffffff",
+            "InstanceExists": "",
+            "Encrypted": false
+         },
+         {
+            "VolumeExists": false,
+            "Status": "detached",
+            "SnapshotId": "snap-03964c90fdd0d5779",
+            "VolumeSize": 24,
+            "ImageExists": "",
+            "cldData": "ebs_detached_snapshots",
+            "State": "completed",
+            "cldSavings": 0,
+            "OwnerId": "046692759124",
+            "Progress": "100%",
+            "StartTime": "2018-05-16 16:42:26+00:00",
+            "Description": "Created by AWS-VMImport service for import-ami-fgemv5k1",
+            "VolumeId": "vol-ffffffff",
+            "InstanceExists": "",
+            "Encrypted": false
+         },
+         {
+            "VolumeExists": false,
+            "Status": "detached",
+            "SnapshotId": "snap-0c76e696b7ae6d454",
+            "VolumeSize": 50,
+            "ImageExists": "",
+            "cldData": "ebs_detached_snapshots",
+            "State": "completed",
+            "cldSavings": 0,
+            "OwnerId": "046692759124",
+            "Progress": "100%",
+            "StartTime": "2018-05-16 01:38:01+00:00",
+            "Description": "Created by AWS-VMImport service for import-ami-fg8rw9ic",
+            "VolumeId": "vol-ffffffff",
+            "InstanceExists": "",
+            "Encrypted": false
+         }
+      ],
+      "rds_idle_instances": [],
+      "ebs_days_older_snapshots": [
+         {
+            "cldSavings": 0,
+            "VolumeSize": 40,
+            "Encrypted": false,
+            "SnapshotId": "snap-05cf1b5de8b51d53d",
+            "cldData": "ebs_days_older_snapshots",
+            "StartTime": "2018-05-15 15:58:14+00:00",
+            "Progress": "100%",
+            "Description": "Created by CreateImage(i-0b6799dbe262318fd) for ami-4283f13a from vol-0dc2fdabb3753f03b",
+            "VolumeId": "vol-0dc2fdabb3753f03b",
+            "State": "completed",
+            "OwnerId": "046692759124"
+         },
+         {
+            "cldSavings": 0,
+            "VolumeSize": 8,
+            "Encrypted": false,
+            "SnapshotId": "snap-0ae2fe25c7942c8db",
+            "cldData": "ebs_days_older_snapshots",
+            "StartTime": "2018-05-15 15:07:24+00:00",
+            "Progress": "100%",
+            "Description": "Created by CreateImage(i-0d808368e94567d64) for ami-4a9def32 from vol-0d134f4a527a9da8a",
+            "VolumeId": "vol-0d134f4a527a9da8a",
+            "State": "completed",
+            "OwnerId": "046692759124"
+         },
+         {
+            "cldSavings": 0,
+            "VolumeSize": 8,
+            "Encrypted": false,
+            "SnapshotId": "snap-0def6f54d08b9eb01",
+            "cldData": "ebs_days_older_snapshots",
+            "StartTime": "2018-05-10 15:15:22+00:00",
+            "Progress": "100%",
+            "Description": "Created by CreateImage(i-0d1dc7b50bf1d4e92) for ami-e353239b from vol-00af4678504333599",
+            "VolumeId": "vol-00af4678504333599",
+            "State": "completed",
+            "OwnerId": "046692759124"
+         },
+         {
+            "cldSavings": 0,
+            "VolumeSize": 24,
+            "Encrypted": false,
+            "SnapshotId": "snap-0169833c2d89b6c45",
+            "cldData": "ebs_days_older_snapshots",
+            "StartTime": "2018-08-23 21:09:32+00:00",
+            "Progress": "100%",
+            "Description": "Created by AWS-VMImport service for import-ami-03fca62fb9b961815",
+            "VolumeId": "vol-ffffffff",
+            "State": "completed",
+            "OwnerId": "046692759124"
+         },
+         {
+            "cldSavings": 0,
+            "VolumeSize": 24,
+            "Encrypted": false,
+            "SnapshotId": "snap-03964c90fdd0d5779",
+            "cldData": "ebs_days_older_snapshots",
+            "StartTime": "2018-05-16 16:42:26+00:00",
+            "Progress": "100%",
+            "Description": "Created by AWS-VMImport service for import-ami-fgemv5k1",
+            "VolumeId": "vol-ffffffff",
+            "State": "completed",
+            "OwnerId": "046692759124"
+         },
+         {
+            "cldSavings": 0,
+            "VolumeSize": 50,
+            "Encrypted": false,
+            "SnapshotId": "snap-0c76e696b7ae6d454",
+            "cldData": "ebs_days_older_snapshots",
+            "StartTime": "2018-05-16 01:38:01+00:00",
+            "Progress": "100%",
+            "Description": "Created by AWS-VMImport service for import-ami-fg8rw9ic",
+            "VolumeId": "vol-ffffffff",
+            "State": "completed",
+            "OwnerId": "046692759124"
+         }
+      ],
+      "ebs_available_volumes": [
+         {
+            "Iops": 100,
+            "SnapshotId": "snap-0a0eab8eb3b562f7b",
+            "cldData": "ebs_available_volumes",
+            "State": "available",
+            "cldSavings": 0,
+            "Tags": [
+               {
+                  "Value": "test_ce",
+                  "Key": "Name"
+               },
+               {
+                  "Value": "Available ",
+                  "Key": "Test_Ce"
+               }
+            ],
+            "Encrypted": false,
+            "Size": 10,
+            "CreateTime": "2018-10-29 19:02:56.979000+00:00",
+            "VolumeType": "gp2",
+            "VolumeId": "vol-02840d572e0a57a61",
+            "AvailabilityZone": "us-west-2a",
+            "Attachments": []
+         },
+         {
+            "Iops": 100,
+            "SnapshotId": "snap-0a0eab8eb3b562f7b",
+            "cldData": "ebs_available_volumes",
+            "State": "available",
+            "cldSavings": 0,
+            "Tags": [
+               {
+                  "Value": "Prashanth_Dev",
+                  "Key": "Name"
+               },
+               {
+                  "Value": "Temp",
+                  "Key": "Prashanth_test"
+               }
+            ],
+            "Encrypted": false,
+            "Size": 10,
+            "CreateTime": "2018-08-01 20:20:59.034000+00:00",
+            "VolumeType": "gp2",
+            "VolumeId": "vol-04d62818b345e64ed",
+            "AvailabilityZone": "us-west-2b",
+            "Attachments": []
+         }
+      ],
+      "unused_elastic_ips": [
+         {
+            "AllocationId": "eipalloc-07311dd24afc8170c",
+            "cldSavings": 0.012750000000000001,
+            "Domain": "vpc",
+            "cldData": "unused_elastic_ips",
+            "PublicIp": "50.112.156.12"
+         },
+         {
+            "AllocationId": "eipalloc-0f9cd3d808520d71d",
+            "cldSavings": 0.012750000000000001,
+            "Domain": "vpc",
+            "cldData": "unused_elastic_ips",
+            "PublicIp": "52.36.217.146"
+         },
+         {
+            "AllocationId": "eipalloc-0adc1ce94d4b4ac8d",
+            "cldSavings": 0.012750000000000001,
+            "Domain": "vpc",
+            "cldData": "unused_elastic_ips",
+            "PublicIp": "54.213.168.235"
+         }
+      ]
+   }
+}

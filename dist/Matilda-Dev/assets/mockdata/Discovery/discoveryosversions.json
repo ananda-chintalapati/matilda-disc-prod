@@ -1,0 +1,195 @@
+{
+    
+    "OperatingSystemVersions": [
+      {
+        "title": "Windows",
+        "type": "count",
+        "data": [
+          {
+            "label": "Windows R2",
+            "Value": 3
+          },
+          {
+            "label": "Windows 2016",
+            "Value": 3
+          },
+          {
+            "label": "Windows 2012",
+            "Value": 3
+          },
+          {
+            "label": "Windows 2009",
+            "Value": 3
+          },
+          {
+            "label": "Windows ",
+            "Value": 3
+          },
+          {
+            "label": "Windows 2016R2",
+            "Value": 3
+          }
+        ]
+      },
+      {
+        "title": "Linux",
+        "type": "count",
+        "data": [
+          {
+            "label": "Linux 1",
+            "Value": 3
+          },
+          {
+            "label": "Linux 2",
+            "Value": 3
+          },
+          {
+            "label": "Linux 4",
+            "Value": 10
+          }
+          
+        ]
+      },
+      {
+        "title": "Linux",
+        "type": "count",
+        "data": [
+          {
+            "label": "Linux 1",
+            "Value": 3
+          },
+          {
+            "label": "Linux 2",
+            "Value": 3
+          },
+          {
+            "label": "Linux 4",
+            "Value": 10
+          }
+          
+        ]
+      },
+      {
+        "title": "Ubuntu",
+        "type": "count",
+        "data": [
+          {
+            "label": "Ubuntu 1",
+            "Value": 3
+          },
+          {
+            "label": "Ubuntu 2",
+            "Value": 3
+          },
+          {
+            "label": "Ubuntu4",
+            "Value": 10
+          },
+          {
+            "label": "Ubuntu8",
+            "Value": 45
+          }
+          
+        ]
+      },
+      {
+        "title": "RHEL",
+        "type": "count",
+        "data": [
+          {
+            "label": "Rhel 7",
+            "Value": 3
+          },
+          {
+            "label": "Rhel 8",
+            "Value": 3
+          },
+          {
+            "label": "Rhel 7",
+            "Value": 10
+          },
+          {
+            "label": "Rhel 5",
+            "Value": 45
+          }
+          
+        ]
+      }
+
+
+
+      
+    ],
+    "DeviceInformation": [
+
+      {
+        "title": "Devices",
+        "type": "count",
+        "data": [
+          {
+            "label": "Compute",
+            "Value": 3
+          },
+          {
+            "label": "Network",
+            "Value": 3
+          },
+          {
+            "label": "Switch",
+            "Value": 13
+          },
+          {
+            "label": "Router",
+            "Value": 3
+          },
+          {
+            "label": "Lan ",
+            "Value": 3
+          },
+          {
+            "label": "xxx",
+            "Value": 3
+          }
+        ]
+      },
+      
+      {
+        "title": "Data",
+        "type": "count",
+        "data": [
+          {
+            "label": "Data 1",
+            "Value": 3
+          },
+          {
+            "label": "Data 3",
+            "Value": 3
+          },
+          {
+            "label": "Data 4",
+            "Value": 10
+          }
+          
+        ]
+      }
+
+      
+    ],
+    "UtilizationInformation":[
+      {
+        "MemoryUsed(GB)": "1.8 GB", 
+        "MemoryAvailable": "1.9 GB", 
+        "MemoryCapacity": "4.0 GB", 
+        "MemoryUsed(%)": "45",
+        "CpuUsed(GB)": "1.8 GB", 
+        "CpuAvailable": "2.3 GB", 
+        "CpuCapacity": "4.0 GB", 
+        "CpuUsed(%)": "75",
+        "StorageUsed(GB)": "1.9 GB", 
+        "StorageAvailable": "2.2 GB", 
+        "StorageCapacity": "4.5GB", 
+        "StorageUsed(%)": "15"
+        
+    }
+    ]
+  }

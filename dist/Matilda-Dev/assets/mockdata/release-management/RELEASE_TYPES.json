@@ -1,0 +1,13 @@
+[{
+    "release_type_cd": 1,
+    "description": "App"
+  }, {
+    "release_type_cd": 2,
+    "description": "Infra"
+  },
+  {
+    "release_type_cd": 3,
+    "description": "VNF"
+  }
+  ]
+  

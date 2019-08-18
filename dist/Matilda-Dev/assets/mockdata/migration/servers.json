@@ -1,0 +1,13 @@
+ [{
+		"state": "RUNNING",
+		"health": "HEALTH_OK",
+		"name": "AdminServer"
+	}, {
+		"state": "RUNNING",
+		"health": "HEALTH_OK",
+		"name": "Server-0"
+	}, {
+		"state": "RUNNING",
+		"health": "HEALTH_OK",
+		"name": "Server-1"
+	}]

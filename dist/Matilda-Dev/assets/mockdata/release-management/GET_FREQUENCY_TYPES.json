@@ -1,0 +1,51 @@
+[
+    {
+    "frequency_cd": 1,
+    "frequency_description": "None",
+    "dag_usage": "None",
+    "comments": "Don’t schedule, use for exclusively “externally triggered” DAGs",
+    "cron_expression": null
+    },
+    {
+    "frequency_cd": 2,
+    "frequency_description": "once",
+    "dag_usage": "@once",
+    "comments": "Schedule once and only once",
+    "cron_expression": null
+    },
+    {
+    "frequency_cd": 3,
+    "frequency_description": "hourly",
+    "dag_usage": "@hourly",
+    "comments": "Run once an hour at the beginning of the hour",
+    "cron_expression": "0 * * * *"
+    },
+    {
+    "frequency_cd": 4,
+    "frequency_description": "daily",
+    "dag_usage": "@daily",
+    "comments": "Run once a day at midnight",
+    "cron_expression": "0 0 * * *"
+    },
+    {
+    "frequency_cd": 5,
+    "frequency_description": "weekly",
+    "dag_usage": "@weekly",
+    "comments": "Run once a week at midnight on Sunday morning",
+    "cron_expression": "0 0 * * 0"
+    },
+    {
+    "frequency_cd": 6,
+    "frequency_description": "monthly",
+    "dag_usage": "@monthly",
+    "comments": "Run once a month at midnight of the first day of the month",
+    "cron_expression": "0 0 1 * *"
+    },
+    {
+    "frequency_cd": 7,
+    "frequency_description": "yearly",
+    "dag_usage": "@yearly",
+    "comments": "Run once a year at midnight of January 1",
+    "cron_expression": "0 0 1 1 *"
+    }
+    ]

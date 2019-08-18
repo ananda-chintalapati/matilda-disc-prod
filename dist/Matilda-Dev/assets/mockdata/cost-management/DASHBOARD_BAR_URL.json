@@ -1,0 +1,98 @@
+{
+	"response": {
+		"metrics": [
+			{
+				"category": "2018-04-01",
+				"total": 0,
+				"values": [
+					{}
+				]
+			},
+			{
+				"category": "2018-05-01",
+				"total": 3.09,
+				"values": [
+					{
+						"value": 1.409,
+						"key": "EC2 - Other"
+					},
+					{
+						"value": 3.091,
+						"key": "Amazon Elastic Compute Cloud - Compute"
+					}
+				]
+			},
+			{
+				"category": "2018-06-01",
+				"total": 8.308,
+				"values": [
+					{
+						"value": 7.961,
+						"key": "EC2 - Other"
+					},
+					{
+						"value": 8.307,
+						"key": "Amazon Elastic Compute Cloud - Compute"
+					}
+				]
+			},
+			{
+				"category": "2018-07-01",
+				"total": 10.949,
+				"values": [
+					{
+						"value": 0.001,
+						"key": "EC2 - Other"
+					},
+					{
+						"value": 10.948,
+						"key": "Amazon Elastic Compute Cloud - Compute"
+					}
+				]
+			},
+			{
+				"category": "2018-08-01",
+				"total": 0.966,
+				"values": [
+					{
+						"value": 1.1,
+						"key": "EC2 - Other"
+					},
+					{
+						"value": 0.966,
+						"key": "Amazon Elastic Compute Cloud - Compute"
+					}
+				]
+			},
+			{
+				"category": "2018-09-01",
+				"total": 0.5796,
+				"values": [
+					{
+						"value": 0.0,
+						"key": "EC2 - Other"
+					},
+					{
+						"value": 0.580,
+						"key": "Amazon Elastic Compute Cloud - Compute"
+					}
+				]
+			},
+			{
+				"category": "2018-10-01",
+				"total": 2.318,
+				"values": [
+					{
+						"value": 8.42,
+						"key": "EC2 - Other"
+					},
+					{
+						"value": 2.319,
+						"key": "Amazon Elastic Compute Cloud - Compute"
+					}
+				]
+			}
+		],
+		"total": 26.212
+	}
+}

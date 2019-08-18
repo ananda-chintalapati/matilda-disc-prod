@@ -1,0 +1,4 @@
+{
+	"DBServer": ["MySql","Oracle"],
+	"WEBServers": ["Weblogic","Tomcat","NgInx"]
+}

@@ -1,0 +1,105 @@
+{
+  "response": {
+    "metrics": [
+      {
+        "category": "2018-04-01",
+        "total": 0,
+        "values": [
+          {
+            "value": 0.0,
+            "key": "EC2 - Other"
+          },
+          {
+            "value": 0.0,
+            "key": "Amazon Elastic Compute Cloud - Compute"
+          }
+        ]
+      },
+      {
+        "category": "2018-05-01",
+        "total": 3.091201409,
+        "values": [
+          {
+            "value": 1.409,
+            "key": "EC2 - Other"
+          },
+          {
+            "value": 3.0912,
+            "key": "Amazon Elastic Compute Cloud - Compute"
+          }
+        ]
+      },
+      {
+        "category": "2018-06-01",
+        "total": 8.3076079618,
+        "values": [
+          {
+            "value": 7.962,
+            "key": "EC2 - Other"
+          },
+          {
+            "value": 8.3076,
+            "key": "Amazon Elastic Compute Cloud - Compute"
+          }
+        ]
+      },
+      {
+        "category": "2018-07-01",
+        "total": 10.9489487588,
+        "values": [
+          {
+            "value": 0.0009487588,
+            "key": "EC2 - Other"
+          },
+          {
+            "value": 10.948,
+            "key": "Amazon Elastic Compute Cloud - Compute"
+          }
+        ]
+      },
+      {
+        "category": "2018-08-01",
+        "total": 0.9660000011,
+        "values": [
+          {
+            "value": 1.1,
+            "key": "EC2 - Other"
+          },
+          {
+            "value": 0.966,
+            "key": "Amazon Elastic Compute Cloud - Compute"
+          }
+        ]
+      },
+      {
+        "category": "2018-09-01",
+        "total": 0.5796,
+        "values": [
+          {
+            "value": 0.0,
+            "key": "EC2 - Other"
+          },
+          {
+            "value": 0.5796,
+            "key": "Amazon Elastic Compute Cloud - Compute"
+          }
+        ]
+      },
+      {
+        "category": "2018-10-01",
+        "total": 2.3189114421999997,
+        "values": [
+          {
+            "value": 8.42,
+            "key": "EC2 - Other"
+          },
+          {
+            "value": 2.318911358,
+            "key": "Amazon Elastic Compute Cloud - Compute"
+          }
+        ]
+      }
+    ],
+    "total": 26.212269572900002
+  }
+}

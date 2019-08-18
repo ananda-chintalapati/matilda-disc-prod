@@ -1,0 +1,81 @@
+{
+	"Status": "Completed",
+	"StartedTime": "07-04-2019 10:30:00",
+	"ElapsedTime": "4 hours 20 mins",
+	"Stages": {
+
+		"Ping": {
+			"label": "Device Pingable",
+			"Current": 200,
+			"Total": 400,
+			"Percent": 50
+		},
+
+		"Device": {
+			"label": "Device Identification",
+			"Current": 100,
+			"Total": 200,
+			"Percent": 50
+		},
+
+		"Login": {
+			"label": "Login",
+			"Current": 100,
+			"Total": 100,
+			"Percent": 100
+		},
+
+		"Discovery": {
+			"label": "Discovery",
+			"Current": 80,
+			"Total": 100,
+			"Percent": 80
+		}
+
+	},
+	"Utilization": {
+		"Memory": {
+			"Used": "599.8 GB",
+			"Available": "1000.2 GB",
+			"Capacity": "1600 GB",
+			"Percent": "37.4"
+		},
+
+
+		"Cpu": {
+			"Used": "22",
+			"Available": "78",
+			"Capacity": "100",
+			"Percent": "26",
+			"CpuCount": "200",
+			"CpuCores": "800"
+		},
+
+		"Storage": {
+			"Used": "66 TB",
+			"Available": "34 TB",
+			"Capacity": "100 TB",
+			"Percent": "66"
+		}
+
+	},
+	"Bar": {
+		"label": "Top 5 Applications",
+		"data": [{
+				"Matilda": 40
+			},
+			{
+				"AcredLink": 25
+			},
+			{
+				"MatildaRelease": 20
+			},
+			{
+				"Matilda-Migration": 10
+			},
+			{
+				"Matilda-Discovery": 10
+			}
+		]
+	}
+}

@@ -1,0 +1,9 @@
+{
+    "artifact_types": [
+      "Features", 
+      "Test Suites", 
+      "Wiki Links", 
+      "Design Documents", 
+      "Other"
+    ]
+  }

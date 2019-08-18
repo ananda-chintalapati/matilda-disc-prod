@@ -1,0 +1,100 @@
+{
+    "response": {
+        "Title": "Service Cost Overview",
+        "projected_chart_data": [
+            {
+                "category": "Spendings",
+                "values": [
+                    604.25,
+                    2100.45,
+                    3375.25,
+                    5570.25,
+                    8722.91
+                ]
+            },
+            {
+                "category": "Net Savings",
+                "values": [
+                    170.09,
+                    510.21,
+                    956.56,
+                    1500.36,
+                    2000.23
+                ]
+            },
+            {
+                "category": "Net Spendings",
+                "values": [
+                    430.25,
+                    1206.45,
+                    2556.25,
+                    3776.12,
+                    6696.76
+                ]
+            }
+        ],
+        "pie_data": [
+            {
+                "id":"1",
+                "category": "EC2 - Instances",
+                "value": 182.12,
+                "quaterlyCost": 610.38,
+                "yearlyCost": 2245.34,
+                "monthlySavings": 65.32,
+                "quaterlySavings": 173.21,
+                "yearlySavings": 853.25
+            },
+            {
+                "id":"2",
+                "category": "EC2- Others",
+                "value": 124.16,
+                "quaterlyCost": 445.34,
+                "yearlyCost": 2786.75,
+                "monthlySavings": 23.24,
+                "quaterlySavings": 69.42,
+                "yearlySavings": 270.35
+            },
+            {
+                "id":"3",
+                "category": "Relational Database Service",
+                "value": 35.47,
+                "quaterlyCost": 132.58,
+                "yearlyCost": 472.75,
+                "monthlySavings": 0.00,
+                "quaterlySavings": 0.00,
+                "yearlySavings": 0.00
+            },
+            {
+                "id":"4",
+                "category": "Tax",
+                "value": 25.07,
+                "quaterlyCost": 73.30,
+                "yearlyCost": 270.75,
+                "monthlySavings": 1.50,
+                "quaterlySavings": 2.70,
+                "yearlySavings": 14.30
+            },
+            {
+                "id":"5",
+                "category": "VPC",
+                "value": 21.00,
+                "quaterlyCost": 66.40,
+                "yearlyCost": 245.75,
+                "monthlySavings": 0.00,
+                "quaterlySavings": 0.00,
+                "yearlySavings": 0.00
+            },
+            {
+                "id":"6",
+                "category": "Others",
+                "value": 16.51,
+                "quaterlyCost": 51.21,
+                "yearlyCost": 187.12,
+                "monthlySavings": 3.00,
+                "quaterlySavings": 14.10,
+                "yearlySavings": 38.40
+            }
+        ],
+        "unit": "USD"
+    }
+}

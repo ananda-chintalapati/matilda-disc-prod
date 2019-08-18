@@ -1,0 +1,30 @@
+{
+  "response": {
+    "Title": "DOTNET",
+    "pie_data": [
+      {
+        "category": "EC2 - Other",
+        "value": 232
+      },
+      {
+        "category": "Amazon Elastic Compute Cloud Compute'",
+        "value": 112
+      },
+      {
+        "category": "EC2",
+        "value": 292
+      },
+      {
+        "category": "AWS Glue",
+        "value": 151
+      },
+      {
+        "category": "AWS Budget",
+        "value": 940
+      }
+    ],
+    "total": 1727,
+    "type": "bar",
+    "unit": "USD"
+  }
+}

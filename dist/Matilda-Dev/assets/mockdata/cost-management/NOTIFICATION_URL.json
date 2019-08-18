@@ -1,0 +1,10 @@
+{
+    "Notifications": ["ACTUAL", "FORECASTED"],
+    "Comparison": [ "GREATER_THAN",
+      "LESS_THAN",
+      "EQUAL_TO"],
+    "Budget": ["SAMPLE",
+      "DEMOS"  ]
+  }
+  
+  

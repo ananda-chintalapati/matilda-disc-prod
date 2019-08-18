@@ -1,0 +1,28 @@
+ [
+
+    {
+        "Service_Name": "weblogic server",
+        "Port": "8080"
+    },
+    {
+        "Service_Name": "IIS",
+        "Port": "8081"
+    },
+    {
+        "Service_Name": "SSH",
+        "Port": "22"
+    },
+    {
+        "Service_Name": "Mysql",
+        "Port": "3306"
+    },
+    {
+        "Service_Name": "Oracle",
+        "Port": "389"
+    },
+    
+    {
+        "Service_Name": "Tomcat",
+        "Port": "8000"
+    }
+]

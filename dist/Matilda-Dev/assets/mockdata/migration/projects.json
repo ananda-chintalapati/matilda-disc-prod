@@ -1,0 +1,45 @@
+[
+    {
+      "_id": "5bcf5723d71b0c70ba2b1ddc", 
+      "projectId": 1, 
+      "projectName": "Deployment Manager", 
+      "regionId": 1
+    }, 
+    {
+      "_id": "5bcf5723d71b0c70ba2b1ddd", 
+      "projectId": 2, 
+      "projectName": "Cost Analytics", 
+      "regionId": 1
+    }, 
+    {
+      "_id": "5bcf5723d71b0c70ba2b1dde", 
+      "projectId": 3, 
+      "projectName": "VNF Test Simulator", 
+      "regionId": 2
+    }, 
+    {
+      "_id": "5bcf5723d71b0c70ba2b1ddf", 
+      "projectId": 4, 
+      "projectName": "Release Management", 
+      "regionId": 2
+    }, 
+    {
+      "_id": "5bcf5723d71b0c70ba2b1de0", 
+      "projectId": 5, 
+      "projectName": "Migration", 
+      "regionId": 5
+    }, 
+    {
+      "_id": "5bcf5723d71b0c70ba2b1de1", 
+      "projectId": 6, 
+      "projectName": "Log Migration", 
+      "regionId": 5
+    }, 
+    {
+      "_id": "5bcf5723d71b0c70ba2b1de2", 
+      "projectId": 7, 
+      "projectName": "GUI Remodel", 
+      "regionId": 5
+    }
+  ]
+  

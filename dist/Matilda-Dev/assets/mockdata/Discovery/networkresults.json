@@ -1,0 +1,198 @@
+[
+  {
+    "cloud_id": "f4bd52b3-2910-4d7e-b37b-35f509cf84ff", 
+    "end_dt": null, 
+    "ip_range": "192.168.20.100-130", 
+    "name": "discovery_sample_1", 
+    "servers": [
+      {
+        "cloud_id": "f4bd52b3-2910-4d7e-b37b-35f509cf84ff", 
+        "hostname": "", 
+        "ip_address": "192.168.20.102", 
+        "operating_system": "Linux 3.10 - 4.11", 
+        "ports": [
+          {
+            "port": "22", 
+            "service": "OpenSSH", 
+            "user_ent_Name": "ssh", 
+            "version": "7.4"
+          }, 
+          {
+            "port": "8080", 
+            "service": "", 
+            "user_ent_Name": "Tomcat", 
+            "version": ""
+          }
+        ], 
+        "status": "up"
+      }, 
+      {
+        "cloud_id": "f4bd52b3-2910-4d7e-b37b-35f509cf84ff", 
+        "hostname": "", 
+        "ip_address": "192.168.20.104", 
+        "operating_system": "Linux 3.10 - 4.11", 
+        "ports": [
+          {
+            "port": "22", 
+            "service": "OpenSSH", 
+            "user_ent_Name": "ssh", 
+            "version": "7.2p2 Ubuntu 4ubuntu2.1"
+          }
+        ], 
+        "status": "up"
+      }, 
+      {
+        "cloud_id": "f4bd52b3-2910-4d7e-b37b-35f509cf84ff", 
+        "hostname": "", 
+        "ip_address": "192.168.20.108", 
+        "operating_system": "Linux 3.10 - 4.11", 
+        "ports": [
+          {
+            "port": "22", 
+            "service": "OpenSSH", 
+            "user_ent_Name": "ssh", 
+            "version": "7.2p2 Ubuntu 4ubuntu2.4"
+          }, 
+          {
+            "port": "3000", 
+            "service": "", 
+            "version": ""
+          }, 
+          {
+            "port": "8086", 
+            "service": "InfluxDB http admin", 
+            "version": "1.6.0"
+          }, 
+          {
+            "port": "8888", 
+            "service": "", 
+            "version": ""
+          }, 
+          {
+            "port": "10010", 
+            "service": "", 
+            "version": ""
+          }
+        ], 
+        "status": "up"
+      }, 
+      {
+        "cloud_id": "f4bd52b3-2910-4d7e-b37b-35f509cf84ff", 
+        "hostname": "", 
+        "ip_address": "192.168.20.114", 
+        "operating_system": "Linux 3.10 - 4.11", 
+        "ports": [
+          {
+            "port": "22", 
+            "service": "OpenSSH", 
+            "user_ent_Name": "ssh", 
+            "version": "7.2p2 Ubuntu 4ubuntu2.1"
+          }, 
+          {
+            "port": "8080", 
+            "service": "Apache Tomcat/Coyote JSP engine", 
+            "user_ent_Name": "Tomcat", 
+            "version": "1.1"
+          }
+        ], 
+        "status": "up"
+      }, 
+      {
+        "cloud_id": "f4bd52b3-2910-4d7e-b37b-35f509cf84ff", 
+        "hostname": "", 
+        "ip_address": "192.168.20.116", 
+        "operating_system": "Polycom SoundPoint IP 430 VoIP phone", 
+        "ports": [
+          {
+            "port": "5060", 
+            "service": "Polycom SoundPoint 550", 
+            "version": "3.0.0.0258"
+          }
+        ], 
+        "status": "up"
+      }, 
+      {
+        "cloud_id": "f4bd52b3-2910-4d7e-b37b-35f509cf84ff", 
+        "hostname": "", 
+        "ip_address": "192.168.20.118", 
+        "operating_system": "VMware ESXi 6.0.0", 
+        "ports": [
+          {
+            "port": "22", 
+            "service": "", 
+            "user_ent_Name": "ssh", 
+            "version": ""
+          }, 
+          {
+            "port": "80", 
+            "service": "VMware ESXi Server httpd", 
+            "version": ""
+          }, 
+          {
+            "port": "427", 
+            "service": "", 
+            "version": ""
+          }, 
+          {
+            "port": "443", 
+            "service": "VMware ESXi Web UI", 
+            "version": ""
+          }, 
+          {
+            "port": "902", 
+            "service": "VMware Authentication Daemon", 
+            "version": "1.10"
+          }, 
+          {
+            "port": "5988", 
+            "service": "", 
+            "version": ""
+          }, 
+          {
+            "port": "5989", 
+            "service": "", 
+            "version": ""
+          }, 
+          {
+            "port": "8000", 
+            "service": "", 
+            "version": ""
+          }, 
+          {
+            "port": "8300", 
+            "service": "", 
+            "version": ""
+          }, 
+          {
+            "port": "9080", 
+            "service": "gSOAP", 
+            "version": "2.8"
+          }
+        ], 
+        "status": "up"
+      }, 
+      {
+        "cloud_id": "f4bd52b3-2910-4d7e-b37b-35f509cf84ff", 
+        "hostname": "", 
+        "ip_address": "192.168.20.124", 
+        "operating_system": "Linux 3.10 - 4.11", 
+        "ports": [
+          {
+            "port": "22", 
+            "service": "OpenSSH", 
+            "user_ent_Name": "ssh", 
+            "version": "6.6.1"
+          }, 
+          {
+            "port": "7002", 
+            "service": "Oracle WebLogic Server", 
+            "user_ent_Name": "Weblogic", 
+            "version": "10.3.6.0"
+          }
+        ], 
+        "status": "up"
+      }
+    ], 
+    "start_dt": "Wed, 03 Oct 2018 12:08:23 GMT"
+  }
+]

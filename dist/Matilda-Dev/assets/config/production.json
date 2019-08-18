@@ -1,0 +1,40 @@
+{
+  "api": {
+    "baseUrl": "/api",
+    "release-management":"http://192.168.20.221:6031",
+    "cost-management":"http://",
+    "migration":"http://",
+    "discovery":"http://",
+    "application-onbaroding":"http://"
+  },
+
+  "paths": {
+    "imagesRoot": "/assets/images/",
+    "userImageFolder": "/assets/images/users/"
+  },
+
+  "localization": {
+    "languages": [
+      {"code": "hr", "name": "HR", "culture": "hr-HR"},
+      {"code": "en", "name": "EN", "culture": "en-EN"}
+    ],
+    "defaultLanguage": "hr"
+  },
+
+  "notifications": {
+    "options": {
+      "timeOut": 5000,
+      "showProgressBar": true,
+      "pauseOnHover": true,
+      "position": ["top", "right"],
+      "theClass": "sy-notification"
+    },
+    "unauthorizedEndpoints": ["api/products"],
+    "notFoundEndpoints": ["api/products", "api/account/login", "api/account/register"]
+  },
+  "aesEncryption": {
+    "key":"inputKey65781239",
+    "iv":"inputIV657812396"
+  },
+  "debugging": false
+}

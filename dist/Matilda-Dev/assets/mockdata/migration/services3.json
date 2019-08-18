@@ -1,0 +1,32 @@
+[
+    {
+      "device": "/dev/sda1",
+      "boot":"*",
+      "start":"2048",
+      "end":"999423",
+      "sectors":"997376",
+      "size":"487M",
+      "id":"83",
+      "type":"Linux"      
+    },
+    {
+      "device": "/dev/sda2",
+      "start":"1001470",
+      "boot":"",
+      "end":"83884031",
+      "sectors":"82882562",
+      "size":"39.5G",
+      "id":"5",
+      "type":"Extended"      
+    },
+    {
+      "device": "/dev/sda3",
+      "start":"1001472",
+      "boot":"",
+      "end":"83884031",
+      "sectors":"82882560",
+      "size":"39.5G",
+      "id":"8e",
+      "type":"Linux LVM"      
+    }
+  ]

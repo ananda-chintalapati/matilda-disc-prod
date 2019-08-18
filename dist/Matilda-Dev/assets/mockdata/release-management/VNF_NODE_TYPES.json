@@ -1,0 +1,233 @@
+[
+    {
+    "vnf_sites": [
+    {
+    "vnf_site_id": "1",
+    "name": "Dallas Metro",
+    "vnf_node_id": "1"
+    },
+    {
+    "vnf_site_id": "2",
+    "name": "Saint Louis",
+    "vnf_node_id": "2"
+    },
+    {
+    "vnf_site_id": "3",
+    "name": "Richardson Lab",
+    "vnf_node_id": "3"
+    }
+    ],
+    "vnf_node_id": "1",
+    "name": "Mobile"
+    },
+    {
+    "vnf_sites": [
+    {
+    "vnf_site_id": "1",
+    "name": "Dallas Metro",
+    "vnf_node_id": "1"
+    },
+    {
+    "vnf_site_id": "2",
+    "name": "Saint Louis",
+    "vnf_node_id": "2"
+    },
+    {
+    "vnf_site_id": "3",
+    "name": "Richardson Lab",
+    "vnf_node_id": "3"
+    }
+    ],
+    "vnf_node_id": "2",
+    "name": "RNC"
+    },
+    {
+    "vnf_sites": [
+    {
+    "vnf_site_id": "1",
+    "name": "Dallas Metro",
+    "vnf_node_id": "1"
+    },
+    {
+    "vnf_site_id": "2",
+    "name": "Saint Louis",
+    "vnf_node_id": "2"
+    },
+    {
+    "vnf_site_id": "3",
+    "name": "Richardson Lab",
+    "vnf_node_id": "3"
+    }
+    ],
+    "vnf_node_id": "3",
+    "name": "ENB"
+    },
+    {
+    "vnf_sites": [
+    {
+    "vnf_site_id": "1",
+    "name": "Dallas Metro",
+    "vnf_node_id": "1"
+    },
+    {
+    "vnf_site_id": "2",
+    "name": "Saint Louis",
+    "vnf_node_id": "2"
+    },
+    {
+    "vnf_site_id": "3",
+    "name": "Richardson Lab",
+    "vnf_node_id": "3"
+    }
+    ],
+    "vnf_node_id": "4",
+    "name": "MME"
+    },
+    {
+    "vnf_sites": [
+    {
+    "vnf_site_id": "1",
+    "name": "Dallas Metro",
+    "vnf_node_id": "1"
+    },
+    {
+    "vnf_site_id": "2",
+    "name": "Saint Louis",
+    "vnf_node_id": "2"
+    },
+    {
+    "vnf_site_id": "3",
+    "name": "Richardson Lab",
+    "vnf_node_id": "3"
+    }
+    ],
+    "vnf_node_id": "5",
+    "name": "PCRF"
+    },
+    {
+    "vnf_sites": [
+    {
+    "vnf_site_id": "1",
+    "name": "Dallas Metro",
+    "vnf_node_id": "1"
+    },
+    {
+    "vnf_site_id": "2",
+    "name": "Saint Louis",
+    "vnf_node_id": "2"
+    },
+    {
+    "vnf_site_id": "3",
+    "name": "Richardson Lab",
+    "vnf_node_id": "3"
+    }
+    ],
+    "vnf_node_id": "6",
+    "name": "SGW"
+    },
+    {
+    "vnf_sites": [
+    {
+    "vnf_site_id": "1",
+    "name": "Dallas Metro",
+    "vnf_node_id": "1"
+    },
+    {
+    "vnf_site_id": "2",
+    "name": "Saint Louis",
+    "vnf_node_id": "2"
+    },
+    {
+    "vnf_site_id": "3",
+    "name": "Richardson Lab",
+    "vnf_node_id": "3"
+    }
+    ],
+    "vnf_node_id": "7",
+    "name": "PDNGW"
+    },
+    {
+    "vnf_sites": [
+    {
+    "vnf_site_id": "1",
+    "name": "Dallas Metro",
+    "vnf_node_id": "1"
+    },
+    {
+    "vnf_site_id": "2",
+    "name": "Saint Louis",
+    "vnf_node_id": "2"
+    },
+    {
+    "vnf_site_id": "3",
+    "name": "Richardson Lab",
+    "vnf_node_id": "3"
+    }
+    ],
+    "vnf_node_id": "8",
+    "name": "HSS"
+    },
+    {
+    "vnf_sites": [
+    {
+    "vnf_site_id": "1",
+    "name": "Dallas Metro",
+    "vnf_node_id": "1"
+    },
+    {
+    "vnf_site_id": "2",
+    "name": "Saint Louis",
+    "vnf_node_id": "2"
+    },
+    {
+    "vnf_site_id": "3",
+    "name": "Richardson Lab",
+    "vnf_node_id": "3"
+    }
+    ],
+    "vnf_node_id": "9",
+    "name": "HLR"
+    },
+    {
+    "vnf_sites": [
+    {
+    "vnf_site_id": "1",
+    "name": "Dallas Metro",
+    "vnf_node_id": "1"
+    },
+    {
+    "vnf_site_id": "2",
+    "name": "Saint Louis",
+    "vnf_node_id": "2"
+    },
+    {
+    "vnf_site_id": "3",
+    "name": "Richardson Lab",
+    "vnf_node_id": "3"
+    }
+    ],
+    "vnf_node_id": "10",
+    "name": "SMSC"
+    },
+    {
+    "vnf_sites": [
+    {
+    "vnf_site_id": "1",
+    "name": "Dallas Metro",
+    "vnf_node_id": "1"
+    },
+    {
+    "vnf_site_id": "2",
+    "name": "Saint Louis",
+    "vnf_node_id": "2"
+    },
+    {
+    "vnf_site_id": "3",
+    "name": "Richardson Lab",
+    "vnf_node_id": "3"
+    }
+    ],
+    "vnf_node_id": "11",
+    "name": "CSCF"
+    }
+    ]

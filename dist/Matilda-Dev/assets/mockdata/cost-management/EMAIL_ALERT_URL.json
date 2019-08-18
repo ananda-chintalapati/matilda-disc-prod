@@ -1,0 +1,17 @@
+{
+	"account_id": "046692759124",
+	"budget_name": "demobudget",
+	"notification": {
+		"NotificationType": "ACTUAL",
+		"ComparisonOperator": "GREATER_THAN",
+		"Threshold": 75.0
+	},
+	"old_subscriber": {
+		"SubscriptionType": "EMAIL",
+		"Address": "prashanth@cnet-global.com"
+	},
+	"new_subscriber": {
+		"SubscriptionType": "EMAIL",
+		"Address": "subhashm@cnet-global.com"
+	}
+}

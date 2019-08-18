@@ -1,0 +1,158 @@
+{  
+   "name":"Oracle",
+   "children":[  
+      {  
+         "name":"Connections",
+         "children":[  
+            {  
+               "name":"192.168.10.111",
+			   "children" : [
+					{
+						"name" : "Service : Web Logic"
+					}
+					,{
+						"name" : "Host Name : cnetappprd01"
+					}
+					,{
+						"name" : "Port : 8080"
+					}
+					,{
+						"name" : "Packet Sent : 86689KB"
+					}
+					,{
+						"name" : "Packet Received : 56689KB"
+					}
+			   ]
+            },
+            {  
+               "name":"192.168.10.112",
+			   "children" : [
+					{
+						"name" : "Service : Web Logic"
+					},{
+						"name" : "Host Name : cnetappprd02"
+					},{
+						"name" : "Port : 8080"
+					},{
+						"name" : "Packet Size : 75785KB"
+					},{
+						"name" : "Packet Received : 65689KB"
+					}
+			   ]
+            }
+		]
+	},{  
+         "name":"Information",
+         "children":[  
+            {  
+               "name":"Version : Oracle 11g"
+            },
+            {  
+               "name":"Installation Type : Standalone"
+            },
+            {  
+               "name":"Up Time : 8 hours"
+			}
+			,{  
+               "name":"Oracle Home : /opt/Matilda/oracle/app"
+			},{  
+               "name":"Last Accessed Time : 9:35 CST"
+			},{  
+               "name":"Listening Port : 1521"
+			}
+		]
+	},{  
+         "name":"Sessions",
+         "children":[  
+            {  
+               "name":"Active : 10"
+            },
+            {  
+               "name":"Blocked : 0"
+            }
+		]
+	},{  
+         "name":"Processes",
+         "children":[  
+            {  
+               "name":"Total : 10"
+            },
+            {  
+               "name":"SGA : 0"
+            },
+			{  
+               "name":"PGA : 0"
+            }
+		]
+	},{  
+         "name":"Utilizations",
+         "children":[  
+            {  
+               "name":"CPU Sys : 30%"
+            },
+            {  
+               "name":"CPU Users : 23%"
+            },
+            {  
+               "name":"Memory : 34%"
+            }
+		]
+	},{  
+         "name":"Schemas",
+         "children":[  
+            {  
+               "name":"Matilda",
+			   "children" :[
+					{
+						"name":"CurrentSize:12GB"
+					},{
+						"name":"MaxSize:20GB"
+					},{
+						"name":"Sessions:10"
+					},{
+						"name":"QueryElapsedTime:0.212s"
+					},{
+						"name":"QueryFetchTime:0.123s"
+					}
+					
+			   ]
+            },
+            {  
+               "name":"Matilda_Discovery",
+			   "children" :[
+					{
+						"name":"CurrentSize:13.34GB"
+					},{
+						"name":"MaxSize:20GB"
+					},{
+						"name":"Sessions:14"
+					},{
+						"name":"QueryElapsedTime:0.122s"
+					},{
+						"name":"QueryFetchTime:0.012s"
+					}
+			   ]
+            },
+            {  
+               "name":"Matilda_Cost",
+			   "children" :[
+					{
+						"name":"CurrentSize:15.78GB"
+					},{
+						"name":"MaxSize:20GB"
+					},{
+						"name":"Sessions:17"
+					},{
+						"name":"QueryElapsedTime:0.212s"
+					},{
+						"name":"QueryFetchTime:0.123s"
+					}
+					
+			   ]
+            }
+		]
+	}
+		
+
+   ]
+}

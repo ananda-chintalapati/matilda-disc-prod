@@ -1,0 +1,23 @@
+{
+	"DataCenter": [
+				"Any",
+		"Newyork",
+		"California",
+		"Dallas",
+		"Plano"
+    ],
+	"LineOfBusiness": [
+		"Any",
+		"Newyork-CP",
+        "California-CP",
+        "Dallas-CP",
+        "Plano-CP"
+    ],
+    "Environment": [
+		"Any",
+		"Newyork-server",
+        "California-server",
+        "Dallas-server",
+        "Plano-server"
+    ]
+}

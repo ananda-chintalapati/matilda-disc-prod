@@ -1,0 +1,10 @@
+{
+    "serviceDiscoveryId": 10001455,
+    "serviceDiscoveryName": "GK72_service_discovery",
+    "servicePath": "/opt/oracle/weblogic/domain-registry.xml",
+    "ipAddress": "192.168.20.124",
+    "serviceDiscStartOn": "2019/03/27 16:49:22",
+    "statusType": "Completed",
+    "serviceType": "Weblogic",
+    "active": true
+    }

@@ -1,0 +1,133 @@
+{
+  "release_services": {
+    "BASE_URL": "http://localhost:4200",
+    "CREATE_RELEASE": "/assets/mockdata/release-management/CREATE_RELEASE.json",
+    "CLONE_RELEASE": "/assets/mockdata/release-management/CLONE_RELEASE.json",
+    "GET_RELEASE_NAMES": "/assets/mockdata/release-management/GET_RELEASE_NAMES.json",
+    "START_RELEASE": "/assets/mockdata/release-management/START_RELEASE.json",
+    "START_ENVIRONMENT_RELEASE": "/assets/mockdata/release-management/START_ENVIRONMENT_RELEASE.json",
+    "REHYDRATE_ENVIRONMENT_RELEASE": "/assets/mockdata/release-management/REHYDRATE_ENVIRONMENT_RELEASE.json",
+    "GET_RELEASE": "/assets/mockdata/release-management/GET_RELEASE.json",
+    "GET_RELEASE_ITEM": "/assets/mockdata/release-management/GET_RELEASE_ITEM.json",
+    "GET_RELEASE_TYPES":"/assets/mockdata/release-management/RELEASE_TYPES.json",
+    "GET_PROJECTS": "/assets/mockdata/release-management/GET_PROJECTS.json",
+    "GET_PLATFORMS": "/assets/mockdata/release-management/GET_PLATFORMS.json",
+    "GET_APPLICATIONS": "/assets/mockdata/release-management/GET_APPLICATIONS.json",
+    "GET_VNF_NODE_TYPES" : "assets/mockdata/release-management/VNF_NODE_TYPES.json",
+    "CREATE_ENV": "/assets/mockdata/release-management/CREATE_ENV.json",
+    "CLONE_ENVIRONMENT": "/assets/mockdata/release-management/CLONE_ENVIRONMENT.json",
+    "GET_IMPACTED_SYSTEMS": "/assets/mockdata/release-management/GET_IMPACTED_SYSTEMS.json",
+    "GET_IMPACTED_APPLICATIONS": "/assets/mockdata/release-management/GET_IMPACTED_APPLICATIONS.json",
+    "GET_ENV": "/assets/mockdata/release-management/GET_ENV.json",
+    "CREATE_WORKFLOW": "/assets/mockdata/release-management/CREATE_WORKFLOW.json",
+    "GET_WORKFLOW_LIST": "/assets/mockdata/release-management/GET_WORKFLOW_LIST.json",
+    "GET_WORKFLOW": "/assets/mockdata/release-management/GET_WORKFLOW.json",
+    "WORKFLOW_ACTION": "/assets/mockdata/release-management/WORKFLOW_ACTION.json",
+    "GET_WORKFLOW_STAGES": "/assets/mockdata/release-management/GET_WORKFLOW_STAGES.json",
+    "CREATE_WORKFLOW_STAGES": "/assets/mockdata/release-management/CREATE_WORKFLOW_STAGES.json",
+    "UPDATE_WORKFLOW": "/assets/mockdata/release-management/UPDATE_WORKFLOW.json",
+    "SAVE_WORKFLOW_TEMPLATE": "/assets/mockdata/release-management/SAVE_WORKFLOW_TEMPLATE.json",
+    "GET_WORKFLOW_TEMPLATES": "/assets/mockdata/release-management/GET_WORKFLOW_TEMPLATES.json",
+    "GET_WORKFLOW_TEMPLATE": "/assets/mockdata/release-management/GET_WORKFLOW_TEMPLATE.json",
+    "GET_AVAILABLE_PLUGINS": "/assets/mockdata/release-management/GET_AVAILABLE_PLUGINS.json",
+    "GET_FREQUENCY_TYPES": "/assets/mockdata/release-management/GET_FREQUENCY_TYPES.json",
+    "GET_PLUGIN_FIELDS": "/assets/mockdata/release-management/GET_PLUGIN_FIELDS.json"
+  },
+  
+  "discovery_services": {
+    "BASE_NETWORK_URL": "http://localhost:4200",
+    "NETWORK_PORT_URL":"/assets/mockdata/Discovery/Networkportlist.json",
+    "NETWORK_LIST_URL":"/assets/mockdata/Discovery/networklist.json",
+    "NETWORK_DISCOVERY_LIST_URL":"/assets/mockdata/Discovery/discoverydetails.json",
+    "NETWORK_DISCOVERYLIST_SERVICE_LIST_URL":"/assets/mockdata/Discovery/discoveryservices.json",
+    "HOST_DETAILS_URL":"/assets/mockdata/Discovery/hostdetails.json",
+    "NETWORK_OS_URL":"//assets/mockdata/Discovery/discoveryos.json",
+    "NETWORK_SERVICES_URL":"//assets/mockdata/Discovery/discoveryservices.json",
+    "DASHBOARD_DETAILS_URL":"/assets/mockdata/Discovery/dashboard-details.json",
+    "BASE_SERVICE_URL":"http://localhost:4200",
+    "SERVICE_LIST_URL":"//assets/mockdata/Discovery/servicelist.json",
+    "SERVICE_RETRY_LIST_URL":"/assets/mockdata/Discovery/hostserviceretrylist.json",
+    "SERVICE_DISCOVERY_SUMMARY_URL":"/assets/mockdata/Discovery/hostsummarylist.json",
+    "SERVICE_DISCOVERY_TOPOLOGY_URL":"/assets/mockdata/Discovery/hosttopology.json",
+    "SERVICE_SUMMARY_LIST_URL" :"/assets/mockdata/Discovery/servicesummaryfirstlist.json",
+    
+
+
+    "DISCOVERY_NETWORK_URL": "/assets/mockdata/discovery-migration/DISCOVERY_NETWORK_URL.json",
+    
+    "DISCOVERY_SERVICE_URL": "/assets/mockdata/discovery-migration/DISCOVERY_SERVICE_URL.json",
+    "DISCTAB_SERVICE_URL": "/assets/mockdata/discovery-migration/DISCTAB_SERVICE_URL.json",
+    "DISCTAB_NETWORK_URL": "/assets/mockdata/discovery-migration/DISCTAB_NETWORK_URL.json",
+    "DISC_NETWORK_RESULT_URL": "/assets/mockdata/discovery-migration/DISC_NETWORK_RESULT_URL.json",
+    "DISCOVERY_NETWORK_RESULT": "/assets/mockdata/discovery-migration/DISCOVERY_NETWORK_RESULT.json",
+    "DISCOVERY_SERVICE_RESULT": "/assets/mockdata/discovery-migration/DISCOVERY_SERVICE_RESULT.json",
+    "NEW_DISCOVERY_URL": "/assets/mockdata/discovery-migration/NEW_DISCOVERY_URL.json",
+    "NEW_DISCOVERY_SERVICE": "/assets/mockdata/discovery-migration/NEW_DISCOVERY_SERVICE.json"
+  },
+  "cost_services": {
+    "BASE_URL":"",
+    "SECONDARY_URL":"",
+    "THIRD_URL":"",
+    "FOURTH_URL":"",
+    "FIFTH_URL":"",
+    "LOCAL_URL":"",
+    "BASE_FILTER_URL" :"/assets/mockdata/costmanagement/granularity.json",
+    "BASE_GROUP_URL" :"/assets/mockdata/cost-management/GROUP_URL.json",
+    "BASE_ADVANCE_URL" :"/assets/mockdata/cost-management/ADV_FILTER.json",
+    "GROUP_URL": "/assets/mockdata/cost-management/GROUP_URL.json",
+    "FILTER_DD_URL":"/assets/mockdata/cost-management/<%= value%>.json",
+    "CHART_URL": "/assets/mockdata/cost-management/CHART_URL.json",
+    "PIECHART_URL":"/assets/mockdata/cost-management/PIECHART_URL.json",
+    "DASHBOARD_URL": "/assets/mockdata/cost-management/DASHBOARD_URL.json",
+    "BUDGET_URL": "/assets/mockdata/cost-management/BUDGET_URL.json",
+    "MONTHLY_COST": "/assets/mockdata/cost-management/MONTHLY_COST.json",
+    "PIE_URL":"/assets/mockdata/cost-management/PIE_URL.json",
+    "FORECAST_CHART_URL": "/assets/mockdata/cost-management/FORECAST_CHART_URL.json",
+    "FILTER_URL": "/assets/mockdata/cost-management/FILTER_URL.json",
+    "DASHBOARD_PIE_DUAL_DATA_URL" : "/assets/mockdata/cost-management/SERVICE.json",
+    "DASHBOARD_PIE_DD_DATA_URL" : "/assets/mockdata/cost-management/SERVICE_ALL_DATA.json",
+    "DASHBOARD_BAR_DATA_URL": "/assets/mockdata/cost-management/<%= value%>.json",
+    "DASHBOARD_PIE_DATA_URL": "/assets/mockdata/cost-management/PIE_ALL_DATA.json",
+    "APPLICATION_DETAILS_URL": "/assets/mockdata/cost-management/APPLICATION_INDETAILS.json",
+    "SERVICE_DETAILS_URL": "/assets/mockdata/cost-management/SERVICE_INDETAILS.json",
+    "SYSTEM_DETAILS_URL": "/assets/mockdata/cost-management/SYSTEM_DETAILS_URL.json",
+    "OPTIMIZE_URL":"/assets/mockdata/cost-management/OPTIMIZE_URL.json",
+    "ELIMINATE_URL":"/assets/mockdata/cost-management/ELIMINATE_URL.json",
+    "APP_URL":"/assets/mockdata/cost-management/APP_URL.json",
+    "ENV_URL":"/assets/mockdata/cost-management/ENV_URL.json",
+    "PROJ_URL":"/assets/mockdata/cost-management/PROJ_URL.json",
+    "NOTIFICATION_URL":"/assets/mockdata/cost-management/NOTIFICATION_URL.json",
+    "DETAILS_URL": "/assets/mockdata/cost-management/DETAILS_URL.json",
+    "APPLY_URL":"/assets/mockdata/cost-management/APPLY_URL.json",
+    "ALERT_URL": "/assets/mockdata/cost-management/ALERT_URL.json",
+    "THRESHOLD_ALERT_URL": "/assets/mockdata/cost-management/THRESHOLD_ALERT_URL.json",
+    "EMAIL_ALERT_URL": "/assets/mockdata/cost-management/ALERT_URL.json",
+    "DELETE_ALERT_URL": "/assets/mockdata/cost-management/ALERT_URL.json",
+    "SAVINGSGRID_URL": "/assets/mockdata/cost-management/SAVINGSGRID_URL.json"
+  },
+  "notifications": {
+    "options": {
+      "timeOut": 5000,
+      "showProgressBar": true,
+      "pauseOnHover": true,
+      "position": [
+        "top",
+        "right"
+      ],
+      "theClass": "sy-notification"
+    },
+    "unauthorizedEndpoints": [
+      "api/products"
+    ],
+    "notFoundEndpoints": [
+      "api/products",
+      "api/account/login",
+      "api/account/register"
+    ]
+  },
+  "aesEncryption": {
+    "key": "inputKey65781239",
+    "iv": "inputIV657812396"
+  },
+  "debugging": true
+}

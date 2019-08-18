@@ -1,0 +1,62 @@
+[
+   {
+      "Application_Name": "Application",
+      "Cost_Spent_Mon": "$155",
+      "Cost_Saving_Mon": "$24",
+      "Cost_Saving_Yly": "$235"
+   },
+   {
+      "Application_Name": "ApplicationMatilda_UI",
+      "Cost_Spent_Mon": "$16",
+      "Cost_Saving_Mon": "$3",
+      "Cost_Saving_Yly": "$35"
+   },
+   {
+      "Application_Name": "ApplicationMatilda",
+      "Cost_Spent_Mon": "$1",
+      "Cost_Saving_Mon": "$0.05",
+      "Cost_Saving_Yly": "$0.6"
+   },
+   {
+      "Application_Name": "ApplicationIIS",
+      "Cost_Spent_Mon": "$6",
+      "Cost_Saving_Mon": "$1.5",
+      "Cost_Saving_Yly": "$15"
+   },
+   {
+      "Application_Name": "ApplicationMatilda UI",
+      "Cost_Spent_Mon": "$13",
+      "Cost_Saving_Mon": "$2",
+      "Cost_Saving_Yly": "$24"
+   },
+   {
+      "Application_Name": "ApplicationRelease Management Server",
+      "Cost_Spent_Mon": "$17",
+      "Cost_Saving_Mon": "$3",
+      "Cost_Saving_Yly": "$33"
+   },
+   {
+      "Application_Name": "ApplicationDemo",
+      "Cost_Spent_Mon": "$2",
+      "Cost_Saving_Mon": "$0.6",
+      "Cost_Saving_Yly": "$7"
+   },
+   {
+      "Application_Name": "ApplicationRelease-Management Database",
+      "Cost_Spent_Mon": "$7",
+      "Cost_Saving_Mon": "$0.75",
+      "Cost_Saving_Yly": "$9"
+   },
+   {
+      "Application_Name": "ApplicationRelease-Management",
+      "Cost_Spent_Mon": "$1",
+      "Cost_Saving_Mon": "$0.1",
+      "Cost_Saving_Yly": "$1.2"
+   },
+   {
+      "Application_Name": "ApplicationRlsMgmt-Free Tier",
+      "Cost_Spent_Mon": "$0",
+      "Cost_Saving_Mon": "$0",
+      "Cost_Saving_Yly": "$0"
+   }
+]

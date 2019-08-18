@@ -1,0 +1,135 @@
+{
+  "serviceDiscoveryId": 999999,
+  "serviceDiscoveryName": "DB_service_discovery",
+  "servicePath": "/",
+  "ipAddress": "192.168.10.25",
+  "serviceDiscStartOn": "2019/03/27 16:49:22",
+  "statusType": "Completed",
+  "serviceType": "ORACLE",
+  "summaryDetails": [
+   {
+  "name": "Connections",
+  "value": 2,
+  "details": [
+   {
+    "Host": "192.168.10.111",
+    "Service" : "Web Logic",
+    "Port" : "8080"
+   },
+   {
+    "Host": "192.168.10.112",
+    "Service" : "Web Logic",
+    "Port" :"8080"
+   }
+   ]
+   },
+   {
+  "name": "Information",
+  "value": 8,
+  "details": [
+   {
+    "Property": "Version",
+    "Value" : "Oracle 11g"
+   },
+   {
+    "Property": "Installation Type",
+    "Value" : "Standalone"
+   },
+   {
+    "Property": "Storage Type",
+    "Value" : "ASM"
+   },
+   {
+    "Property": "Up Time",
+    "Value" : "8 hours Running"
+   },
+   {
+    "Property": "Blocked Connections",
+    "Value" : "0"
+   },
+   {
+    "Property": "Oracle Home",
+    "Value" : "/opt/matilda/oracle/app"
+   },
+   {
+    "Property": "Last Accessed Time",
+    "Value" : "9:35 CST"
+   },
+   {
+    "Property": "Listening Port",
+    "Value" : "1521"
+   }
+   ]
+   },
+   {
+  "name": "Schemas",
+  "value": 3,
+  "details": [
+   {
+  "name": "Matilda",
+  "CurrentSize": "12GB",
+  "MaxSize":"20GB",
+  "Sessions":10,
+  "QueryElapsedTime":"0.212s",
+  "QueryFetchTime":"0.123s"
+   },
+   {
+  "name": "Matilda_Discovery",
+  "CurrentSize": "13.34GB",
+  "MaxSize":"20GB",
+  "Sessions":14,
+  "QueryElapsedTime":"0.122s",
+  "QueryFetchTime":"0.012s"
+   }, {
+  "name": "Matilda_Cost",
+  "CurrentSize": "15.78GB",
+  "MaxSize":"20GB",
+  "Sessions":17,
+  "QueryElapsedTime":"0.212s",
+  "QueryFetchTime":"0.123s"
+   }
+   ]
+   }
+  ,
+   {
+  "name": "Statistics",
+  "value": 8,
+  "details": [
+   {
+    "Property": "CPU Sys Utilization",
+    "Value": "30%"
+    },
+   {
+    "Property": "CPU Users Utilization",
+    "Value": "23%"
+    },
+   {
+    "Property": "Memory Utilization",
+    "Value": "34%"
+    },
+   {
+    "Property": "Processes",
+    "Value": "35"
+    },
+   {
+    "Property": "Users",
+    "Value": "4"
+    },
+     {
+    "Property": "SGA",
+    "Value": "0"
+    },
+    {
+    "Property": "PGA",
+    "Value": "0"
+    },
+    {
+    "Property": "Active Connection",
+    "Value": 10
+    }
+   ]
+   }
+   ]
+   }
+  
+  

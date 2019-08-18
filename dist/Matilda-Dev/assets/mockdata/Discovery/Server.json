@@ -1,0 +1,151 @@
+{
+   "Operating_Systems":[
+      {
+         "name":"Windows",
+         "value":"29",
+         "data":[
+            {
+               "name":"2012",
+               "value":9
+              
+            },
+            {
+               "name":"2016",
+               "value":10
+              
+            },
+            {
+               "name":"2016R2",
+               "value":10
+              
+            }
+         ]
+      },
+      {
+         "name":"Ubuntu",
+         "value":"28",
+         "data":[
+            {
+               "name":"12.04.5",
+               "value":3
+              
+            },
+            {
+               "name":"19.04",
+               "value":2
+             
+            },
+            {
+               "name":"18.04.2 LTS",
+               "value":10
+              
+            },
+            {
+               "name":"18.04.4LTS",
+               "value":15
+              
+            }
+         ]
+      },
+      {
+         "name":"Linux",
+         "value":"23",
+         "data":[
+            {
+               "name":"Mint",
+               "value":13
+             
+            },
+            {
+               "name":"Fedora",
+               "value":5
+              
+            },
+            {
+               "name":"Redhat",
+               "value":5
+              
+            }
+         ]
+      }
+    
+   ],
+   "Devices":[
+      {
+         "name":"Network",
+         "value":"10",
+         "data":[
+           
+            {
+               "name":"Switch",
+               "value":7
+            },
+            {
+               "name":"Router",
+               "value":3
+            }
+         ]
+      },
+      {
+         "name":"Compute",
+         "value":"80",
+         "data":[
+            {
+               "name":"Physical",
+               "value":10
+            },
+            {
+               "name":"Virtual",
+               "value":70
+            }
+         ]
+      }
+   ],
+   "Application_Services":[
+      {
+         "name":"Application Server",
+         "value":"40",
+         "data":[
+            {
+               "name":"Web Logic",
+               "value":13
+            },
+            {
+               "name":"Jboss",
+               "value":23
+            },
+            {
+               "name":"IIS",
+               "value":4
+            }
+         ]
+      },
+      {
+         "name":"Web Server",
+         "value":"15",
+         "data":[
+            {
+               "name":"Tomcat",
+               "value":15
+            }
+         ]
+      }
+      ,
+      {
+         "name":"DB Server",
+         "value":"18",
+         "data":[
+            {
+               "name":"SQL",
+               "value":5
+            },{
+               "name":"My Sql",
+               "value":7
+            },{
+               "name":"Oracle",
+               "value":6
+            }
+         ]
+      }
+   ]
+}

@@ -1,0 +1,510 @@
+[
+    {
+      "Summary": {
+        "CPUInformation": {
+          "CPUCount": 2,
+          "ModelName": "Intel(R) Xeon(R) CPU E5-2630 v4 @ 2.20GHz",
+          "Number_of_Cores": 4
+        },
+        "CPUUsage": {
+          "value": 47
+        },
+        "DiskInformation": {
+          "Free": "148 GB",
+          "TotalMemory": "250 GB",
+          "Used": "102 GB"
+        },
+        "DiskUsage": {
+          "value": "40"
+        },
+        "Information": {
+          "Memory": "16 GB",
+          "OperatingSystem": "CentOS Linux 7.0",
+          "Platform": "",
+          "SystemDate": "Wed Dec 5 10:50:41 EDT 2018",
+          "Version": "7",
+          "vCPUCount": ""
+        },
+        "Summaries":{
+          "No_of_VMs": "2",
+          "Operating_System": "CentOS Linux 7.0",
+          "Application_Server": "WebLogic 12.2.1",
+          "No_of_Cores": "4",
+          "Memory": "16GB",
+          "Storage": "250GB",
+          "Application_Type": "Java",
+          "Database": "Oracle",
+          "Load_Balancer": "Yes",
+          "Cloud_Ready": "Yes",
+          "Recommended_Cloud": "AWS"
+          
+        },
+        "Info":{
+          "service": "Weblogic",
+          "version": "10.3.6",
+          "cluster": "2 node cluster",
+          "javaversion": "1.7.0.55",
+          "domain": "2"
+        },
+        "Infrastructure": {
+          "data": [
+            {
+              "id": "Infrastrcutre",
+              "progress": 0,
+              "status": "Not Started",
+              "summary": "Windows and Linux Host Information",
+              "total": 56
+            },
+            {
+              "id": "TS-4",
+              "progress": 0,
+              "status": "Not Started",
+              "summary": "Discover IIS Server ",
+              "total": 30
+            },
+            {
+              "id": "TS-3",
+              "progress": 0,
+              "status": "Not Started",
+              "summary": "Discover Tomcat Server ",
+              "total": 15
+            },
+            {
+              "id": "TS-2",
+              "progress": 0,
+              "status": "Not Started",
+              "summary": "Discover JBoss Server ",
+              "total": 15
+            },
+            {
+              "id": "TS-1",
+              "progress": 0,
+              "status": "Not Started",
+              "summary": "Discover WebLogic Server ",
+              "total": 35
+            }
+          ],
+          "metaData": [
+            {
+              "field": "id",
+              "filterable": true,
+              "locked": false,
+              "title": "Test Suite Id"
+            },
+            {
+              "field": "summary",
+              "filterable": true,
+              "locked": false,
+              "title": "Type"
+            },
+            {
+              "field": "progress",
+              "filterable": true,
+              "locked": false,
+              "title": "Progress"
+            },
+            {
+              "field": "status",
+              "filterable": true,
+              "locked": false,
+              "title": "Status"
+            },
+            {
+              "field": "total",
+              "filterable": true,
+              "locked": false,
+              "title": "Total Test Cases"
+            }
+          ],
+          "title": "Test Suites"
+        },
+        "MemoryInformation": {
+          "Free": "4 GB",
+          "TotalMemory": "16 GB",
+          "Used": "12 GB"
+        },
+        "MemoryUsage": {
+          "value": 75
+        },
+        "Network": {
+          "data": [
+            {
+              "ipaddress": "127.0.0.1",
+              "mtu": "65536",
+              "name": "lo",
+              "rxbytes": "56.4 KB",
+              "rxpackets": "396",
+              "state": "UP",
+              "txbytes": "56.4 KB",
+              "txpackets": "396"
+            },
+            {
+              "ipaddress": "192.168.20.124",
+              "mtu": "1500",
+              "name": "ens160",
+              "rxbytes": "2.0 GB",
+              "rxpackets": "6523482",
+              "state": "UP",
+              "txbytes": "121.0 MB",
+              "txpackets": "916799"
+            },
+            {
+              "ipaddress": "172.17.0.1",
+              "mtu": "1500",
+              "name": "docker",
+              "rxbytes": "21.4 MB",
+              "rxpackets": "373855",
+              "state": "UP",
+              "txbytes": "1.1 GB",
+              "txpackets": "732072"
+            },
+            {
+              "ipaddress": "172.18.0.1",
+              "mtu": "1500",
+              "name": "br-b95ac206118b",
+              "rxbytes": "0.0",
+              "rxpackets": "0",
+              "state": "DOWN",
+              "txbytes": "0.0",
+              "txpackets": "0"
+            }
+          ],
+          "metaData": [
+            {
+              "field": "name",
+              "filterable": true,
+              "locked": false,
+              "title": "Name"
+            },
+            {
+              "field": "ipaddress",
+              "filterable": true,
+              "locked": false,
+              "title": "IP Address"
+            },
+            {
+              "field": "mtu",
+              "filterable": true,
+              "locked": false,
+              "title": "MTU"
+            },
+            {
+              "field": "rxbytes",
+              "filterable": true,
+              "locked": false,
+              "title": "RX (Bytes)"
+            },
+            {
+              "field": "txbytes",
+              "filterable": true,
+              "locked": false,
+              "title": "TX (Bytes) "
+            },
+            {
+              "field": "rxpackets",
+              "filterable": true,
+              "locked": false,
+              "title": "RX (packets)"
+            },
+            {
+              "field": "txpackets",
+              "filterable": true,
+              "locked": false,
+              "title": "TX (packets)"
+            },
+            {
+              "field": "state",
+              "filterable": true,
+              "locked": false,
+              "title": "State"
+            }
+          ]
+        },
+        "PortConfigurations": {
+          "data": [
+            {
+              "localaddress": "8005",
+              "pid": "8447",
+              "program": "python",
+              "protocol": "tcp",
+              "recq": "300",
+              "sendq": "233",
+              "PortType": "LISTEN"
+            },
+            {
+              "localaddress": "5666",
+              "pid": "3521",
+              "program": "nrpe",
+              "protocol": "tcp",
+              "recq": "675",
+              "sendq": "587",
+              "PortType": "LISTEN"
+            },
+            {
+              "localaddress": "8004",
+              "pid": "8489",
+              "program": "python",
+              "protocol": "tcp",
+              "recq": "789",
+              "sendq": "765",
+              "PortType": "LISTEN"
+            },
+            {
+              "localaddress": "8774",
+              "pid": "8569",
+              "program": "python",
+              "protocol": "tcp",
+              "recq": "449",
+              "sendq": "223",
+              "PortType": "LISTEN"
+            },
+            {
+              "localaddress": "8775",
+              "pid": "8569",
+              "program": "python",
+              "protocol": "tcp",
+              "recq": "332",
+              "sendq": "226",
+              "PortType": "LISTEN"
+            },
+             {
+              "localaddress": "7002",
+              "pid": "8569",
+              "program": "weblogic",
+              "protocol": "tcp",
+              "recq": "667",
+              "sendq": "886",
+              "PortType": "LISTEN"
+            }
+          ],
+          "metaData": [
+            {
+              "field": "protocol",
+              "filterable": true,
+              "locked": false,
+              "title": "Protocol"
+            },
+            {
+              "field": "sendq",
+              "filterable": true,
+              "locked": false,
+              "title": "SendQ"
+            },
+            {
+              "field": "pid",
+              "filterable": true,
+              "locked": false,
+              "title": "PID"
+            },
+            {
+              "field": "localaddress",
+              "filterable": true,
+              "locked": false,
+              "title": "Port Number"
+            },
+            {
+              "field": "PortType",
+              "filterable": true,
+              "locked": false,
+              "title": "Port Type"
+            },
+            {
+              "field": "program",
+              "filterable": true,
+              "locked": false,
+              "title": "Program"
+            },
+            {
+              "field": "recq",
+              "filterable": true,
+              "locked": false,
+              "title": "RecvQ"
+            }
+          ]
+        },
+        "Service": [
+          {
+            "data": [
+              {
+                "context_root": "/Blog",
+                "health": "Running",
+                "name": "Blog",
+                "state": "HEALTH_OK",
+                "type": "WAR"
+              },
+              {
+                "context_root": "/Blog_Api",
+                "health": "Running",
+                "name": "Blog_Api",
+                "state": "HEALTH_OK",
+                "type": "WAR"
+              }
+            ],
+            "metaData": [
+              {
+                "field": "type",
+                "filterable": true,
+                "locked": false,
+                "title": "Type"
+              },
+              {
+                "field": "state",
+                "filterable": true,
+                "locked": false,
+                "title": "State"
+              },
+              {
+                "field": "health",
+                "filterable": true,
+                "locked": false,
+                "title": "Health"
+              },
+              {
+                "field": "name",
+                "filterable": true,
+                "locked": false,
+                "title": "Name"
+              },
+              {
+                "field": "context_root",
+                "filterable": true,
+                "locked": false,
+                "title": "Context Root"
+              }
+            ],
+            "title": "WebLogic Applications"
+          }
+          
+        ],
+        "info": [
+          {
+            "data": [
+              {
+                "Service": "Weblogic",
+                "version": "10.3.6",
+                "cluster": "2 Node Cluster",
+                "java version": "1.7.0.55",
+                "domain": "2"
+              }
+              
+            ],
+            "metaData": [
+              {
+                "field": "Service",
+                "filterable": true,
+                "locked": false,
+                "title": "Service"
+              },
+              {
+                "field": "version",
+                "filterable": true,
+                "locked": false,
+                "title": "version"
+              },
+              {
+                "field": "cluster",
+                "filterable": true,
+                "locked": false,
+                "title": "Cluster"
+              },
+              {
+                "field": "java version",
+                "filterable": true,
+                "locked": false,
+                "title": "Java Version"
+              },
+              {
+                "field": "domain",
+                "filterable": true,
+                "locked": false,
+                "title": "Domain"
+              }
+            ],
+            "title": "Information"
+          }
+          
+        ],
+        "Storage": {
+          "data": [
+            {
+  
+              "device": "/dev/sda1",
+              "end": "999423",
+              "id": "83",
+              "sectors": "997376",
+              "size": "150 GB",
+              "start": "2048",
+              "type": "Linux"
+            },
+            {
+  
+              "device": "/dev/sda2",
+              "end": "83884031",
+              "id": "5",
+              "sectors": "82882562",
+              "size": "50 GB",
+              "start": "1001470",
+              "type": "Extended"
+            },
+            {
+  
+              "device": "/dev/sda3",
+              "end": "83884031",
+              "id": "8e",
+              "sectors": "82882560",
+              "size": "50 GB",
+              "start": "1001472",
+              "type": "Linux LVM"
+            }
+          ],
+          "metaData": [
+            {
+              "field": "device",
+              "filterable": true,
+              "locked": false,
+              "title": "Device"
+            },
+            {
+              "field": "start",
+              "filterable": true,
+              "locked": false,
+              "title": "Start"
+            },
+            {
+              "field": "end",
+              "filterable": true,
+              "locked": false,
+              "title": "End"
+            },
+            {
+              "field": "sectors",
+              "filterable": true,
+              "locked": false,
+              "title": "Sectors"
+            },
+            {
+              "field": "size",
+              "filterable": true,
+              "locked": false,
+              "title": "Size"
+            },
+            {
+              "field": "id",
+              "filterable": true,
+              "locked": false,
+              "title": "ID"
+            },
+            {
+              "field": "type",
+              "filterable": true,
+              "locked": false,
+              "title": "Type"
+            }
+          ]
+        }
+      },
+      "_id": "5bcf45f3d71b0c184aed4106",
+      "host": "192.168.20.124"
+    }
+  ]
+  

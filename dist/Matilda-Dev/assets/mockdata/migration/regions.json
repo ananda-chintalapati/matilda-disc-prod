@@ -1,0 +1,75 @@
+[
+    {
+      "_id": "5bcf55ecd71b0c707c680b05", 
+      "accountId": 1, 
+      "regionId": 1, 
+      "regionName": "Virginia"
+    }, 
+    {
+      "_id": "5bcf55ecd71b0c707c680b06", 
+      "accountId": 1, 
+      "regionId": 2, 
+      "regionName": "Texas"
+    }, 
+    {
+      "_id": "5bcf55ecd71b0c707c680b07", 
+      "accountId": 2, 
+      "regionId": 3, 
+      "regionName": "California"
+    }, 
+    {
+      "_id": "5bcf55ecd71b0c707c680b08", 
+      "accountId": 2, 
+      "regionId": 4, 
+      "regionName": "New Jersy"
+    }, 
+    {
+      "_id": "5bcf55ecd71b0c707c680b09", 
+      "accountId": 3, 
+      "regionId": 5, 
+      "regionName": "London"
+    }, 
+    {
+      "_id": "5bcf55ecd71b0c707c680b0a", 
+      "accountId": 3, 
+      "regionId": 6, 
+      "regionName": "I. de Margarita"
+    }, 
+    {
+      "_id": "5bcf55ecd71b0c707c680b0b", 
+      "accountId": 4, 
+      "regionId": 7, 
+      "regionName": "Barquisimeto"
+    }, 
+    {
+      "_id": "5bcf55ecd71b0c707c680b0c", 
+      "accountId": 4, 
+      "regionId": 8, 
+      "regionName": "Brandenburg"
+    }, 
+    {
+      "_id": "5bcf55ecd71b0c707c680b0d", 
+      "accountId": 5, 
+      "regionId": 9, 
+      "regionName": "Cunewalde"
+    }, 
+    {
+      "_id": "5bcf55ecd71b0c707c680b0e", 
+      "accountId": 5, 
+      "regionId": 10, 
+      "regionName": "Mexico D.F."
+    }, 
+    {
+      "_id": "5bcf55ecd71b0c707c680b0f", 
+      "accountId": 6, 
+      "regionId": 11, 
+      "regionName": "Mexico D.F."
+    }, 
+    {
+      "_id": "5bcf55ecd71b0c707c680b10", 
+      "accountId": 6, 
+      "regionId": 12, 
+      "regionName": "Rio de Janeiro"
+    }
+  ]
+  
